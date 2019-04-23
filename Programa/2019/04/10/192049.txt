@@ -1,0 +1,1 @@
+dia(1)			hora(1)			gyro(3)			accel(3)			magne(3)			pitch/yaw/roll(3)			gps(2)		altime(1)		motores(4)

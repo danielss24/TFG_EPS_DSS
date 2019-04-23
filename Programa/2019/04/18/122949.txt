@@ -1,0 +1,1 @@
+dia(1)	hora(1)	gyroX	gyroY	gyroZ	accelX	accelY	accelZ	roll	pitch	yaw	dir	gpsLong	gpsLat	altime	motores(4)	motores(4)	motores(4)	motores(4)

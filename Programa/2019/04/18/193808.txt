@@ -1,0 +1,2 @@
+dia(1)	hora(1)	gyroX	gyroY	gyroZ	accelX	accelY	accelZ	roll	pitch	yaw	brujula	vientoFG	varianzaRoll	varianzaPitch	direccion	gpsLong	gpsLat	altime	motores(4)	motores(4)	motores(4)	motores(4)
+2019-04-18	19:38:14	23.4375	15.625	25.390625	0.008544921875	0.02783203125	1.053955078125	1.454	0.362	-0.212	N	0.029114217374863954	0	0	None	gpsLong	gpsLat	700	1000	1000	1000	1000
