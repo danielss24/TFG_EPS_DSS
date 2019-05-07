@@ -1,37 +1,35 @@
+import datetime
 import os
-import time
-import datetime
-import datetime
-import math
 import sys
+import time
 
+import math
 from Pckg.S2 import mpl3115
 from Pckg.S2.MPU9250 import MPU6050
-from Pckg.S2.MPU9250 import MPU9250
 
 POSITIVO = 1
 NEGATIVO = -1
 IGUAL = 0
 
-class WindMeasure():
 
+class WindMeasure():
     file = None
     barometer = None
     gyroscopio = None
-    tiempo=0
+    tiempo = 0
 
     registro_roll_t0 = None
     registro_pitch_t0 = None
 
     registro_roll_t1 = None
     registro_pitch_t1 = None
-    
+
     registro_pitch_estado = None
     registro_roll_estado = None
 
-    def __init__(self,tiempo=10):
+    def __init__(self, tiempo=10):
         self.crearFichero(self.file)
-        #self.inicializar_barometro()
+        # self.inicializar_barometro()
         self.inicializar_gyroscopio()
         self.tiempo = tiempo
 
@@ -64,11 +62,10 @@ class WindMeasure():
         self.barometer.config(True, 102200)
         print("Fin inicializacion de barometro ... ")
 
-
     def get_barometer_data(self):
         return self.barometer.read_data()
 
-    def crearFichero(self,file):
+    def crearFichero(self, file):
         print("Inicio creacion fichero ...")
         cabecera = str(datetime.datetime.now())
         diaHora = cabecera.split(".")[0]
@@ -92,9 +89,9 @@ class WindMeasure():
         self.put_first_line_fich()
         print("Fin creacion fichero ...")
 
-
     def put_first_line_fich(self):
-        self.file.write("dia(1)\thora(1)\tgyroX\tgyroY\tgyroZ\taccelX\taccelY\taccelZ\troll\tpitch\tyaw\tbrujula\tvientoFG\tvarianzaRoll\tvarianzaPitch\tdireccion\tgpsLong\tgpsLat\taltime\tmotores(4)\tmotores(4)\tmotores(4)\tmotores(4)\n")
+        self.file.write(
+            "dia(1)\thora(1)\tgyroX\tgyroY\tgyroZ\taccelX\taccelY\taccelZ\troll\tpitch\tyaw\tbrujula\tvientoFG\tvarianzaRoll\tvarianzaPitch\tdireccion\tgpsLong\tgpsLat\taltime\tmotores(4)\tmotores(4)\tmotores(4)\tmotores(4)\n")
 
     def get_cabecera(self):
         cabecera = str(datetime.datetime.now())
@@ -126,7 +123,7 @@ class WindMeasure():
 
     def get_motores(self):
         return None
-    
+
     def get_roll_pitch_yaw(self):
         return self.gyroscopio.readSensoresConCalibracion()
 
@@ -149,10 +146,10 @@ class WindMeasure():
     #     yaw = 180 * math.atan2(-mag_y,mag_x)/math.pi
     #     return yaw
 
-    def get_NESW_fromDegrees(self,degrees):
+    def get_NESW_fromDegrees(self, degrees):
 
         self.conversionRangeDegrees(degrees)
-        
+
         if 337.5 < degrees or degrees <= 22.5:
             return "N"
         elif 22.5 < degrees <= 67.5:
@@ -170,19 +167,19 @@ class WindMeasure():
         elif 292.5 < degrees <= 337.5:
             return "NW"
 
-    def conversionRangeDegrees(self,degrees):
+    def conversionRangeDegrees(self, degrees):
 
-        degrees*=2
-        if degrees<0:
-            degrees=360+degrees
+        degrees *= 2
+        if degrees < 0:
+            degrees = 360 + degrees
 
         return degrees
 
-    def fuerzaresultante(self,x,y):
-        return math.sqrt(x*x+y*y)
+    def fuerzaresultante(self, x, y):
+        return math.sqrt(x * x + y * y)
 
-    def calculoViento(self,accel,roll_pitch_yaw):
-        vientoFG = self.fuerzaresultante(accel[0],accel[1])
+    def calculoViento(self, accel, roll_pitch_yaw):
+        vientoFG = self.fuerzaresultante(accel[0], accel[1])
 
         varianzaRoll = 0
         varianzaPitch = 0
@@ -193,28 +190,27 @@ class WindMeasure():
         else:
             self.registro_pitch_t0 = self.registro_pitch_t1
             self.registro_pitch_t1 = roll_pitch_yaw.y
-            varianzaPitch = self.registro_pitch_t0-self.registro_pitch_t1
-            
+            varianzaPitch = self.registro_pitch_t0 - self.registro_pitch_t1
+
         if self.registro_roll_t0 == None:
             self.registro_roll_t0 = roll_pitch_yaw.x
             self.registro_roll_t1 = roll_pitch_yaw.x
         else:
             self.registro_roll_t0 = self.registro_roll_t1
             self.registro_roll_t1 = roll_pitch_yaw.x
-            varianzaRoll = self.registro_roll_t0-self.registro_roll_t1
+            varianzaRoll = self.registro_roll_t0 - self.registro_roll_t1
 
-        direccion = self.calculoVientoDireccion(varianzaRoll,varianzaPitch)
+        direccion = self.calculoVientoDireccion(varianzaRoll, varianzaPitch)
 
-        return vientoFG,varianzaRoll,varianzaPitch,direccion
+        return vientoFG, varianzaRoll, varianzaPitch, direccion
 
-    def calculoVientoDireccion(self,varianzaRoll,varianzaPitch):
+    def calculoVientoDireccion(self, varianzaRoll, varianzaPitch):
 
-        margen = 0.10 #margen en porcentaje
+        margen = 0.10  # margen en porcentaje
         maximoRoll_Pitch = 90
 
         margenSup = maximoRoll_Pitch * margen / 100
         margenInf = margenSup * -1
-
 
         if margenInf < varianzaPitch < margenSup:
             registro_pitch_estado = IGUAL
@@ -230,7 +226,6 @@ class WindMeasure():
         elif varianzaRoll < margenInf:
             registro_roll_estado = NEGATIVO
 
-        
         if registro_roll_estado == POSITIVO:
             if registro_pitch_estado == NEGATIVO:
                 return "W"
@@ -259,37 +254,43 @@ class WindMeasure():
         # Esto quiere decir, "factorMedida" medidas tomadas por "udSeg"
         enum = 0
         print("Inicio toma de medidas:")
-        while 1:
-            cabecera, segundos = self.get_cabecera()
-            if enum >= (int(self.tiempo) * factorMedida): break
-            sensoresGyro = self.get_gyro()
-            accel = self.get_acel()
-            gyro = self.get_gyro()
-            roll_pitch_yaw = self.get_roll_pitch_yaw()
-            yaw = self.conversionRangeDegrees(roll_pitch_yaw.z)
-            brujula = self.get_NESW_fromDegrees(yaw)
-            vientoFG,varianzaRoll,varianzaPitch,direccion = self.calculoViento(accel,roll_pitch_yaw)
-            self.file.write(cabecera+
-            "\t"+str(gyro[0])+"\t"+str(gyro[1])+"\t"+str(gyro[2])+
-            "\t"+str(accel[0])+"\t"+str(accel[1])+"\t"+str(accel[2])+
-            "\t"+str(round(roll_pitch_yaw.x,3))+"\t"+str(round(roll_pitch_yaw.y,3))+"\t"+str(round(roll_pitch_yaw.z,3))+
-            "\t"+str(brujula)+
-            "\t"+str(vientoFG)+"\t"+str(varianzaRoll)+"\t"+str(varianzaPitch)+"\t"+str(direccion)+
-            "\t"+"gpsLong"+"\t"+"gpsLat"+
-            "\t"+"700"+
-            "\t"+"1000"+"\t"+"1000"+"\t"+"1000"+"\t"+"1000"+
-            "\n")
-            
-            enum +=1
-            time.sleep(udSeg/factorMedida)
+        try:
+            while 1:
+                cabecera, segundos = self.get_cabecera()
+                if self.tiempo != 0:
+                    if enum >= (int(self.tiempo) * factorMedida): break
+                sensoresGyro = self.get_gyro()
+                accel = self.get_acel()
+                gyro = self.get_gyro()
+                roll_pitch_yaw = self.get_roll_pitch_yaw()
+                yaw = self.conversionRangeDegrees(roll_pitch_yaw.z)
+                brujula = self.get_NESW_fromDegrees(yaw)
+                vientoFG, varianzaRoll, varianzaPitch, direccion = self.calculoViento(accel, roll_pitch_yaw)
+                self.file.write(cabecera +
+                                "\t" + str(gyro[0]) + "\t" + str(gyro[1]) + "\t" + str(gyro[2]) +
+                                "\t" + str(accel[0]) + "\t" + str(accel[1]) + "\t" + str(accel[2]) +
+                                "\t" + str(round(roll_pitch_yaw.x, 3)) + "\t" + str(
+                    round(roll_pitch_yaw.y, 3)) + "\t" + str(round(roll_pitch_yaw.z, 3)) +
+                                "\t" + str(brujula) +
+                                "\t" + str(vientoFG) + "\t" + str(varianzaRoll) + "\t" + str(
+                    varianzaPitch) + "\t" + str(direccion) +
+                                "\t" + "gpsLong" + "\t" + "gpsLat" +
+                                "\t" + "700" +
+                                "\t" + "1000" + "\t" + "1000" + "\t" + "1000" + "\t" + "1000" +
+                                "\n")
 
+                enum += 1
+                time.sleep(udSeg / factorMedida)
+        except KeyboardInterrupt as e:
+            print("Parada por interrupcion de teclado.\n")
         print("Fin toma de medidas.\n")
 
     def cerrar_fichero(self):
         self.file.close()
 
+
 if __name__ == '__main__':
-    if len(sys.argv)==2:
+    if len(sys.argv) == 2:
         wm = WindMeasure(sys.argv[1])
     else:
         wm = WindMeasure()
@@ -299,4 +300,3 @@ if __name__ == '__main__':
     #     print(roll_pitch_yaw.x,roll_pitch_yaw.y)
     #     print()
     wm.registrar_medidas()
-

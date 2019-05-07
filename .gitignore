@@ -1,5 +1,8 @@
 #No incluir estas carpetas
 __pycache__/
+TEST/
+.idea/
+
 
 #No meter estos ficheros
 *.pyc
