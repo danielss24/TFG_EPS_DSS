@@ -4,3 +4,4 @@ __pycache__/
 #No meter estos ficheros
 *.pyc
 settings.json
+~*
