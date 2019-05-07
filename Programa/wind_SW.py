@@ -258,7 +258,8 @@ class WindMeasure():
             while 1:
                 cabecera, segundos = self.get_cabecera()
                 if self.tiempo != 0:
-                    if enum >= (int(self.tiempo) * factorMedida): break
+                    if enum >= (int(self.tiempo) * factorMedida):
+                        break
                 sensoresGyro = self.get_gyro()
                 accel = self.get_acel()
                 gyro = self.get_gyro()
