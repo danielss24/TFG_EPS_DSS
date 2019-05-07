@@ -266,7 +266,8 @@ class WindMeasure():
                 yaw = self.conversionRangeDegrees(roll_pitch_yaw.z)
                 brujula = self.get_NESW_fromDegrees(yaw)
                 vientoFG, varianzaRoll, varianzaPitch, direccion = self.calculoViento(accel, roll_pitch_yaw)
-                self.file.write(cabecera +
+                self.file.write(enum +
+                                "\t" + cabecera +
                                 "\t" + str(gyro[0]) + "\t" + str(gyro[1]) + "\t" + str(gyro[2]) +
                                 "\t" + str(accel[0]) + "\t" + str(accel[1]) + "\t" + str(accel[2]) +
                                 "\t" + str(round(roll_pitch_yaw.x, 3)) + "\t" + str(
@@ -281,6 +282,7 @@ class WindMeasure():
 
                 enum += 1
                 time.sleep(udSeg / factorMedida)
+
         except KeyboardInterrupt as e:
             print("Parada por interrupcion de teclado.\n")
         print("Fin toma de medidas.\n")
