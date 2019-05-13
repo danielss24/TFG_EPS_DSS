@@ -1,6 +1,5 @@
 #No incluir estas carpetas
 __pycache__/
-TEST/
 .idea/
 
 

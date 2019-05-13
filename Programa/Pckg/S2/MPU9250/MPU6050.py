@@ -163,7 +163,7 @@ class MPU6050:
         # Set clock source to gyro
         self.set_clock_source(C.MPU6050_CLOCK_PLL_XGYRO)
         # # Set accelerometer range
-        self.set_full_scale_accel_range(C.MPU6050_ACCEL_FS_2)
+        self.set_full_scale_accel_range(C.MPU6050_ACCEL_FS_4)
         # # Set gyro range
         self.set_full_scale_gyro_range(C.MPU6050_GYRO_FS_250)
         # # Take the MPU out of time.sleep mode
