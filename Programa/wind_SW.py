@@ -91,7 +91,7 @@ class WindMeasure():
 
     def put_first_line_fich(self):
         self.file.write(
-            "dia(1)\thora(1)\tgyroX\tgyroY\tgyroZ\taccelX\taccelY\taccelZ\troll\tpitch\tyaw\tbrujula\tvientoFG\tvarianzaRoll\tvarianzaPitch\tdireccion\tgpsLong\tgpsLat\taltime\tmotores(4)\tmotores(4)\tmotores(4)\tmotores(4)\n")
+            "#\tdia(1)\thora(1)\tgyroX\tgyroY\tgyroZ\taccelX\taccelY\taccelZ\troll\tpitch\tyaw\tbrujula\tvientoFG\tvarianzaRoll\tvarianzaPitch\tdireccion\tgpsLong\tgpsLat\taltime\tmotores(4)\tmotores(4)\tmotores(4)\tmotores(4)\n")
 
     def get_cabecera(self):
         cabecera = str(datetime.datetime.now())
@@ -201,7 +201,7 @@ class WindMeasure():
             varianzaRoll = self.registro_roll_t0 - self.registro_roll_t1
 
         direccion = self.calculoVientoDireccion(varianzaRoll, varianzaPitch)
-
+     
         return vientoFG, varianzaRoll, varianzaPitch, direccion
 
     def calculoVientoDireccion(self, varianzaRoll, varianzaPitch):
@@ -253,6 +253,7 @@ class WindMeasure():
         udSeg = 1
         # Esto quiere decir, "factorMedida" medidas tomadas por "udSeg"
         enum = 0
+        aux = "null"
         print("Inicio toma de medidas:")
         try:
             while 1:
@@ -267,6 +268,10 @@ class WindMeasure():
                 yaw = self.conversionRangeDegrees(roll_pitch_yaw.z)
                 brujula = self.get_NESW_fromDegrees(yaw)
                 vientoFG, varianzaRoll, varianzaPitch, direccion = self.calculoViento(accel, roll_pitch_yaw)
+                if direccion == None:
+                    direccion = aux
+                aux = direccion
+
                 self.file.write(str(enum) +
                                 "\t" + cabecera +
                                 "\t" + str(gyro[0]) + "\t" + str(gyro[1]) + "\t" + str(gyro[2]) +
