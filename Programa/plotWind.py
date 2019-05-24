@@ -17,10 +17,26 @@ def getXY(fichero, xIndex=0, yIndex=1, cabeceras = False):
                 print("Cabeceras:", row)
             if (cabeceras == True and line != 0) or cabeceras == False:
                 y.append(float(row[yIndex]))
-                x.append(row[xIndex])
+                x.append(float(row[xIndex]))
             line += 1
 
     return x,y
+
+def getDataFromFile(fichero, i, cabeceras = False):
+    x = []
+
+    line = 0
+
+    with open(fichero, 'r') as csvfile:
+        plots = csv.reader(csvfile, delimiter='\t')
+        for row in plots:
+            if cabeceras == True and line == 0:
+                print("Cabeceras:", row)
+            if (cabeceras == True and line != 0) or cabeceras == False:
+                x.append(float(row[i]))
+            line += 1
+
+    return x
 
 def firstPlot(fichero):
     x,y = getXY(fichero,0,13,True)
@@ -49,10 +65,32 @@ def secondPlot(fichero):
     zPlt.plot(x,y,)
     #plt.show()
 
+def thirdPlot(fichero):
+
+    x,y = getXY(fichero,14,15,True)
+    z = getDataFromFile(fichero,13,True)
+
+    for enum,each in enumerate(z):
+        x[enum] = x[enum] / 90 * each
+        y[enum] = y[enum] / 90 * each
+
+    # print(min(x))
+    # print(max(x))
+    # print(min(y))
+    # print(max(y))
+
+    plt.scatter(x, y)
+    plt.xlabel('grados')
+    plt.ylabel('grados')
+    #plt.ylim(0, 4)
+    # plt.legend()
+
 
 if __name__ == '__main__':
     fichero = util.cargadorFich("./2019/05/07/")
     firstPlot(fichero)
     secondPlot(fichero)
+    thirdPlot(fichero)
+
 
     plt.show()
