@@ -2,7 +2,7 @@ import serial
 from time import sleep
 import os
 
-from Pckg.S1 import FSIA6B
+from Programa.Pckg.S1 import FSIA6B
 
 if __name__ == '__main__':
     
