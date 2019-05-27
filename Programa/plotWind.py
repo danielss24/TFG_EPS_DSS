@@ -131,10 +131,10 @@ def fourthPlot(fichero):
 
 if __name__ == '__main__':
     fichero = util.cargadorFich("./2019/05/07/")
-    # firstPlot(fichero)
-    # secondPlot(fichero)
-    # thirdPlot(fichero)
-    fourthPlot(fichero)
+    firstPlot(fichero)
+    secondPlot(fichero)
+    thirdPlot(fichero)
+    # fourthPlot(fichero)
 
 
     plt.show()

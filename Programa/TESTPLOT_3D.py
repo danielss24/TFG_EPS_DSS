@@ -1,5 +1,3 @@
-# This import registers the 3D projection, but is otherwise unused.
-
 import matplotlib.pyplot as plt
 import numpy as np
 
