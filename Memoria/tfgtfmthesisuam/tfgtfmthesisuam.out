@@ -6,7 +6,7 @@
 \BOOKMARK [1][-]{section.4.2}{Dron}{chapter.4}% 6
 \BOOKMARK [2][-]{subsection.4.2.1}{Motores}{section.4.2}% 7
 \BOOKMARK [2][-]{subsection.4.2.2}{ESC}{section.4.2}% 8
-\BOOKMARK [2][-]{subsection.4.2.3}{H\351lices}{section.4.2}% 9
+\BOOKMARK [2][-]{subsection.4.2.3}{Helices}{section.4.2}% 9
 \BOOKMARK [2][-]{subsection.4.2.4}{Placa distribuidora de potencia}{section.4.2}% 10
 \BOOKMARK [2][-]{subsection.4.2.5}{Controlador de vuelo}{section.4.2}% 11
 \BOOKMARK [2][-]{subsection.4.2.6}{Chasis}{section.4.2}% 12
@@ -61,7 +61,7 @@
 \BOOKMARK [1][-]{section.13.2}{Arara}{chapter.13}% 61
 \BOOKMARK [1][-]{section.13.3}{Overleaf}{chapter.13}% 62
 \BOOKMARK [1][-]{section.13.4}{Permitir el uso de la shell al compilador}{chapter.13}% 63
-\BOOKMARK [0][-]{chapter*.40}{Bibliograf\355a}{}% 64
+\BOOKMARK [0][-]{section.13.4}{Bibliograf\355a}{}% 64
 \BOOKMARK [0][-]{section*.41}{Definiciones}{}% 65
 \BOOKMARK [0][-]{section*.43}{Acr\363nimos}{}% 66
 \BOOKMARK [-1][-]{part.1}{Ap\351ndices}{}% 67

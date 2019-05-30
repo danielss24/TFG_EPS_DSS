@@ -12,17 +12,33 @@
  
  Los datos obtenidos por el sensor MPU6050, son datos sin tratar que indican la aceleración en el instante de la medición y la inclinación respecto de la anterior medida tomada, mientras que el sensor AK8963 indica la orientación del sensor.
  
- Para poder saber claramente en que posición se encuentra el chip respecto de una superficie plana y no su inclinación respecto de la anterior medida, he utilizado el algoritmo de madgwick que utiliza quaterniones para indicar la inclinación absoluta respecto de la tierra. 
- Este sistema de quaterniones BLABLABLA (yaw, pitch, roll)
+ Para poder saber claramente en que posición se encuentra el chip respecto de una superficie plana y no su inclinación respecto de la anterior medida, he utilizado el algoritmo de madgwick que utiliza cuaterniones para indicar la inclinación absoluta respecto de la tierra. 
  
- //AQUI VA UNA FOTO (avion yaw/pit/roll)
- http://www.chrobotics.com/wp-content/uploads/2012/11/F18.png
+ Los cuaterniones es un conjunto de cuatro componentes complejas que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos, en mi caso lo usare para las rotaciones en el espacio, los cuaterniones se pueden expresar de la siguiente forma.
+ 
+\begin{figure}[Cuaternion formula]{FIG:CUATERNIONFORMULA}{Fórmula de cuaternion, podemos diferenciar w, x, y, z que son los valores reales que componen el cuaternion Q y el conjunto i,j,k que componen la parte imaginaria de las unidades. }
+        \image{6cm}{}{cuaternionformula}
+\end{figure}
+REFREF
+%https://wikimedia.org/api/rest_v1/media/math/render/svg/e2d2e9ff7911b71c991e9979b040a3b19c85fb8c
+%REF: http://www.emis.ams.org/classics/Hamilton/OnQuat.pdf 
+
+ 
+   
+ Este sistema de quaterniones BLABLABLA (yaw, pitch, roll)
+  
+%\begin{figure}[Yaw Pitch Roll]{FIG:YAWPITCHROLL}{Avión con los ejes de giro, yaw, pitch y roll, obtenidos mediante cuaterniones. }
+%        \image{3cm}{}{yawpitchrollplane}
+%\end{figure}
+
+%https://es.m.wikipedia.org/wiki/Archivo:Flight_dynamics_with_text.png
  
  En este punto contamos con la inclinación del sensor respecto de la tierra, su aceleración, dirección en grados, con este conjunto de datos podemos calcular la variación de su posición respecto de un punto.
  
   //AQUI VA OTRA FOTO (sensor con los ejes)
   https://www.lucidar.me/en/inertial-measurement-unit/files/mpu-9250-axis-orientation.png
+  Describir foto
   
-  Para calcular el viento he planteado un sistema en el que el sensor está situado en un "poste flexible" anclado al suelo, de esta forma si el sensor esta orientado al norte y se inclina hacia delante obtenemos una dirección de viento de sur a norte, y en caso de inclinarte hacia delante y la izquiera, obtenemos un viento de sur-este. La fuerza del viento viene indicado directamente por los datos obtenidos del acelerómetro en función de los tres ejes.
+  Para calcular el viento he planteado un sistema en el que el sensor está situado en un "poste flexible" anclado al suelo, de esta forma si el sensor está orientado al norte y se inclina hacia delante obtenemos una dirección de viento de sur a norte, y en caso de inclinarte hacia delante y la izquiera, obtenemos un viento de sur-este. La fuerza del viento viene indicado directamente por los datos obtenidos del acelerómetro en función de los tres ejes.
   
   
