@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  31 MAY 2019 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  31 MAY 2019 20:33
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -949,15 +949,15 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2019531683.tex)...disabled (restricted).
+runsystem(touch w18-test-20195311233.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2019531683.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20195311233.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-2019531683.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-20195311233.tex")...disabled (restricted).
 
 
 
@@ -3083,10 +3083,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw'.
 
 )
-(estructura/sistema/dron/esc.tex) (estructura/sistema/dron/helices.tex)
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-Package cleveref Info: loaded `spanish' language definitions on input line 58.
+(estructura/sistema/dron/esc.tex) (estructura/sistema/dron/helices.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3106,16 +3106,11 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
- (estructura/sistema/dron/pdb.tex)
+) (estructura/sistema/dron/pdb.tex)
 (estructura/sistema/dron/controladorvuelo.tex)
-(estructura/sistema/dron/chasis.tex)
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
-Package cleveref Info: loaded `spanish' language definitions on input line 61.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+Package cleveref Info: loaded `spanish' language definitions on input line 60.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3143,7 +3138,8 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- (estructura/sistema/dron/sistemacomunicacion.tex)
+ (estructura/sistema/dron/chasis.tex)
+(estructura/sistema/dron/sistemacomunicacion.tex)
 (estructura/sistema/sensorvientodron.tex)
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
@@ -3161,6 +3157,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw'.
 
 [11] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -7109,8 +7109,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  57932 strings out of 492895
- 1274996 string characters out of 3123735
- 1950463 words of memory out of 3000000
+ 1274997 string characters out of 3123735
+ 1949467 words of memory out of 3000000
  60131 multiletter control sequences out of 15000+200000
  684422 words of font info for 226 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -7153,7 +7153,7 @@ s/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><
 C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb>
-Output written on tfgtfmthesisuam.pdf (102 pages, 3707629 bytes).
+Output written on tfgtfmthesisuam.pdf (102 pages, 3708208 bytes).
 PDF statistics:
  1457 PDF objects out of 1728 (max. 8388607)
  329 named destinations out of 1000 (max. 500000)

@@ -7,12 +7,12 @@
 \contentsline {section}{\numberline {4.2}Dron}{8}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Motores}{8}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}ESC}{9}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Helices}{9}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Helices}{10}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Placa distribuidora de potencia}{10}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Controlador de vuelo}{10}{subsection.4.2.5}%
 \contentsline {paragraph}{parrafo0 sobre la placa comercial}{10}{section*.15}%
 \contentsline {paragraph}{parrafo1 sobre la placa hecha por una raspberry}{10}{section*.16}%
-\contentsline {subsection}{\numberline {4.2.6}Chasis}{10}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.6}Chasis}{11}{subsection.4.2.6}%
 \contentsline {subsection}{\numberline {4.2.7}Sistema de comunicaci\IeC {\'o}n}{11}{subsection.4.2.7}%
 \contentsline {section}{\numberline {4.3}Sensor de viento en Dron}{11}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Resultados experimentales y discusi\IeC {\'o}n}{13}{chapter.5}%
