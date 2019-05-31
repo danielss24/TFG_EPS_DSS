@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  30 MAY 2019 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  31 MAY 2019 11:23
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -6,9 +6,9 @@ LaTeX2e <2018-12-01>
 (tfgtfmthesisuam.cls
 Document Class: tfgtfmthesisuam 2018/06/01 v3.0 tfgtfmthesisuam class (EA)
 Class: tfgtfmthesisuam v3.0 <2018/06/01> (Eloy Anguiano)
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\book.cls"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\book.cls"
 Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\bk10.clo"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\bk10.clo"
 File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -24,33 +24,36 @@ File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
 Package: babel 2019/05/04 3.31 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
 File: switch.def 2019/05/04 3.31 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
+ish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2019/05/04 3.31 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count90
 )
 \es@quottoks=\toks16
@@ -60,24 +63,30 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count92
@@ -118,7 +127,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip46
@@ -131,7 +141,8 @@ s
 \f@nch@O@olf=\skip53
 \f@nch@O@orf=\skip54
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancybox\fancybox.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancybox\fancybox.
+sty"
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -144,14 +155,18 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \EndVerbatimTokens=\toks25
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read1
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+y"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+ty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
 )
@@ -166,7 +181,8 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \c@caption@flags=\count104
 \c@ContinuedFloat=\count105
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
+e.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip55
 \subfigcapskip=\skip56
@@ -182,11 +198,14 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.cfg")
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
+e.cfg")
 \subfig@top=\skip59
 \subfig@bottom=\skip60
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocloft\tocloft.st
+y"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip61
@@ -229,8 +248,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforesubtabskip=\skip98
 \cftsubtabindent=\skip99
 \cftsubtabnumwidth=\skip100
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count110
 \float@exts=\toks27
@@ -238,7 +256,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks28
 \@floatcapt=\box32
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+sty"
 \lst@mode=\count111
 \lst@gtempboxa=\box33
 \lst@token=\toks29
@@ -252,31 +271,35 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \lst@lineno=\count116
 \lst@maxwidth=\dimen126
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+ty"
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \c@lstnumber=\count117
 \lst@skipnumbers=\count118
 \lst@framebox=\box34
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+cfg"
 File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/cite\cite.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -289,36 +312,48 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+cs.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common.tex"
 \pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen127
 \pgfutil@tempdimb=\dimen128
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common-lists.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-latex.def"
 \pgfutil@abb=\box35
-("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+frcs.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+.tex")
 Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
 ))
 Package: pgf 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+core.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -326,16 +361,19 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen129
 \Gin@req@width=\dimen130
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+fsys.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys.code.tex"
 Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"
 \pgfkeys@pathtoks=\toks31
 \pgfkeys@temptoks=\toks32
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.te
-x"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen131
@@ -358,33 +396,43 @@ x"
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count123
- ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgf.cfg"
 File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
-ex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfsyssoftpath@smallbuffer@items=\count124
 \pgfsyssoftpath@bigbuffer@items=\count125
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.t
-ex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
-)) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcore.code.tex"
 Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
- ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+calc.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+util.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+parser.code.tex"
 \pgfmath@dimen=\dimen141
 \pgfmath@count=\count126
 \pgfmath@box=\box36
@@ -392,29 +440,32 @@ Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
 \pgfmath@stack@operand=\toks38
 \pgfmath@stack@operation=\toks39
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarit
-hmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.random.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.base.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.round.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+float.code.tex"
 \c@pgfmathroundto@lastzeros=\count127
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@picminx=\dimen142
 \pgf@picmaxx=\dimen143
@@ -431,115 +482,126 @@ File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@zx=\dimen154
 \pgf@zy=\dimen155
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.c
-ode.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@path@lastx=\dimen156
 \pgf@path@lasty=\dimen157
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.
-tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@shorten@end@additional=\dimen158
 \pgf@shorten@start@additional=\dimen159
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
 \pgf@picture@serial@count=\count128
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.co
-de.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgflinewidth=\dimen160
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations
-.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@pt@x=\dimen161
 \pgf@pt@y=\dimen162
 \pgf@pt@temp=\dimen163
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex"
 File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.te
-x"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathprocessing.
-code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfarrowsep=\dimen164
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@max=\dimen165
 \pgf@sys@shading@range@num=\count129
 \pgf@shadingcount=\count130
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.te
-x"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.t
-ex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfexternal@startupbox=\box40
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.co
-de.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepatterns.code.t
-ex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex"
 File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
-))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.
-tex"
+)))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfnodeparttextbox=\box41
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.
-sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/05/09 v3.1.3 (3.1.3)
 \pgf@nodesepstart=\dimen166
 \pgf@nodesepend=\dimen167
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.
-sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2019/05/09 v3.1.3 (3.1.3)
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/algorithm2e\algorithm2e.sty"
+))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithm2e\algori
+thm2e.sty"
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count131
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip101
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpage.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpag
+e.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count132
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/relsize\relsize.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/relsize\relsize.st
+y"
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip102
@@ -578,30 +640,41 @@ Package: relsize 2013/03/29 ver 4.1
 \algocf@algoframe=\box48
 \algocf@algobox=\box49
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.revision.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.
+sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.revision.tex")
 Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+tikz.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+or.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+eys.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+ty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+ffor.code.tex"
 Package: pgffor 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex")
 \pgffor@iter=\dimen174
 \pgffor@skip=\dimen175
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex"
 Package: tikz 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.
-code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@plot@mark@count=\count136
 \pgfplotmarksize=\dimen176
@@ -621,7 +694,8 @@ File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \tikznumberofcurrentchild=\count139
 \tikz@fig@count=\count140
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgfmatrixcurrentrow=\count141
 \pgfmatrixcurrentcolumn=\count142
@@ -629,12 +703,14 @@ File: pgfmodulematrix.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
 \tikz@expandcount=\count144
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarytopaths.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotscore.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+score.code.tex"
 \t@pgfplots@toka=\toks42
 \t@pgfplots@tokb=\toks43
 \t@pgfplots@tokc=\toks44
@@ -642,75 +718,81 @@ File: tikzlibrarytopaths.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \c@pgfplots@coordindex=\count145
 \c@pgfplots@scanlineindex=\count146
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.
-tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/libs\pgfplotslibrary.code.te
-x")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpg
-fsupp_loader.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryfpu.code.tex"
-)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgf
+plotssysgeneric.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pg
+fplotslibrary.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldpgfc
+ompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryfpu.code.tex")
 Package pgfplots: loading complementary arithmetics for your pgf version...
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpg
-fsupp_pgflibraryfpu.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpg
-fsupp_pgfmathfloat.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldpgfc
+ompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/oldpgfc
+ompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count147
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsutil.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotslistst
-ructure.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotslistst
-ructureext.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsarray.
-code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsutil.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsliststructure.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsliststructureext.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsarray.code.tex"
 \c@pgfplotsarray@tmp=\count148
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsmatrix
-.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/numtable\pgfplotstableshared
-.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsmatrix.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/numtabl
+e\pgfplotstableshared.code.tex"
 \c@pgfplotstable@counta=\count149
 \t@pgfplotstable@a=\toks45
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsdeque.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
-"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsbinary.data.cod
-e.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsutil.verb.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/libs\pgflibrarypgfplots.surf
-shading.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/liststr
+ucture\pgfplotsdeque.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsbinary.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsbinary.data.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotsutil.verb.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/libs\pg
+flibrarypgfplots.surfshading.code.tex"
 \c@pgfplotslibrarysurf@no=\count150
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfs
-hading.pgfsys-pdftex.def")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotscolormap.code.t
-ex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotscolor.code.tex"
-))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsstackedplots.code.te
-x")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsplothandlers.code.te
-x"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsmeshplothandler.code
-.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsmeshplotimage.code.t
-ex")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.scaling.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotscoordprocessing.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.errorbars.code.tex"
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.markers.code.tex"
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsticks.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.paths.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarydecorations.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduledecorations.code
-.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/sys\pgf
+librarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotscolormap.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots/util\pg
+fplotscolor.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+sstackedplots.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+splothandlers.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+smeshplothandler.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+smeshplotimage.code.tex")))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.scaling.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+scoordprocessing.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.errorbars.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.markers.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+sticks.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots\pgfplot
+s.paths.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduledecorations.code.tex"
 \pgfdecoratedcompleteddistance=\dimen184
 \pgfdecoratedremainingdistance=\dimen185
 \pgfdecoratedinputsegmentcompleteddistance=\dimen186
@@ -722,14 +804,14 @@ librarydecorations.code.tex"
 )
 \tikz@lib@dec@box=\box54
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarydecorations.pathmorphing.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/decorations\pgflibraryd
-ecorations.pathmorphing.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarydecorations.pathreplacing.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/decorations\pgflibraryd
-ecorations.pathreplacing.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
+corations\pgflibrarydecorations.pathreplacing.code.tex"))
 \pgfplots@numplots=\count152
 \pgfplots@xmin@reg=\dimen191
 \pgfplots@xmax@reg=\dimen192
@@ -738,60 +820,65 @@ ecorations.pathreplacing.code.tex"))
 \pgfplots@zmin@reg=\dimen195
 \pgfplots@zmax@reg=\dimen196
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryplotmarks.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryplotmarks.code.tex"
 File: tikzlibraryplotmarks.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplotmarks.cod
-e.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplotmarks.code.tex"
 File: pgflibraryplotmarks.code.tex 2019/05/09 v3.1.3 (3.1.3)
-))) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgfgantt\pgfgantt.sty"
+)))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgfgantt\pgfgantt.
+sty"
 Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryarrows.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryarrows.code.tex"
 File: tikzlibraryarrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryarrows.code.t
-ex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \arrowsize=\dimen197
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarybackgrounds.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarybackgrounds.code.tex"
 File: tikzlibrarybackgrounds.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \pgf@layerbox@background=\box55
 \pgf@layerboxsaved@background=\box56
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarycalc.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarypatterns.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarypatterns.code.tex"
 File: tikzlibrarypatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibrarypatterns.code
-.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibrarypatterns.code.tex"
 File: pgflibrarypatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarypositioning.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2019/05/09 v3.1.3 (3.1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.geometric.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
 File: tikzlibraryshapes.geometric.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.geometric.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.geometric.code.tex"
 File: pgflibraryshapes.geometric.code.tex 2019/05/09 v3.1.3 (3.1.3)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfcalendar.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfcalendar.code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfc
+alendar.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fcalendar.code.tex"
 File: pgfcalendar.code.tex 2019/05/09 v3.1.3 (3.1.3)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+code.tex")
 \pgfcalendarcurrentjulian=\count153
 \pgf@cal@easter@Y=\count154
 \pgf@cal@easter@G=\count155
@@ -821,13 +908,16 @@ File: pgfcalendar.code.tex 2019/05/09 v3.1.3 (3.1.3)
 \gtt@left@slot=\count178
 \gtt@right@slot=\count179
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/gnuplottex\gnuplottex.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gnuplottex\gnuplot
+tex.sty"
 Package: gnuplottex 2016/08/21 v0.9.2 gnuplot graphs in LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/moreverb\moreverb.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/moreverb\moreverb.
+sty"
 Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty
+"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks46
 \verbatim@line=\toks47
@@ -837,32 +927,37 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \tab@size=\count181
 \listing@line=\count182
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\catchfile.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\catchfi
+le.sty"
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-20195301156.tex)...disabled (restricted).
+runsystem(touch w18-test-2019531683.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20195301156.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2019531683.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-20195301156.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-2019531683.tex")...disabled (restricted).
 
 
 
@@ -874,55 +969,61 @@ Package gnuplottex Warning: Shell escape not enabled.
 (gnuplottex)                You'll need to convert the graphs yourself..
 
 \c@fignum=\count183
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/base\glossaries.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/base\gl
+ossaries.sty"
 Package: glossaries 2019/01/06 v4.42 (NLCT)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
+y"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
+tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
+.tex"
 \XKV@toks=\toks48
 \XKV@tempa@toks=\toks49
 )
 \XKV@depth=\count184
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/mfirstuc\mfirstuc.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mfirstuc\mfirstuc.
+sty"
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
 \@glsmfirst=\toks50
 \@glsmrest=\toks51
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/textcase\textcase.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/textcase\textcase.
+sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/xfor\xfor.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xfor\xfor.sty"
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/datatool\datatool-base.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\datatool-
+base.sty"
 Package: datatool-base 2018/12/07 v2.31 (NLCT)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/substr\substr.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count186
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/datatool\datatool-fp.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\datatool-
+fp.sty"
 Package: datatool-fp 2018/12/07 v2.31 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp.sty"
+ ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp.sty"
 Package: fp 1995/04/02
-
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\defpattern.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\defpattern.sty"
 Package: defpattern 1994/10/12
 \actioncount=\count187
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-basic.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
 \FP@xs=\count188
 \FP@xia=\count189
@@ -933,33 +1034,30 @@ Package: fp-basic 1996/05/13
 \FP@regb=\count194
 \FP@regs=\count195
 \FP@times=\count196
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-addons.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-addons.sty
+"
 Package: fp-addons 1995/03/15
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-snap.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-snap.sty"
 Package: fp-snap 1995/04/05
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-exp.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-exp.sty"
 Package: fp-exp 1995/04/03
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-trigo.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-trigo.sty"
 Package: fp-trigo 1995/04/14
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-pas.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-pas.sty"
 Package: fp-pas 1994/08/29
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-random.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-random.sty"
 Package: fp-random 1995/02/23
 \FPseed=\count197
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-eqn.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-upn.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-upn.sty"
 Package: fp-upn 1996/10/21
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-eval.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks52
@@ -972,23 +1070,27 @@ Package: fp-eval 1995/04/03
 \dtl@codeB=\count269
 \@dtl@foreach@level=\count270
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/base\glossaries-compatible-3
-07.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/base\gl
+ossaries-compatible-307.sty"
 Package: glossaries-compatible-307 2019/01/06 v4.42 (NLCT)
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/tracklang\tracklang.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tracklang\tracklan
+g.sty"
 Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/tracklang\tracklang.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/tracklang\trackl
+ang.tex"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
+tor.sty"
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 LaTeX Info: Redefining \translate on input line 183.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries-spanish\glossaries-spanish.l
-df"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries-spanish
+\glossaries-spanish.ldf"
 File: glossaries-spanish.ldf 2014/11/23 v1.0
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries-spanish\glossaries-spanish-u
-tf8.ldf"))
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries-spanish
+\glossaries-spanish-utf8.ldf"))
 \gls@level=\count271
 \@gls@tmpb=\toks53
 \gls@tmplen=\skip121
@@ -997,16 +1099,21 @@ tf8.ldf"))
 \glsshorttok=\toks56
 \glslongtok=\toks57
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/styles\glossary-hypernav.sty
-"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
+glossary-hypernav.sty"
 Package: glossary-hypernav 2019/01/06 v4.42 (NLCT)
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/styles\glossary-list.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
+glossary-list.sty"
 Package: glossary-list 2019/01/06 v4.42 (NLCT)
 \glslistdottedwidth=\skip122
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/styles\glossary-long.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
+glossary-long.sty"
 Package: glossary-long 2019/01/06 v4.42 (NLCT)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\longtable.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+y"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTleft=\skip123
 \LTright=\skip124
@@ -1027,10 +1134,12 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \glsdescwidth=\skip127
 \glspagelistwidth=\skip128
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/styles\glossary-super.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
+glossary-super.sty"
 Package: glossary-super 2019/01/06 v4.42 (NLCT)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/supertabular\supertabular.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/supertabular\super
+tabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count277
 \ST@wd=\dimen199
@@ -1049,11 +1158,12 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen265
 \ST@pbox=\box61
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/glossaries/styles\glossary-tree.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
+glossary-tree.sty"
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glstreeindent=\skip132
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count278
 \calc@Bcount=\count279
@@ -1066,13 +1176,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count280
 \calc@Cskip=\skip135
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\alltt.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\makeidx.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.st
+y"
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -1086,13 +1196,11 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+ ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1228,14 +1336,16 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+) ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\times.sty
+"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.st
+y"
 \wrapoverhang=\dimen268
 \WF@size=\dimen269
 \c@WF@wrappedlines=\count281
@@ -1243,11 +1353,13 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 \WF@everypar=\toks59
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/eurosym\eurosym.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eurosym\eurosym.st
+y"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box63
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
+"
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count282
 \mult@box=\box64
@@ -1296,25 +1408,30 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \colbreak@box=\box89
 \mc@col@check@num=\count290
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.
+sty"
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@colwidth=\skip138
 \multirow@cntb=\count291
 \multirow@dima=\skip139
 \bigstrutjot=\dimen279
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/filecontents\filecontents.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filecontents\filec
+ontents.sty"
 Package: filecontents 2018/05/30 v1.4 Create an external file from within a LaT
 eX document
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1348,27 +1465,32 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen280
 \Hy@linkcounter=\count292
 \Hy@pagecounter=\count293
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+f"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count294
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
+cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `final' set `true' on input line 4393.
@@ -1380,8 +1502,7 @@ Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count295
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+ ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1405,22 +1526,26 @@ LaTeX Info: Redefining \pageref on input line 6454.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+ef"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
 \Fld@listcount=\count300
 \c@bookmark@seq@number=\count301
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
+check.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip140
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\twoopt.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\twoopt.st
+y"
 Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.
+sty"
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -1441,11 +1566,14 @@ Package cleveref Info: include cross-reference names in hyperlinks on input lin
 e 7852.
 Package cleveref Info: no abbreviation of names on input line 7852.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/morewrites\morewrites.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/morewrites\morewri
+tes.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
+"
 Package: expl3 2019-05-28 L3 programming layer (loader) 
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-cod
+e.tex"
 Package: expl3 2019-05-28 L3 programming layer (code)
 \c_max_int=\count302
 \l_tmpa_int=\count303
@@ -1597,12 +1725,14 @@ Package: expl3 2019-05-28 L3 programming layer (code)
 \l__seq_internal_b_int=\count386
 \c__deprecation_minus_one=\count387
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode
+.def"
 File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
 \l__driver_internal_box=\box108
 \l__driver_color_stack_int=\count388
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/morewrites\primargs.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/morewrites\primarg
+s.sty"
 Package: primargs 2018/12/29 Parsing arguments of primitives
 )
 Package: morewrites 2018/12/29 Always room for a new write
@@ -1615,9 +1745,8 @@ Package: morewrites 2018/12/29 Always room for a new write
 \l__morewrites_collect_next_int=\count392
 \g__morewrites_alloc_write_int=\count393
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/etex-pkg\etex.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etex-pkg\etex.sty"
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
-
 
 Package etex Warning: Extended allocation already in use.
 (etex)                etex.sty code will not be used.
@@ -1625,16 +1754,21 @@ Package etex Warning: Extended allocation already in use.
 (etex)                \RequirePackage{etex}
 (etex)                at the start of the document.
 
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/datetime\datetime.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\datetime.
+sty"
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/fmtcount\fmtcount.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fmtcount.
+sty"
 Package: fmtcount 2017/12/24 v3.05
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/fmtcount\fcprefix.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fcprefix.
+sty"
 Package: fcprefix 2012/09/28
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/fmtcount\fcnumparser.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fcnumpars
+er.sty"
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count394
 ))
@@ -1648,7 +1782,8 @@ Package: fcnumparser 2017/06/15
 \@DT@loopN=\count402
 \@DT@X=\count403
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/datetime\datetime-defaults.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\datetime-
+defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count404
@@ -1670,15 +1805,18 @@ put line 308.
 \dayofweek=\count418
 LaTeX Info: Redefining \today on input line 736.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/datetime\dt-spanish.def"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\dt-spanis
+h.def"
 File: dt-spanish.def 2013/09/10
 LaTeX Info: Redefining \datespanish on input line 85.
 )
 \dt@a=\toks60
 \dt@b=\toks61
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
+xparse.sty"
 Package: xparse 2019-05-28 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count419
 \g__xparse_grabber_int=\count420
@@ -1687,7 +1825,8 @@ Package: xparse 2019-05-28 L3 Experimental document command parser
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.
+tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 \myex=\skip147
@@ -1823,15 +1962,14 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 45.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+ ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Try loading font information for T1+txss on input line 45.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/txfonts\t1txss.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\t1txss.fd"
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
@@ -1844,7 +1982,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\ltcaption.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.
+sty"
 Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: subfigure package is loaded.
@@ -1853,7 +1992,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count430
 
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count431
 \scratchdimen=\dimen317
@@ -1866,10 +2006,13 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count435
 \makeMPintoPDFobject=\count436
 \everyMPtoPDFconversion=\toks66
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+)
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1878,8 +2021,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-ABD: EveryShipout initializing macros
+) ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.13).
 
@@ -1887,10 +2029,12 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.13).
 \AtBeginShipoutBox=\box113
 Package hyperref Info: Link coloring OFF on input line 45.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+ty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitl
+estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count437
@@ -1898,14 +2042,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
-
-(tfgtfmthesisuam.out) (tfgtfmthesisuam.out)
+ (tfgtfmthesisuam.out) (tfgtfmthesisuam.out)
 \@outlinefile=\write23
 \openout6 = `tfgtfmthesisuam.out'.
 
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 45.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1964,7 +2107,7 @@ Overfull \hbox (73.48502pt too wide) has occurred while \output is active
  []
 
 LaTeX Font Info:    Try loading font information for T1+pxss on input line 45.
-("C:\Program Files\MiKTeX 2.9\tex/latex/pxfonts\t1pxss.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pxfonts\t1pxss.fd"
 File: t1pxss.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
@@ -1988,7 +2131,7 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 45.
 
 LaTeX Font Info:    Try loading font information for T1+pxr on input line 45.
-("C:\Program Files\MiKTeX 2.9\tex/latex/pxfonts\t1pxr.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pxfonts\t1pxr.fd"
 File: t1pxr.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <25> not available
@@ -1999,15 +2142,15 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 45.
 LaTeX Font Info:    Try loading font information for TS1+txss on input line 45.
 
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/txfonts\ts1txss.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ts1txss.fd
+"
 File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 45.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [1{C:/Users/Daniel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/danie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <./logoUAMw.png> <./campusEx.png> <./epsfoto.png>] (tfgtfmthesisuam.mw)
@@ -2473,7 +2616,8 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 
  [2
 
-] (tfgtfmthesisuam.mw)
+]
+(tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <12> not available
@@ -2484,13 +2628,13 @@ LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <20.74> not available
 (Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [3 <./logoEPS.png (PNG copy)> <./logoUAM.png>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [4]
+ [3 <./logoEPS.png (PNG copy)> <./logoUAM.png>]
 (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [4] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <11> not available
@@ -2506,13 +2650,13 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 
  [6
 
-] (tfgtfmthesisuam.mw)
+]
+(tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <32> not available
 (Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 45.
-
-(inicio/prefacio.tex
+ (inicio/prefacio.tex
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 7.31494pt on input line 1.
 )
@@ -2940,10 +3084,9 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 )
 (estructura/sistema/dron/esc.tex) (estructura/sistema/dron/helices.tex)
-(estructura/sistema/dron/pdb.tex) (estructura/sistema/dron/controladorvuelo.tex
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-Package cleveref Info: loaded `spanish' language definitions on input line 3.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+Package cleveref Info: loaded `spanish' language definitions on input line 58.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -2967,16 +3110,12 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-) (estructura/sistema/dron/chasis.tex)
-(estructura/sistema/dron/sistemacomunicacion.tex)
-(estructura/sistema/sensorvientodron.tex)
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
-Package cleveref Info: loaded `spanish' language definitions on input line 64.
+ (estructura/sistema/dron/pdb.tex)
+(estructura/sistema/dron/controladorvuelo.tex)
+(estructura/sistema/dron/chasis.tex)
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+Package cleveref Info: loaded `spanish' language definitions on input line 61.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3004,27 +3143,28 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
-Cap\'{\i }tulo 5.
-(estructura/resultadosydiscusion.tex)
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
+ (estructura/sistema/dron/sistemacomunicacion.tex)
+(estructura/sistema/sensorvientodron.tex)
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
+Package cleveref Info: loaded `spanish' language definitions on input line 64.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[11
+[11] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
 
-] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3039,8 +3179,8 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
-Cap\'{\i }tulo 6.
-(estructura/conclusion.tex)
+Cap\'{\i }tulo 5.
+(estructura/resultadosydiscusion.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -3067,8 +3207,8 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
-Cap\'{\i }tulo 7.
-(estructura/continuarproy.tex)
+Cap\'{\i }tulo 6.
+(estructura/conclusion.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -3095,15 +3235,8 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
-Cap\'{\i }tulo 8.
-(estructura/bibliografia.tex
-
-LaTeX Warning: Citation `Narendra1990' on page 17 undefined on input line 3.
-
-
-LaTeX Warning: Citation `Zurek:1993' on page 17 undefined on input line 7.
-
-)
+Cap\'{\i }tulo 7.
+(estructura/continuarproy.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -3130,17 +3263,51 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
+Cap\'{\i }tulo 8.
+(estructura/bibliografia.tex
+
+LaTeX Warning: Citation `Narendra1990' on page 19 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Zurek:1993' on page 19 undefined on input line 7.
+
+)
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+[19] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [20
+
+] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+
 Cap\'{\i }tulo 9.
 (estetica/estetica.tex) (estetica/tipodocumento.tex
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 2.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <11> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 2.
-)
-(estetica/gamacolores.tex)
+) (estetica/gamacolores.tex)
 Overfull \hbox (2.13069pt too wide) in paragraph at lines 4--79
 \T1/txss/m/n/11 mez-cla-do con la se-lec-ción rea-li-za-da en la sec-ción an-te
 -rior: \T1/pcr/b/n/11 \documentclass[thesis,epsbased]
@@ -3158,7 +3325,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[19] (tfgtfmthesisuam.mw)
+[21] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3189,7 +3356,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[20] (tfgtfmthesisuam.mw)
+[22] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3223,7 +3390,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[21] (tfgtfmthesisuam.mw)
+[23] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -3246,7 +3413,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[22] (tfgtfmthesisuam.mw)
+[24] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -3267,12 +3434,12 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[23] (tfgtfmthesisuam.mw)
+[25] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [24
+ [26
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3295,7 +3462,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[25] (tfgtfmthesisuam.mw)
+[27] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3327,7 +3494,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[26] (tfgtfmthesisuam.mw)
+[28] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3357,7 +3524,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[27] (tfgtfmthesisuam.mw)
+[29] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3388,7 +3555,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[28] (tfgtfmthesisuam.mw)
+[30] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3724,7 +3891,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[29] (tfgtfmthesisuam.mw)
+[31] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3756,10 +3923,10 @@ Begining description
 Ending description list
 ) (estructura/bibliografia.tex
 
-LaTeX Warning: Citation `Narendra1990' on page 30 undefined on input line 3.
+LaTeX Warning: Citation `Narendra1990' on page 32 undefined on input line 3.
 
 
-LaTeX Warning: Citation `Zurek:1993' on page 30 undefined on input line 7.
+LaTeX Warning: Citation `Zurek:1993' on page 32 undefined on input line 7.
 
 )
 LaTeX Info: Redefining \. on input line 92.
@@ -3777,7 +3944,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[30] (tfgtfmthesisuam.mw)
+[32] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3817,7 +3984,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[31
+[33
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3857,7 +4024,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[32] (tfgtfmthesisuam.mw)
+[34] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3879,7 +4046,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[33] (tfgtfmthesisuam.mw)
+[35] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3888,7 +4055,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [34
+ [36
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3900,12 +4067,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 
 
-LaTeX Warning: Reference `FIG:EJEMPLO' on page 35 undefined on input line 2.
+LaTeX Warning: Reference `FIG:EJEMPLO' on page 37 undefined on input line 2.
 
 Figure logoEPS with width data
 Figure logoEPS with width data
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 11.
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Figure escudoUAM with width data
@@ -3921,7 +4088,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[35 <./img/logoEPS.png (PNG copy)>] (tfgtfmthesisuam.mw)
+[37 <./img/logoEPS.png (PNG copy)>] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3948,7 +4115,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[36 <./img/logoEPS.png (PNG copy)> <./img/escudoUAM.png>] (tfgtfmthesisuam.mw)
+[38 <./img/logoEPS.png (PNG copy)> <./img/escudoUAM.png>] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3992,7 +4159,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[37] (tfgtfmthesisuam.mw)
+[39] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -4013,7 +4180,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[38] (tfgtfmthesisuam.mw)
+[40] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4030,7 +4197,7 @@ lot manually.
 
 )) (elemint/imagenes.tex
 
-LaTeX Warning: Reference `FIG:EJEMPLO' on page 39 undefined on input line 3.
+LaTeX Warning: Reference `FIG:EJEMPLO' on page 41 undefined on input line 3.
 
 ) (elemint/gantt.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4050,7 +4217,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[39] (tfgtfmthesisuam.mw)
+[41] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4086,7 +4253,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[40] (tfgtfmthesisuam.mw)
+[42] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4112,7 +4279,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[41] (tfgtfmthesisuam.mw)
+[43] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4146,7 +4313,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[42] (tfgtfmthesisuam.mw)
+[44] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4184,7 +4351,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[43] (tfgtfmthesisuam.mw)
+[45] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4208,7 +4375,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[44] (tfgtfmthesisuam.mw)
+[46] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4274,7 +4441,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[45] (tfgtfmthesisuam.mw)
+[47] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4367,20 +4534,22 @@ Overfull \hbox (15.78409pt too wide) in paragraph at lines 41--42
  []
 
 Ending description list
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
+
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
+sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+ty"
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-)
-(codes/ejemploC/userconnectresponse.c
+) (codes/ejemploC/userconnectresponse.c
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 7.59998pt on input line 84.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
+sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(codes/python/tcpudp.py)) (elemint/algoritmos.tex
+) (codes/python/tcpudp.py)) (elemint/algoritmos.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 2.
@@ -4398,7 +4567,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[46] (tfgtfmthesisuam.mw)
+[48] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 LaTeX Info: Redefining \. on input line 2.
@@ -4416,7 +4585,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[47] (tfgtfmthesisuam.mw)
+[49] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 Package hyperref Info: bookmark level for unknown algorithmb defaults to 0 on i
@@ -4429,7 +4598,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 7.59998pt on input line 14.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 32.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1phv.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )) (elemint/listas.tex
 LaTeX Info: Redefining \. on input line 7.
@@ -4447,7 +4616,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[48] (tfgtfmthesisuam.mw)
+[50] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4490,7 +4659,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[49] (tfgtfmthesisuam.mw)
+[51] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4535,7 +4704,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[50] (tfgtfmthesisuam.mw)
+[52] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4558,12 +4727,12 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[51] (tfgtfmthesisuam.mw)
+[53] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [52
+ [54
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4582,7 +4751,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[53] (tfgtfmthesisuam.mw)
+[55] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4692,7 +4861,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[54] (tfgtfmthesisuam.mw)
+[56] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4717,7 +4886,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[55] (tfgtfmthesisuam.mw)
+[57] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4726,37 +4895,6 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [56
-
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
-Begining description
-Ending description list
-) (tfgtfmthesisuam.acr
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-[57
-
-] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4773,7 +4911,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 Begining description
 Ending description list
-)
+) (tfgtfmthesisuam.acr
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -4801,12 +4939,43 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
+
+Begining description
+Ending description list
+)
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+[61
+
+] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [62
+
+] (tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 (Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 111.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [61] (tfgtfmthesisuam.mw)
+ [63] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4816,7 +4985,7 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
-[62] (tfgtfmthesisuam.mw)
+[64] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -4887,7 +5056,8 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <22.3999> not available
 
 LaTeX Font Info:    Try loading font information for TS1+pxss on input line 113
 .
-("C:\Program Files\MiKTeX 2.9\tex/latex/pxfonts\ts1pxss.fd"
+("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pxfonts\ts1pxss.fd
+"
 File: ts1pxss.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `TS1/pxss/b/sc' in size <22.3999> not available
@@ -5162,7 +5332,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[63
+[65
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5210,7 +5380,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[64] (tfgtfmthesisuam.mw)
+[66] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5248,7 +5418,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[65
+[67
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5285,7 +5455,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[66] (tfgtfmthesisuam.mw)
+[68] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5313,7 +5483,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[67] (tfgtfmthesisuam.mw)
+[69] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5348,7 +5518,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[68] (tfgtfmthesisuam.mw)
+[70] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -5370,7 +5540,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[69
+[71
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5398,7 +5568,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[70] (tfgtfmthesisuam.mw)
+[72] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -5532,7 +5702,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[71
+[73
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5572,7 +5742,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[72] (tfgtfmthesisuam.mw)
+[74] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -5594,12 +5764,12 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[73] (tfgtfmthesisuam.mw)
+[75] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [74
+ [76
 
 ] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5621,7 +5791,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[75] (tfgtfmthesisuam.mw)
+[77] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5647,7 +5817,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[76] (tfgtfmthesisuam.mw)
+[78] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 LaTeX Info: Redefining \. on input line 137.
@@ -5666,7 +5836,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[77] (tfgtfmthesisuam.mw)
+[79] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5702,7 +5872,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[78] (tfgtfmthesisuam.mw)
+[80] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -5713,7 +5883,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 No file tfgtfmthesisuam.ind.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[79
+[81
 
 
 ] (tfgtfmthesisuam.mw)
@@ -5747,7 +5917,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[80 <./logoUAMw.png>] (tfgtfmthesisuam.mw)
+[82 <./logoUAMw.png>] (tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
@@ -6938,46 +7108,54 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 57925 strings out of 492895
- 1259711 string characters out of 3133476
- 1950490 words of memory out of 3000000
- 60130 multiletter control sequences out of 15000+200000
- 683915 words of font info for 225 fonts, out of 3000000 for 9000
+ 57932 strings out of 492895
+ 1274996 string characters out of 3123735
+ 1950463 words of memory out of 3000000
+ 60131 multiletter control sequences out of 15000+200000
+ 684422 words of font info for 226 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,21n,108p,1987b,2454s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\Daniel\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi0800.pk> <C:\User
-s\Daniel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.p
-k> <C:\Users\Daniel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecti0800.pk> <C:\Users\Daniel\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecrm0800.pk> <C:\Users\Daniel\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecbx0800.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feybr10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/txfonts/rtcxbss.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/txfonts/rtcxss.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/txfonts/rtxbsssc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tx
-fonts/rtxsssc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
-uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tfgtfmthesisuam.pdf (100 pages, 3706817 bytes).
+{C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+} <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbi0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
+c/dpi600\tcrm0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecti0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/danie/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/danie
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pf
+b><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/danie/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/danie/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dani
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
+/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/danie/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/danie/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/feybr10.pfb><C:/Users/da
+nie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C
+:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtcx
+bss.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/tx
+fonts/rtcxss.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/txfonts/rtxbsssc.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/txfonts/rtxsssc.pfb><C:/Users/danie/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/danie/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/danie/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/danie/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/danie
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/User
+s/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><
+C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
+fb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr
+8a.pfb>
+Output written on tfgtfmthesisuam.pdf (102 pages, 3707629 bytes).
 PDF statistics:
- 1453 PDF objects out of 1728 (max. 8388607)
- 327 named destinations out of 1000 (max. 500000)
+ 1457 PDF objects out of 1728 (max. 8388607)
+ 329 named destinations out of 1000 (max. 500000)
  743 words of extra memory for PDF output out of 10000 (max. 10000000)
 
