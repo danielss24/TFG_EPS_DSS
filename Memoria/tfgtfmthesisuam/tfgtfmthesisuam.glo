@@ -1,4 +1,4 @@
-(indexentry :tkey (("definición" "\\glossentry{definicion}") ) :locref "{}{32}" :attr "pageglsnumberformat" )
-(indexentry :tkey (("definición" "\\glossentry{definicion}") ) :locref "{}{32}" :attr "pageglsnumberformat" )
-(indexentry :tkey (("acrónimo" "\\glossentry{acronimo}") ) :locref "{}{32}" :attr "pageglsnumberformat" )
-(indexentry :tkey (("opción de estilo" "\\glossentry{OPCST}") ) :locref "{}{73}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("definición" "\\glossentry{definicion}") ) :locref "{}{34}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("definición" "\\glossentry{definicion}") ) :locref "{}{34}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("acrónimo" "\\glossentry{acronimo}") ) :locref "{}{34}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("opción de estilo" "\\glossentry{OPCST}") ) :locref "{}{75}" :attr "pageglsnumberformat" )
