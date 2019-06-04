@@ -14,7 +14,7 @@ REF %https://www.banggood.com/Matek-F405-OSD-BetaFlight-STM32F405-Flight-Control
 El paquete recibido tiene un tamaño total de 31 bytes, con un byte inicial standard con contenido igual a , a continuacion encontramos un total de 14 canales con 2 bytes por canal y un checksum al final con un tamaño de 1 byte. El paquete es transmitido cada 7ms con una tasa de baudios de 115200, es decir, un total de 115200 bits por segundo.
 Para desglosar el paquete recibido por el mando he codificado un algoritmo en python donde diferencio y convierto cada uno de los bytes a decimal, obteniendo de esta forma un valor de cada canal entre 1000 y 2000, siendo 1000 el mínimo valor y 2000 el máximo valor posible.
 
-Para poder producir el PWM correcto y mandarselo a los controladores de velocidad, he contado con un chip conversor, PCA9685, de digital a PWM hasta un máximo de 8 canales, ha sido necesario dicho chip ya que a raspberry no cuenta con el numero suficiente de canales como para controlar 4 motores.
+Para poder producir el PWM correcto y mandarselo a los controladores de velocidad, he contado con un chip conversor, PCA9685, de digital a PWM hasta un máximo de 8 canales, ha sido necesario dicho chip ya que la raspberry no cuenta con el numero suficiente de canales como para controlar 4 motores.
 La configuración del controlador PCA9685 se ha realizado mediante comunicación por I2C y su respectiva librería de adafruit obtenida por github. He tenido que indicar la frecuencia de salida de los PWM, 2KHz, y el ciclo de trabajo previamente obtenido por nuestro rango de entrada entre 1000 y 2000.\cite{Industries}
 \paragraph{Sistema}
 \begin{description}

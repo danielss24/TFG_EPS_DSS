@@ -4,8 +4,9 @@ import numpy as np
 from scipy.stats import kde
 
 # Create data: 200 points
-data = np.random.multivariate_normal([0, 0], [[1, 0.5], [0.5, 3]], 200)
+data = np.random.multivariate_normal([0, 0], [[1, 0.5], [0.5, 3]], 5000)
 x, y = data.T
+npSTAS = np.stack((x,y), axis=-1)
 
 # Create a figure with 6 plot areas
 fig, axes = plt.subplots(ncols=6, nrows=1, figsize=(21, 5))
@@ -19,7 +20,7 @@ axes[0].plot(x, y, 'ko')
 nbins = 200
 
 # Evaluate a gaussian kde on a regular grid of nbins x nbins over data extents
-k = kde.gaussian_kde(data.T)
+k = kde.gaussian_kde(npSTAS.T)
 xi, yi = np.mgrid[x.min():x.max():nbins * 1j, y.min():y.max():nbins * 1j]
 zi = k(np.vstack([xi.flatten(), yi.flatten()]))
 

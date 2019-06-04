@@ -4,6 +4,8 @@ import os
 import Pckg.Utils.utils as util
 import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.colors as mcolors
+from scipy.stats import kde
 
 
 def getXY(fichero, xIndex=0, yIndex=1, cabeceras = False):
@@ -115,25 +117,57 @@ def thirdPlot(ruta,fichero):
     guardarImagen(rutaPlot, fichero, fig,3)
 
 
-def fourthPlot(ruta,fichero):
-
+def heatmap(rutaPlot, fichero):
+    margenPlot = 0.5
     maxValueData = 90
+
     # consigue los valores de varianza roll y pitch
-    U, V= getXY(fichero, 14, 15, True)
+    x, y = getXY(fichero, 14, 15, True)
     # consigue la fuerza del viento
-    Z = getDataFromFile(fichero, 13, True)
+    z = getDataFromFile(fichero, 13, True)
 
-    print(np.sqrt(len(U)))
+    for enum, each in enumerate(z):
+        x[enum] = x[enum] / maxValueData * each
+        y[enum] = y[enum] / maxValueData * each
 
-    X,Y = np.meshgrid(np.arange(0,np.sqrt(len(U)),1),np.arange(0,np.sqrt(len(U)),1))
+    maxX = max(x) + margenPlot
+    maxY = max(y) + margenPlot
 
+    maxAxisValue = 0
+    if maxX > maxY:
+        maxAxisValue = maxX
+    else:
+        maxAxisValue = maxY
 
-    for enum, each in enumerate(Z):
-        U[enum] = U[enum] / maxValueData * each
-        V[enum] = V[enum] / maxValueData * each
+    x = np.array(x)
+    y = np.array(y)
+    data = np.stack((x, y), axis=-1)
 
-    plt.quiver(X,Y,U,V)
+    # Create a figure with 6 plot areas
+    fig, axes = plt.subplots(ncols=3, nrows=1, figsize=(21, 5))
 
+    # Everything sarts with a Scatterplot
+    axes[0].set_xlim([-maxAxisValue, maxAxisValue])
+    axes[0].set_ylim([-maxAxisValue, maxAxisValue])
+    axes[0].set_title('Scatterplot')
+    axes[0].plot(x, y, 'ko')
+    # # Thus we can cut the plotting window in several hexbins
+    nbins = 50
+
+    # Evaluate a gaussian kde on a regular grid of nbins x nbins over data extents
+    k = kde.gaussian_kde(data.T)
+    xi, yi = np.mgrid[-maxAxisValue:maxAxisValue:nbins * 1j, -maxAxisValue:maxAxisValue:nbins * 1j]
+    zi = k(np.vstack([xi.flatten(), yi.flatten()]))
+
+    axes[1].set_title('2D Density with shading')
+    axes[1].pcolormesh(xi, yi, zi.reshape(xi.shape), shading='gouraud', cmap=plt.cm.Blues)
+
+    # contour
+    axes[2].set_title('Contour')
+    axes[2].pcolormesh(xi, yi, zi.reshape(xi.shape), shading='gouraud', cmap=plt.cm.Blues)
+    axes[2].contour(xi, yi, zi.reshape(xi.shape))
+    guardarImagen(rutaPlot,fichero,fig,4)
+    # plt.show()
 
 def guardarImagen(rutaPlot,fichero,fig,numPlot):
     nombreFichero = fichero.split("/")
@@ -147,10 +181,9 @@ if __name__ == '__main__':
     fichero = util.cargadorFich(rutaFull)
     rutaPlot = ruta+"Plot/"
     os.makedirs(rutaPlot, exist_ok=True)
-    # firstPlot(fichero)
     secondPlot(rutaPlot,fichero)
     thirdPlot(rutaPlot,fichero)
-    # fourthPlot(fichero)
+    heatmap(rutaPlot,fichero)
 
 
     # plt.show()

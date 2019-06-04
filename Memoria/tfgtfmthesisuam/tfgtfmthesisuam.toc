@@ -50,10 +50,10 @@
 \contentsline {section}{\numberline {12.1}Figuras}{41}{section.12.1}%
 \contentsline {subsection}{\numberline {12.1.1}Gr\IeC {\'a}ficas}{42}{subsection.12.1.1}%
 \contentsline {subsection}{\numberline {12.1.2}Gr\IeC {\'a}ficas con pgfplots}{42}{subsection.12.1.2}%
-\contentsline {subsubsection}{Gr\IeC {\'a}ficas xy}{42}{section*.28}%
-\contentsline {paragraph}{Tipo de gr\IeC {\'a}fica}{42}{section*.29}%
-\contentsline {paragraph}{Datos}{43}{section*.31}%
-\contentsline {paragraph}{Expresiones matem\IeC {\'a}ticas}{44}{section*.32}%
+\contentsline {subsubsection}{Gr\IeC {\'a}ficas xy}{42}{section*.31}%
+\contentsline {paragraph}{Tipo de gr\IeC {\'a}fica}{42}{section*.32}%
+\contentsline {paragraph}{Datos}{43}{section*.34}%
+\contentsline {paragraph}{Expresiones matem\IeC {\'a}ticas}{44}{section*.35}%
 \contentsline {subsection}{\numberline {12.1.3}Gr\IeC {\'a}ficas con gnuplot}{44}{subsection.12.1.3}%
 \contentsline {subsection}{\numberline {12.1.4}Im\IeC {\'a}genes}{45}{subsection.12.1.4}%
 \contentsline {subsection}{\numberline {12.1.5}Diagramas de Gantt}{46}{subsection.12.1.5}%
@@ -65,24 +65,24 @@
 \contentsline {section}{\numberline {12.6}Algoritmos}{54}{section.12.6}%
 \contentsline {section}{\numberline {12.7}Listas}{54}{section.12.7}%
 \contentsline {subsection}{\numberline {12.7.1}Listas tradicionales de \LaTeXe }{55}{subsection.12.7.1}%
-\contentsline {paragraph}{Punteado con anidaci\IeC {\'o}n}{55}{section*.38}%
-\contentsline {paragraph}{Enumerado con anidaci\IeC {\'o}n}{55}{section*.39}%
-\contentsline {paragraph}{Definiciones con anidaci\IeC {\'o}n}{55}{section*.40}%
+\contentsline {paragraph}{Punteado con anidaci\IeC {\'o}n}{55}{section*.41}%
+\contentsline {paragraph}{Enumerado con anidaci\IeC {\'o}n}{55}{section*.42}%
+\contentsline {paragraph}{Definiciones con anidaci\IeC {\'o}n}{55}{section*.43}%
 \contentsline {subsection}{\numberline {12.7.2}Nuevos tipos de listas}{55}{subsection.12.7.2}%
-\contentsline {paragraph}{Simplelist con anidaci\IeC {\'o}n}{55}{section*.41}%
-\contentsline {paragraph}{Functional con anidaci\IeC {\'o}n}{56}{section*.42}%
-\contentsline {paragraph}{Nonfunctional con anidaci\IeC {\'o}n}{56}{section*.43}%
-\contentsline {paragraph}{Functionality con anidaci\IeC {\'o}n}{56}{section*.44}%
-\contentsline {paragraph}{Objetive con anidaci\IeC {\'o}n}{56}{section*.45}%
+\contentsline {paragraph}{Simplelist con anidaci\IeC {\'o}n}{55}{section*.44}%
+\contentsline {paragraph}{Functional con anidaci\IeC {\'o}n}{56}{section*.45}%
+\contentsline {paragraph}{Nonfunctional con anidaci\IeC {\'o}n}{56}{section*.46}%
+\contentsline {paragraph}{Functionality con anidaci\IeC {\'o}n}{56}{section*.47}%
+\contentsline {paragraph}{Objetive con anidaci\IeC {\'o}n}{56}{section*.48}%
 \contentsline {section}{\numberline {12.8}Referencias internas e hiperenlaces}{56}{section.12.8}%
 \contentsline {chapter}{\numberline {13}Compilaci\IeC {\'o}n}{59}{chapter.13}%
 \contentsline {section}{\numberline {13.1}Pdflatex}{59}{section.13.1}%
 \contentsline {section}{\numberline {13.2}Arara}{60}{section.13.2}%
 \contentsline {section}{\numberline {13.3}Overleaf}{61}{section.13.3}%
 \contentsline {section}{\numberline {13.4}Permitir el uso de la shell al compilador}{61}{section.13.4}%
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{63}{chapter*.46}%
-\contentsline {chapter}{Definiciones}{65}{section*.47}%
-\contentsline {chapter}{Acr\IeC {\'o}nimos}{67}{section*.49}%
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{63}{chapter*.49}%
+\contentsline {chapter}{Definiciones}{65}{section*.50}%
+\contentsline {chapter}{Acr\IeC {\'o}nimos}{67}{section*.52}%
 \contentsline {part}{Ap\IeC {\'e}ndices}{69}{part.1}%
 \contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{71}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{71}{section.Alph1.1}%
