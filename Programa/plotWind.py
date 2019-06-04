@@ -1,4 +1,5 @@
 import csv
+import os
 
 import Pckg.Utils.utils as util
 import matplotlib.pyplot as plt
@@ -50,7 +51,7 @@ def firstPlot(fichero):
     #plt.show()
 
 
-def secondPlot(fichero):
+def secondPlot(ruta,fichero):
 
     fig, (xPlt, yPlt, zPlt) = plt.subplots(3, 1, sharex=True)
 
@@ -64,9 +65,10 @@ def secondPlot(fichero):
     yPlt.plot(x,y)
     x, y = getXY(fichero, xIndex=0, yIndex=8, cabeceras=True)
     zPlt.plot(x,y,)
+    guardarImagen(rutaPlot,fichero,fig,2)
     #plt.show()
 
-def thirdPlot(fichero):
+def thirdPlot(ruta,fichero):
 
     margenPlot = 0.5
     maxValueData = 90
@@ -109,8 +111,11 @@ def thirdPlot(fichero):
     # Move left y-axis and bottim x-axis to centre, passing through (0,0)
     ax.spines['left'].set_position('center')
     ax.spines['bottom'].set_position('center')
+    # nombreFichero = fichero.split("/")[4]
+    guardarImagen(rutaPlot, fichero, fig,3)
 
-def fourthPlot(fichero):
+
+def fourthPlot(ruta,fichero):
 
     maxValueData = 90
     # consigue los valores de varianza roll y pitch
@@ -129,12 +134,23 @@ def fourthPlot(fichero):
 
     plt.quiver(X,Y,U,V)
 
+
+def guardarImagen(rutaPlot,fichero,fig,numPlot):
+    nombreFichero = fichero.split("/")
+    nombreFichero = nombreFichero[-1].replace(".txt", "") + "_Plot" + str(numPlot) + ".png"
+    nombreFichero = rutaPlot + nombreFichero
+    fig.savefig(nombreFichero)
+
 if __name__ == '__main__':
-    fichero = util.cargadorFich("./2019/05/07/")
-    firstPlot(fichero)
-    secondPlot(fichero)
-    thirdPlot(fichero)
+    ruta = "2019/06/03/"
+    rutaFull = "./" + ruta
+    fichero = util.cargadorFich(rutaFull)
+    rutaPlot = ruta+"Plot/"
+    os.makedirs(rutaPlot, exist_ok=True)
+    # firstPlot(fichero)
+    secondPlot(rutaPlot,fichero)
+    thirdPlot(rutaPlot,fichero)
     # fourthPlot(fichero)
 
 
-    plt.show()
+    # plt.show()

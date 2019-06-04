@@ -17,12 +17,6 @@ axes[0].plot(x, y, 'ko')
 #
 # # Thus we can cut the plotting window in several hexbins
 nbins = 200
-# axes[1].set_title('Hexbin')
-# axes[1].hexbin(x, y, gridsize=nbins, cmap=plt.cm.BuGn_r)
-#
-# # 2D Histogram
-# axes[2].set_title('2D Histogram')
-# axes[2].hist2d(x, y, bins=nbins, cmap=plt.cm.BuGn_r)
 
 # Evaluate a gaussian kde on a regular grid of nbins x nbins over data extents
 k = kde.gaussian_kde(data.T)

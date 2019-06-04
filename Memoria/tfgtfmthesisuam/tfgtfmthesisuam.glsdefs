@@ -19,10 +19,10 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Institute of Electrical and Electronics Engineers},%
-longplural={Institute of Electrical and Electronics Engineerss},%
-short={IEEE},%
-shortplural={IEEEs},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
 counter={page},%
 parent={},%
 %
