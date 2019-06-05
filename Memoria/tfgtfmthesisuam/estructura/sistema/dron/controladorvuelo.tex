@@ -1,25 +1,29 @@
 
-	La placa controladora de vuelo es la unidad de procesamiento del dron, es la encargada de gestionar la señales provenientes del receptor, leer los parámetros de los diferentes sistemas de estabilización y su posterior modificación para proporcionar la potencia adecuada a cada ESC.
+	La placa controladora de vuelo es la unidad de procesamiento del dron encargada de gestionar la señales provenientes del receptor, leer los parámetros de los diferentes sistemas de estabilización y su posterior modificación para proporcionar la potencia adecuada a cada motor.
 \paragraph{Placa comercial}
-	La elección de la controladora de vuelo viene determinada solamente por el protocolo de comunicación que uses, aunque a día de hoy la mayoría de controladoras cuentan con software re programable que se ajusta a los diferentes sistemas de comunicación, como los mas conocidos iBUS o sBUS.
+	La elección de la controladora de vuelo viene determinada sólamente por el protocolo de comunicación que utilice, aunque a día de hoy la mayoría de controladoras cuentan con software reprogramable que se ajusta a los diferentes sistemas de comunicación, como los mas conocidos iBUS o sBUS.
 	
 	\begin{figure}{FIG:CONTROLADORADRON}{Placa controladora mateksys.}
 	\image{4cm}{}{controladoraDron}
 \end{figure}
 
-	En la controladora de vuelo puede conectarse el sistema de comunicación, sistema de vídeo, controladores de velocidad de los motores, bocina de emergencia, antena de comunicación de largo alcance.
+	En la controladora de vuelo pueden conectarse el sistema de comunicación, sistema de vídeo, controladores de velocidad de los motores, bocina de emergencia y la antena de comunicación de largo alcance.
 
 REF %https://www.banggood.com/Matek-F405-OSD-BetaFlight-STM32F405-Flight-Controller-Built-in-OSD-Inverter-for-RC-Multirotor-FPV-Racing-Drone-p-1141282.html?rmmds=search&cur_warehouse=CN
 
 \paragraph{Placa desarrollada}
-	En este TFG he reproducido el sistema de control del dron en una Raspberry Pi 3 B+, con el fin de unificar todos los controles en un solo punto y poder utilizar todas señales entrantes y salientes para su uso en mediciones posteriores.
+	En este TFG he reproducido el sistema de control del dron en una Raspberry Pi 3 B+, con el fin de unificar todos los controles en un solo punto y poder utilizar todas señales entrantes y salientes para mediciones posteriores.
 	
-	Para representar el sistema de la controladora de vuelo he partido del sistema de descifrado del protocolo de comunicación elegido, iBUS, este protocolo te manda paquetes de información por el un puerto serie. La raspberry cuenta con dos pines de comunicacion por puerto serie, Rx para recibir la información y Tx para transmitir la información.
-El paquete recibido tiene un tamaño total de 31 bytes, con un byte inicial standard con contenido igual a , a continuacion encontramos un total de 14 canales con 2 bytes por canal y un checksum al final con un tamaño de 1 byte. El paquete es transmitido cada 7ms con una tasa de baudios de 115200, es decir, un total de 115200 bits por segundo.
-Para desglosar el paquete recibido por el mando he codificado un algoritmo en python donde diferencio y convierto cada uno de los bytes a decimal, obteniendo de esta forma un valor de cada canal entre 1000 y 2000, siendo 1000 el mínimo valor y 2000 el máximo valor posible.
+	Para representar el sistema de la controladora de vuelo he partido del sistema de descifrado del protocolo de comunicación elegido, iBUS, este protocolo manda paquetes de información a través del puerto serie. La raspberry cuenta con dos pines de comunicación por puerto serie: Rx para recibir la información y Tx para transmitirla.
+El paquete recibido tiene un tamaño total de 31 bytes, con un byte inicial estándar con contenido igual a BLABLABLA, a continuación encontramos un total de 14 canales con 2 bytes por canal y un checksum al final con un tamaño de 1 byte. El paquete se transmite cada 7 ms con una tasa de baudios de 115200, es decir, un total de 115200 bits por segundo.
+Para desglosar el paquete recibido, enviado por el mando, he codificado un algoritmo en python donde diferencio y convierto cada uno de los bytes a decimal, obteniendo de esta forma un valor de cada canal entre 1000 y 2000, siendo 1000 el valor mínimo y 2000 el máximo valor posible.
 
-Para poder producir el PWM correcto y mandarselo a los controladores de velocidad, he contado con un chip conversor, PCA9685, de digital a PWM hasta un máximo de 8 canales, ha sido necesario dicho chip ya que la raspberry no cuenta con el numero suficiente de canales como para controlar 4 motores.
-La configuración del controlador PCA9685 se ha realizado mediante comunicación por I2C y su respectiva librería de adafruit obtenida por github. He tenido que indicar la frecuencia de salida de los PWM, 2KHz, y el ciclo de trabajo previamente obtenido por nuestro rango de entrada entre 1000 y 2000.\cite{Industries}
+Para poder producir el PWM correcto y enviárselo a los controladores de velocidad, he escogido el chip PCA968 que conviertede digital a PWM y tiene hasta un máximo de 8 canales. Ha sido necesario dicho chip ya que la raspberry no cuenta con el número suficiente de canales para controlar los 4 motores.
+La configuración del chip PCA9685 se ha realizado mediante comunicación por I2C y su respectiva librería de adafruit obtenida por github. 
+
+(EXPLICAR AQUI QUE ES I2C) 
+
+He tenido que indicar desde la raspberry la frecuencia de salida de los PWM, 2000 hercios (Hz) , y el ciclo de trabajo previamente obtenido por nuestro rango de entrada entre 1000 y 2000.\cite{Industries}
 \paragraph{Sistema}
 \begin{description}
 \item[Input:] mínimo de 1000 y máximo de 2000
@@ -27,7 +31,7 @@ La configuración del controlador PCA9685 se ha realizado mediante comunicación
 \end{description}
 \paragraph{PCA9685}
 \begin{description}
-\item[Input:] canal de 1 a 8, mínimo entre 3296 y 2498, máximo rango fijo 4095
+\item[Input:] canal de 1 a 8, mínimo rango entre 3296 y 2498, máximo rango fijo 4095
 \item[Output sistema:] señal PWM a 2Khz de frecuencia y un ciclo de trabajo de 125us hasta un máximo de 250us
 \end{description}
 \begin{subequations}
@@ -38,9 +42,9 @@ La configuración del controlador PCA9685 se ha realizado mediante comunicación
 			\boxed{rango = 3296 - (input - 1000) * \frac{(3296-2498)}{1000}}
 	\end{equation}
 	\begin{equation}[EQ:SUBEQCV3]{Segundo ejemplo de subequación}
-			\boxed{pwm.set_pwm(canal, rango, 4095)}
+			\boxed{pwm.set_pwm(canal, rangoMínimo, 4095)}
 	\end{equation}
 \end{subequations}
 
-Una vez tengo la señal de salida PWM en función de la entrada del mando, modifico la señal a partir de los datos obtenidos por el sensor MPU9250 el cual nos indica la inclinación y fuerzas que se ejercen sobre el dron.
-De esta forma mandamos la potencia adecuada a cada motor para conseguir un vuelo estable y horizontal. Debido a las dificultades de probar el sistema de estabilización y su ajuste, decidí por trabajar con la placa comercial.
+Una vez conseguida la señal de salida PWM en función de la entrada del mando, modifico la señal a partir de los datos obtenidos por el sensor MPU9250 el cual nos indica la inclinación y fuerzas que se ejercen sobre el dron.
+De esta forma mandamos la potencia adecuada a cada motor para conseguir un vuelo estable y horizontal. Debido a las dificultades de probar el sistema de estabilización y su ajuste, decidí trabajar con la placa comercial.

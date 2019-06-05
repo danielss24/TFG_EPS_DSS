@@ -1,17 +1,15 @@
 
-Los motores son una parte fundamental de un dron ya que han de proporcionar la potencia suficiente para hacer girar la hélices y por consecuente hacer volar al dron. 
+Los motores son una parte fundamental de un dron ya que han de proporcionar la potencia suficiente para hacer girar la hélices y, por consiguiente, hacer volar al dron. 
                 
- He tenido en cuenta varios parámetros como por ejemplo, la potencia, el consumo y la fuerza máxima de empuje. Los motores vienen clasificados según su velocidad indicándose como KV, revoluciones por minuto por voltio y su dirección de giro, distinguiendo entre CW y CCW, es necesario tener el mismo numero de motores CW y CCW ya que estos giran en sentido contrario, el motivo de tener el mismo número de motores que giren en sentido horario y anti horario es debido a que si no provocaría un efecto de vórtice, haciendo girar el dron sobre si mismo sin ningún control. A su vez se pueden diferenciar entre dos clases de motores, con escobillas o sin ellas, este factor afecta a la forma de cambio de giro de los motores, los motores sin escobillas llevan un sistema de carga de polos magnéticos para realizar el cambio de dirección mientras que los motores con escobillas hacen circular corriente por unas bobinas generando un campo magnético y en consecuencia haciendo atraer o repeler el motor en un giro u otro, cabe destacar que es necesario un total de 3 bobinas para hacer girar el motor, puesto que si tuviésemos solo dos podría provocar que el motor se quedase en perpendicular cuando se produjese el cambio de giro.
-                
- He elegido unos motores sin escobillas por su rendimiento, menor desgaste que los motores con escobillas y sencillez a la hora de cambiar el sentido de giro. 
+ He tenido en cuenta varios parámetros como por ejemplo, la potencia, el consumo y la fuerza máxima de empuje. 
+ Los motores se clasifican según su velocidad indicándose en KV, revoluciones por minuto por voltio y su dirección de giro, que se distingue entre CW y CCW. Es necesario tener el mismo número de motores CW y CCW ya que éstos giran en sentido contrario, evitando que se produzca un efecto de vórtice, es decir haciendo girar el dron sobre si mismo y sin ningún control. \linebreak Así mismo se pueden diferenciar dos clases de motores: con escobillas o sin ellas, este factor afecta a la forma de cambio de giro de los motores. Los motores sin escobillas llevan un sistema de carga de polos magnéticos para realizar el cambio de dirección, mientras que los motores con escobillas hacen circular corriente por unas bobinas generando un campo magnético y en consecuencia atrayendo o repeliendo el rotor en un sentido u otro, cabe destacar que es necesario un mínimo de 3 bobinas para hacer girar el rotor, puesto que si tuviésemos solo dos podría provocar que el motor se quedase en perpendicular cuando se produjese el cambio de giro.
+
+ He elegido unos motores sin escobillas por su rendimiento, menor desgaste y fiabilidad. 
  
  \begin{figure}{FIG:MOTORESDRON}{Motores de dron, 2 CW y 2 CCW.}
 	\image{4cm}{}{motoresDron}
 \end{figure}
                 
- Los motores elegidos constan de 2300 KV y sin escobillas, contando así con 3 cables: alimentación, masa y potencia. Se varía la velocidad de los motores mediante la utilización de una señal PWM, variándose desde un 0\% a un 100\% de potencia modificando su ciclo de trabajo desde 1 ms a 2'5 ms, siendo a 1'5 ms funcionaría a mitad de la potencia y a 2 ms funcionaría al 100\%.
+ Los motores elegidos constan de 2300 KV y sin escobillas, contando así con 3 cables: alimentación, masa y potencia. La velocidad de los motores varía mediante la utilización de una señal PWM, modificando su ciclo de trabajo desde 1 milisegundo (ms) a 2 ms, estableciendo a 1'5 ms funcionaría a mitad de potencia y a 2 ms funcionaría al 100\%.
  
- Un PWM es la modulación de una señal digital provocando en sistemas con menos velocidad de lectura la llegada de una señal analógica. Un PWM con una salida de 3,3 V y con un ciclo de trabajo del 50\% produciría en el sistema receptor una señal analógica de 3,3 V/ 50 = 0,66 V de señal de entrada, reduciendo su potencia un 50%
- 
-
- fsafsafsa
+ Un PWM es la modulación de una señal digital provocando en sistemas con menos velocidad de lectura la llegada de una señal analógica. Un PWM con una salida de 3,3 V y con un ciclo de trabajo del 50\% produciría en el sistema receptor una señal analógica de 3,3 V/ 50 = 0,66 V de señal de entrada, reduciendo su potencia un 50\%.
