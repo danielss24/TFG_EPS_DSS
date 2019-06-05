@@ -5,17 +5,40 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces }}{8}{figure.caption.14}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces }}{8}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ejes MPU9250}}{8}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{8}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{8}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Chasis X y H}}{14}{figure.caption.21}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{14}{figure.caption.21}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{14}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces }}{15}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Zona sensorizaci\IeC {\'o}n dron}}{16}{figure.caption.23}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{16}{figure.caption.23}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{16}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces }}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces }}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ejes MPU9250}}{9}{figure.caption.17}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{9}{figure.caption.17}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces }}{9}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces }}{10}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces }}{12}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces }}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces }}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces }}{18}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces }}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Chasis X y H}}{23}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{23}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces }}{23}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces }}{25}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces }}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces }}{27}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces }}{28}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces }}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces }}{29}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Chasis X y H}}{31}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{31}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{31}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces }}{32}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces }}{32}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces }}{33}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces }}{34}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Chasis raspi dron}}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Zona sensorizaci\IeC {\'o}n dron}}{35}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{35}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{35}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Pata dron}}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces }}{36}{figure.caption.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -24,18 +47,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Ejemplo de uso de figure}}{41}{figure.caption.29}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Ejemplo de uso de figure}}{42}{figure.caption.30}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{42}{figure.caption.30}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{42}{figure.caption.30}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Esquemas de ejes de gr\IeC {\'a}ficas XY}}{43}{figure.caption.33}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{43}{figure.caption.33}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{43}{figure.caption.33}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{43}{figure.caption.33}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces lof}}{43}{figure.caption.33}%
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Representacii\IeC {\'o}n de expresiones matem\IeC {\'a}ticas}}{44}{figure.caption.36}%
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Esquemas de ejes de gr\IeC {\'a}ficas XY}}{45}{figure.caption.37}%
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Ejemplo de diagrama de Gantt}}{46}{figure.caption.38}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Ejemplo de uso de figure}}{61}{figure.caption.54}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Ejemplo de uso de figure}}{62}{figure.caption.55}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{62}{figure.caption.55}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{62}{figure.caption.55}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Esquemas de ejes de gr\IeC {\'a}ficas XY}}{63}{figure.caption.58}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{63}{figure.caption.58}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{63}{figure.caption.58}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{63}{figure.caption.58}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces lof}}{63}{figure.caption.58}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Representacii\IeC {\'o}n de expresiones matem\IeC {\'a}ticas}}{64}{figure.caption.61}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Esquemas de ejes de gr\IeC {\'a}ficas XY}}{65}{figure.caption.62}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Ejemplo de diagrama de Gantt}}{66}{figure.caption.63}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

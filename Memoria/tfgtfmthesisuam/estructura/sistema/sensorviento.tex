@@ -12,6 +12,10 @@
  
  Los datos obtenidos por el sensor MPU6050, son datos sin tratar que indican la aceleración en el instante de la medición y la inclinación respecto de la anterior medida tomada, mientras que el sensor AK8963 indica la orientación del sensor.
  
+   \begin{figure}{FIG:FOTOWARNING}{PONER FOTO DE LOS SENSORES.}
+	\image{4cm}{}{warningFoto}
+\end{figure}
+ 
  Para poder saber claramente en que posición se encuentra el chip respecto de una superficie plana y no su inclinación respecto de la anterior medida, he utilizado el algoritmo de madgwick que utiliza cuaterniones para indicar la inclinación absoluta respecto de la tierra. 
  
  Los cuaterniones es un conjunto de cuatro componentes complejas que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos, en mi caso lo usaré para las rotaciones en el espacio, los cuaterniones se pueden expresar de la siguiente forma \cite{Graves1999}.

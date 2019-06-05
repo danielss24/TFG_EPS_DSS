@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  4 JUN 2019 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  5 JUN 2019 13:19
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -949,15 +949,15 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2019641190.tex)...disabled (restricted).
+runsystem(touch w18-test-201965799.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2019641190.tex)...disabled (restricted).
+runsystem(rm -f w18-test-201965799.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-2019641190.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-201965799.tex")...disabled (restricted).
 
 
 
@@ -1945,6 +1945,119 @@ LaTeX Warning: Label `CAP:INTRODUCCION' multiply defined.
 
 LaTeX Warning: Label `CAP:INTRODUCCION@cref' multiply defined.
 
+
+LaTeX Warning: Label `FIG:FOTOWARNING' multiply defined.
+
+
+LaTeX Warning: Label `FIG:FOTOWARNING@cref' multiply defined.
+
+(estructura/sistema/dron/motores.aux) (estructura/sistema/dron/esc.aux)
+(estructura/sistema/dron/helices.aux) (estructura/sistema/dron/pdb.aux)
+(estructura/sistema/dron/controladorvuelo.aux)
+(estructura/sistema/dron/sistemacomunicacion.aux)
+(estructura/sistema/dron/chasis.aux) (estructura/sistema/dron/bateria.aux)
+
+LaTeX Warning: Label `FIG:MOTORESDRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:MOTORESDRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:ESCDRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:ESCDRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:HELICESDRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:HELICESDRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:PDBDRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:PDBDRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:CONTROLADORADRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:CONTROLADORADRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SUBEQCV1' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SUBEQCV1@cref' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SUBEQCV2' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SUBEQCV2@cref' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SUBEQCV3' multiply defined.
+
+
+LaTeX Warning: Label `EQ:SUBEQCV3@cref' multiply defined.
+
+
+LaTeX Warning: Label `SBFIG:CHASISX' multiply defined.
+
+
+LaTeX Warning: Label `SBFIG:CHASISX@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@SBFIG:CHASISX' multiply defined.
+
+
+LaTeX Warning: Label `SBFIG:CHASISH' multiply defined.
+
+
+LaTeX Warning: Label `SBFIG:CHASISH@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@SBFIG:CHASISH' multiply defined.
+
+
+LaTeX Warning: Label `FIG:CHASISX' multiply defined.
+
+
+LaTeX Warning: Label `FIG:CHASISX@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:CHASISDRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:CHASISDRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:MANDODRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:MANDODRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:BATERIADRON' multiply defined.
+
+
+LaTeX Warning: Label `FIG:BATERIADRON@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:FOTOWARNING' multiply defined.
+
+
+LaTeX Warning: Label `FIG:FOTOWARNING@cref' multiply defined.
+
+
+LaTeX Warning: Label `FIG:FOTOWARNING' multiply defined.
+
+
+LaTeX Warning: Label `FIG:FOTOWARNING@cref' multiply defined.
+
 )
 \openout1 = `tfgtfmthesisuam.aux'.
 
@@ -2148,477 +2261,482 @@ File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 45.
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [1{C:/Users/danie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./logoUAMw.png> <./campusEx.png> <./epsfoto.png>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+Package morewrites Warning: File 'tfgtfmthesisuam.mw' exists, using
+(morewrites)                'tfgtfmthesisuam.mw.mw' instead.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[1{C:/Users/danie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <./logoUAMw.png> <./campusEx.png> <./epsfoto.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.xdy'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.xdy'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [2
 
 ]
-(tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <12> not available
 (Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
@@ -2626,33 +2744,32 @@ LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <20.74> not available
 (Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [3 <./logoEPS.png (PNG copy)> <./logoUAM.png>]
-(tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [4] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+ [4] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <11> not available
 (Font)              Font shape `T1/txss/m/sl' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 10.44997pt on input line 45.
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [5] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+ [5] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [6
+[6
 
-]
-(tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <32> not available
 (Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 45.
@@ -2671,19 +2788,20 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[7] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[7] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [8
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- (inicio/agradecimientos.tex)
+
+(inicio/agradecimientos.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -2693,17 +2811,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[9] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[9] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [10
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (inicio/resumen.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -2715,17 +2833,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[11] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[11] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [12
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (inicio/abstract.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -2737,17 +2855,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[13] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[13] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [14
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (tfgtfmthesisuam.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -2763,10 +2881,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[15] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[15] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2781,32 +2899,32 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[16] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[16] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 86.
+(Font)              scaled to size 11.39996pt on input line 92.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 7.31494pt on input line 87.
+(Font)              scaled to size 7.31494pt on input line 93.
 LaTeX Font Info:    Font shape `TS1/txss/bx/n' will be
-(Font)              scaled to size 7.31494pt on input line 87.
+(Font)              scaled to size 7.31494pt on input line 93.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 87.
+(Font)              size <5> substituted on input line 93.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 87.
+(Font)              size <5> substituted on input line 93.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 87.
+(Font)              size <5> substituted on input line 93.
 
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
-(Font)              scaled to size 7.31494pt on input line 89.
+(Font)              scaled to size 7.31494pt on input line 95.
 )
 \tf@toc=\write24
 \openout6 = `tfgtfmthesisuam.toc'.
@@ -2821,22 +2939,21 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[17] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[17] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [18
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (tfgtfmthesisuam.loa)
 \tf@loa=\write25
 \openout6 = `tfgtfmthesisuam.loa'.
-
 
 (tfgtfmthesisuam.lol)
 \tf@lol=\write26
@@ -2865,10 +2982,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[19] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[19] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 )
 \tf@lof=\write29
@@ -2878,6 +2995,21 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[20] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 )
 \tf@lot=\write30
 \openout6 = `tfgtfmthesisuam.lot'.
@@ -2896,10 +3028,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[20] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[21] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [22
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 1.
@@ -2919,17 +3058,15 @@ been already used, duplicate ignored
                    \relax 
 l.48 ...{Estado del arte\label{CAP:ESTADODELARTE}}
                                                   {inicio/estadodelarte}
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
-[1
+[1] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
@@ -2937,13 +3074,13 @@ been already used, duplicate ignored
                    \relax 
 l.48 ...{Estado del arte\label{CAP:ESTADODELARTE}}
                                                   {inicio/estadodelarte}
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 [2
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 2.
@@ -2963,15 +3100,15 @@ been already used, duplicate ignored
                    \relax 
 l.49 \chapter{TeorÃ­a\label{CAP:INTRODUCCION}}
                                               {estructura/teoria/teoria}
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
-[3] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[3] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
@@ -2979,13 +3116,13 @@ been already used, duplicate ignored
                    \relax 
 l.49 \chapter{TeorÃ­a\label{CAP:INTRODUCCION}}
                                               {estructura/teoria/teoria}
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 [4
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 3.
@@ -2999,25 +3136,31 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[5] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[5] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [6
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 4.
 (estructura/sistema.tex) (estructura/sistema/sensorviento.tex
+Figure warningFoto with width data
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 17.
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 8.54997pt on input line 17.
+
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -3027,35 +3170,32 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[7] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[7] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Figure cuaternionformula with width data
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 21.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 21.
 Figure yawpitchrollplane with width data
 Figure mpu9250_acelgyro_axes with width data
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 35.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 39.
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Figure mpu9250_magneto_axes with width data
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
-Package cleveref Info: loaded `spanish' language definitions on input line 46.
+) (estructura/sistema/dron.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3066,50 +3206,22 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[8 <./img/cuaternionformula.png> <./img/yawpitchrollplane.png (PNG copy)> <./im
-g/mpu9250_acelgyro_axes.png> <./img/mpu9250_magneto_axes.png>]
-(tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[8 <./img/warningFoto.png> <./img/cuaternionformula.png> <./img/yawpitchrollpla
+ne.png (PNG copy)>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-) (estructura/sistema/dron.tex)
+
+Figure warningFoto with width data
+)
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 13.67995pt on input line 55.
-
-(estructura/sistema/dron/motores.tex)
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
-Package cleveref Info: loaded `spanish' language definitions on input line 56.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-[9] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
- (estructura/sistema/dron/esc.tex)
-(estructura/sistema/dron/helices.tex
+ (estructura/sistema/dron/sistemapropulsion.tex
 Begining description
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-Package cleveref Info: loaded `spanish' language definitions on input line 10.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3120,84 +3232,28 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[10] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[9 <./img/mpu9250_acelgyro_axes.png> <./img/mpu9250_magneto_axes.png> <./img/wa
+rningFoto.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
+\openout2 = `estructura/sistema/dron/motores.aux'.
 
-Ending description list
-) (estructura/sistema/dron/pdb.tex
-Begining description
-Ending description list
-) (estructura/sistema/dron/controladorvuelo.tex
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-Package cleveref Info: loaded `spanish' language definitions on input line 3.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-[11] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
-Begining description
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-Package cleveref Info: loaded `spanish' language definitions on input line 23.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-[12] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
-Ending description list
-Begining description
-Ending description list
-) (estructura/sistema/dron/chasis.tex
-Begining description
-Figure ChasisDroneX with width data
-Figure ChasisDroneH with width data
-Ending description list
+ (estructura/sistema/dron/motores.tex
+Figure motoresDron with width data
 )
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
-Package cleveref Info: loaded `spanish' language definitions on input line 61.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3208,18 +3264,58 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[13] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[10
 
-\openout6 = `tfgtfmthesisuam.mw'.
+ <./img/motoresDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
 
- (estructura/sistema/dron/sistemacomunicacion.tex)
-(estructura/sistema/dron/bateria.tex
-Begining description
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[11
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout2 = `estructura/sistema/dron/esc.aux'.
+
+ (estructura/sistema/dron/esc.tex
+Figure escDron with width data
+)
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[12
+
+ <./img/escDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 Package cleveref Info: loaded `spanish' language definitions on input line 9.
@@ -3233,62 +3329,591 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[14 <./img/ChasisDroneX.jpg> <./img/ChasisDroneH.jpg>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[13
 
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout2 = `estructura/sistema/dron/helices.aux'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+ (estructura/sistema/dron/helices.tex
+Begining description
+Ending description list
+Figure helicesDron with width data
+)
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+Package cleveref Info: loaded `spanish' language definitions on input line 9.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[14
+
+ <./img/helicesDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
-) (estructura/sistema/dron/chgbateria.tex)
-(estructura/sistema/sensorvientodron.tex
+) (estructura/sistema/dron/sistemacontrol.tex
 Begining description
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[15
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout2 = `estructura/sistema/dron/pdb.aux'.
+
+ (estructura/sistema/dron/pdb.tex
+Figure pdbDron with width data
+Begining description
+Ending description list
+)
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[16
+
+ <./img/pdbDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[17
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout2 = `estructura/sistema/dron/controladorvuelo.aux'.
+
+ (estructura/sistema/dron/controladorvuelo.tex
+Figure controladoraDron with width data
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+Package cleveref Info: loaded `spanish' language definitions on input line 23.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[18
+
+ <./img/controladoraDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+Ending description list
+Begining description
+Ending description list
+)
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[19] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+Package cleveref Info: loaded `spanish' language definitions on input line 9.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[20
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout2 = `estructura/sistema/dron/sistemacomunicacion.aux'.
+
+ (estructura/sistema/dron/sistemacomunicacion.tex
+Figure mandoDron with width data
+)
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+Package cleveref Info: loaded `spanish' language definitions on input line 9.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[21
+
+ <./img/mandoDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Ending description list
+) (estructura/sistema/dron/mecanica.tex
+Begining description
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[22
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout2 = `estructura/sistema/dron/chasis.aux'.
+
+ (estructura/sistema/dron/chasis.tex
+Begining description
+Figure ChasisDroneX with width data
+Figure ChasisDroneH with width data
+Ending description list
+Figure chasisDron with width data
+)
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[23
+
+ <./img/ChasisDroneX.jpg> <./img/ChasisDroneH.jpg> <./img/chasisDron.png>]
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[24
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout2 = `estructura/sistema/dron/bateria.aux'.
+
+ (estructura/sistema/dron/bateria.tex
+Begining description
+Ending description list
+Figure bateriaDron with width data
+)
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[25
+
+ <./img/bateriaDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Ending description list
+) (estructura/sistema/dron/motores.tex
+Figure motoresDron with width data
+)
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+Package cleveref Info: loaded `spanish' language definitions on input line 59.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[26
+
+ <./img/motoresDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+(estructura/sistema/dron/esc.tex
+Figure escDron with width data
+) (estructura/sistema/dron/helices.tex
+Begining description
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[27 <./img/escDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Ending description list
+Figure helicesDron with width data
+) (estructura/sistema/dron/pdb.tex
+Figure pdbDron with width data
+Begining description
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+Package cleveref Info: loaded `spanish' language definitions on input line 13.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[28 <./img/helicesDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Ending description list
+) (estructura/sistema/dron/controladorvuelo.tex
+Figure controladoraDron with width data
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package cleveref Info: loaded `spanish' language definitions on input line 11.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[29 <./img/pdbDron.png> <./img/controladoraDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+Ending description list
+Begining description
+Ending description list
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+Package cleveref Info: loaded `spanish' language definitions on input line 34.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[30] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+) (estructura/sistema/dron/chasis.tex
+Begining description
+Figure ChasisDroneX with width data
+Figure ChasisDroneH with width data
+Ending description list
+Figure chasisDron with width data
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+Package cleveref Info: loaded `spanish' language definitions on input line 22.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[31 <./img/ChasisDroneX.jpg> <./img/ChasisDroneH.jpg>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+) (estructura/sistema/dron/sistemacomunicacion.tex
+Figure mandoDron with width data
+) (estructura/sistema/dron/bateria.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[32 <./img/chasisDron.png> <./img/mandoDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+Ending description list
+Figure bateriaDron with width data
+) (estructura/sistema/sensorvientodron.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[33 <./img/bateriaDron.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+Figure warningFoto with width data
 Begining description
 Figure ChasisRaspberryDron with width data
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+Package cleveref Info: loaded `spanish' language definitions on input line 33.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[34 <./img/warningFoto.png> <./img/ChasisRaspberryDron.png>]
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
 Figure TapaIntermediaDron with width data
 Figure TapaChasisDron2 with width data
 Figure PataDron with width data
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-Package cleveref Info: loaded `spanish' language definitions on input line 35.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-[15 <./img/ChasisRaspberryDron.png>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
 Ending description list
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+Package cleveref Info: loaded `spanish' language definitions on input line 60.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[35 <./img/TapaIntermediaDron.png> <./img/TapaChasisDron2.png> <./img/PataDron.
+png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Figure warningFoto with width data
 Ending description list
 )
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
-Package cleveref Info: loaded `spanish' language definitions on input line 66.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+Package cleveref Info: loaded `spanish' language definitions on input line 68.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3299,11 +3924,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[16 <./img/TapaIntermediaDron.png> <./img/TapaChasisDron2.png> <./img/PataDron.
-png>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[36 <./img/warningFoto.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 5.
@@ -3317,23 +3941,23 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[17
+[37
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [18
+ [38
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 6.
@@ -3347,21 +3971,21 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[19] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[39] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [20
+ [40
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 7.
@@ -3375,21 +3999,21 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[21] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[41] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [22
+ [42
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 8.
@@ -3403,21 +4027,21 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[23] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[43] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [24
+ [44
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 9.
@@ -3430,7 +4054,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <11> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 2.
 ) (estetica/gamacolores.tex)
-Overfull \hbox (2.13069pt too wide) in paragraph at lines 4--81
+Overfull \hbox (2.13069pt too wide) in paragraph at lines 4--83
 \T1/txss/m/n/11 mez-cla-do con la se-lec-ción rea-li-za-da en la sec-ción an-te
 -rior: \T1/pcr/b/n/11 \documentclass[thesis,epsbased]
  []
@@ -3445,22 +4069,22 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[25] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[45] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (estetica/colores.tex) (estetica/usocolores.tex
 LaTeX Info: Redefining \. on input line 2.
@@ -3476,26 +4100,26 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[26] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[46] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -3510,10 +4134,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[27] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[47] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining description
@@ -3533,17 +4157,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[28] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[48] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
 )
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
-Package cleveref Info: loaded `spanish' language definitions on input line 84.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+Package cleveref Info: loaded `spanish' language definitions on input line 86.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3554,17 +4178,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[29] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[49] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [30
+ [50
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 10.
@@ -3582,18 +4206,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[31] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[51] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
@@ -3601,9 +4225,9 @@ Ending description list
 Begining description
 Ending description list
 ) (estructura/copyright.tex)
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
-Package cleveref Info: loaded `spanish' language definitions on input line 88.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+Package cleveref Info: loaded `spanish' language definitions on input line 90.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3614,18 +4238,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[32] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[52] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (estructura/prefacioresumen.tex
 Begining description
@@ -3644,18 +4268,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[33] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[53] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining description
@@ -3675,18 +4299,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[34] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[54] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
@@ -3695,312 +4319,312 @@ Ending description list
 \@gls@deffile=\write32
 \openout6 = `tfgtfmthesisuam.glsdefs'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 Begining description
 Ending description list
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 )
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
-Package cleveref Info: loaded `spanish' language definitions on input line 91.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
+Package cleveref Info: loaded `spanish' language definitions on input line 93.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -4011,42 +4635,42 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[35] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[55] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (estructura/referencias.tex
 Begining description
 Ending description list
 ) (estructura/bibliografia.tex)
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
-Package cleveref Info: loaded `spanish' language definitions on input line 94.
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+Package cleveref Info: loaded `spanish' language definitions on input line 96.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -4057,30 +4681,30 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[36] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[56] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 11.
@@ -4097,36 +4721,36 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[37
+[57
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining description
 Ending description list
 ) (primpas/enlazarbib.tex)
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
-Package cleveref Info: loaded `spanish' language definitions on input line 97.
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+Package cleveref Info: loaded `spanish' language definitions on input line 99.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -4137,43 +4761,44 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[38] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[58] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
-Package cleveref Info: loaded `spanish' language definitions on input line 98.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+Package cleveref Info: loaded `spanish' language definitions on input line 100.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
 
-[39] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+[59] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [40
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [60
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 12.
@@ -4182,7 +4807,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 
 
-LaTeX Warning: Reference `FIG:EJEMPLO' on page 41 undefined on input line 2.
+LaTeX Warning: Reference `FIG:EJEMPLO' on page 61 undefined on input line 2.
 
 Figure logoEPS with width data
 Figure logoEPS with width data
@@ -4197,20 +4822,21 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[41 <./img/logoEPS.png (PNG copy)>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[61 <./img/logoEPS.png (PNG copy)>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-) (elemint/graficas.tex (elemint/pgfplots.tex
+)
+(elemint/graficas.tex (elemint/pgfplots.tex
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 Package cleveref Info: loaded `spanish' language definitions on input line 8.
@@ -4224,18 +4850,19 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[42 <./img/logoEPS.png (PNG copy)> <./img/escudoUAM.png>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[62 <./img/logoEPS.png (PNG copy)> <./img/escudoUAM.png>]
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 PGFPlots: reading {data/data_d2.dat}
 PGFPlots: reading {data/data_d3.dat}
@@ -4268,10 +4895,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[43] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[63] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
@@ -4289,14 +4916,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[44] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[64] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout5 = `tfgtfmthesisuam-gnuplottex-fig1.gnuplot'.
 
@@ -4308,7 +4935,7 @@ lot manually.
 
 )) (elemint/imagenes.tex
 
-LaTeX Warning: Reference `FIG:EJEMPLO' on page 45 undefined on input line 3.
+LaTeX Warning: Reference `FIG:EJEMPLO' on page 65 undefined on input line 3.
 
 ) (elemint/gantt.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4326,14 +4953,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[45] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[65] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 6.64998pt on input line 8.
@@ -4362,14 +4989,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[46] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[66] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining description
@@ -4388,14 +5015,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[47] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[67] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 ) (elemint/presupuestos.tex
 Begining description
@@ -4422,18 +5049,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[48] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[68] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
@@ -4460,19 +5087,19 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[49] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[69] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 )
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
-Package cleveref Info: loaded `spanish' language definitions on input line 107.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+Package cleveref Info: loaded `spanish' language definitions on input line 109.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -4484,14 +5111,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[50] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[70] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (elemint/codigo.tex
 Begining enumeration
@@ -4550,14 +5177,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[51] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[71] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Overfull \hbox (29.70343pt too wide) in paragraph at lines 24--25
@@ -4676,10 +5303,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[52] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[72] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -4694,10 +5321,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[53] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[73] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 Package hyperref Info: bookmark level for unknown algorithmb defaults to 0 on i
 nput line 3.
@@ -4725,18 +5352,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[54] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[74] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining itemize
@@ -4768,18 +5395,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[55] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[75] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining enumeration
@@ -4799,9 +5426,9 @@ Begining objetive
 Ending objetive list
 Ending objetive list
 ) (elemint/hiperenlaces.tex)
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
-Package cleveref Info: loaded `spanish' language definitions on input line 111.
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+Package cleveref Info: loaded `spanish' language definitions on input line 113.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -4813,40 +5440,40 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[56] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[76] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
-Package cleveref Info: loaded `spanish' language definitions on input line 111.
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+Package cleveref Info: loaded `spanish' language definitions on input line 113.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
 
-[57] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [58
+[77] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [78
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 13.
@@ -4860,18 +5487,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[59] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[79] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Underfull \hbox (badness 2359) in paragraph at lines 24--32
@@ -4970,14 +5597,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[60] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[80] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 ) (tfgtfmthesisuam.bbl
 LaTeX Info: Redefining \. on input line 1.
@@ -4993,43 +5620,42 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[61] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[81] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [62
+ [82
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 ) (tfgtfmthesisuam.gls
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
+[83] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[63] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+ [84
 
- [64
-
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining description
@@ -5044,23 +5670,23 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[65
+[85
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [66
+ [86
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining description
@@ -5075,358 +5701,358 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[67
+[87
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [68
+ [88
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 113.
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 115.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [69] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+ [89]
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-
-[70] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+ [90] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ap\IeC {\'e}ndices A.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 115.
+(hyperref)                removing `\mathsurround' on input line 117.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 115.
+(hyperref)                removing `\z@' on input line 117.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 115.
+(hyperref)                removing `superscript' on input line 117.
 
-LaTeX Font Info:    Calculating math sizes for size <32> on input line 115.
+LaTeX Font Info:    Calculating math sizes for size <32> on input line 117.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <22.3999> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 115.
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 117.
 
-LaTeX Font Info:    Try loading font information for TS1+pxss on input line 115
+LaTeX Font Info:    Try loading font information for TS1+pxss on input line 117
 .
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pxfonts\ts1pxss.fd
 "
 File: ts1pxss.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `TS1/pxss/b/sc' in size <22.3999> not available
-(Font)              Font shape `TS1/pxss/bx/sc' tried instead on input line 115
+(Font)              Font shape `TS1/pxss/bx/sc' tried instead on input line 117
 .
 LaTeX Font Info:    Font shape `TS1/pxss/bx/sc' in size <22.3999> not available
 
-(Font)              Font shape `TS1/pxss/bx/n' tried instead on input line 115.
+(Font)              Font shape `TS1/pxss/bx/n' tried instead on input line 117.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 115.
+(Font)              size <24.88> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 115.
+(Font)              size <20.74> substituted on input line 117.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 115.
+(Font)              size <17.28> substituted on input line 117.
 
 (varios/wordlatex.tex
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `TS1/txss/bx/n' will be
 (Font)              scaled to size 11.39996pt on input line 17.
@@ -5453,44 +6079,44 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[71
+[91
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 )
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
-Package cleveref Info: loaded `spanish' language definitions on input line 116.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+Package cleveref Info: loaded `spanish' language definitions on input line 118.
 
 LaTeX Font Info:    Font shape `T1/txss/m/sc' will be
-(Font)              scaled to size 7.31494pt on input line 116.
+(Font)              scaled to size 7.31494pt on input line 118.
 LaTeX Font Info:    Font shape `TS1/txss/m/sc' in size <7.69997> not available
-(Font)              Font shape `TS1/txss/m/n' tried instead on input line 116.
+(Font)              Font shape `TS1/txss/m/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
-(Font)              scaled to size 7.31494pt on input line 116.
+(Font)              scaled to size 7.31494pt on input line 118.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -5501,18 +6127,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[72] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[92] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ap\IeC {\'e}ndices B.
@@ -5539,20 +6165,20 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[73
+[93
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining enumeration
@@ -5576,23 +6202,23 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[74] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[94] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 )
-LaTeX Info: Redefining \. on input line 117.
-LaTeX Info: Redefining \% on input line 117.
-Package cleveref Info: loaded `spanish' language definitions on input line 117.
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
+Package cleveref Info: loaded `spanish' language definitions on input line 119.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -5604,45 +6230,45 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[75] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[95] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-LaTeX Info: Redefining \. on input line 117.
-LaTeX Info: Redefining \% on input line 117.
-Package cleveref Info: loaded `spanish' language definitions on input line 117.
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
+Package cleveref Info: loaded `spanish' language definitions on input line 119.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
 
-[76] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[96] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ap\IeC {\'e}ndices C.
@@ -5661,23 +6287,23 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[77
+[97
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
 )
-LaTeX Info: Redefining \. on input line 118.
-LaTeX Info: Redefining \% on input line 118.
-Package cleveref Info: loaded `spanish' language definitions on input line 118.
+LaTeX Info: Redefining \. on input line 120.
+LaTeX Info: Redefining \% on input line 120.
+Package cleveref Info: loaded `spanish' language definitions on input line 120.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -5689,113 +6315,113 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[78] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[98] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ap\IeC {\'e}ndices D.
 (varios/opciones.tex
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Begining itemize
@@ -5823,24 +6449,24 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[79
+[99
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
@@ -5863,10 +6489,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[80] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[100] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ending description list
@@ -5885,17 +6511,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[81] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[101] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [82
+ [102
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Ap\IeC {\'e}ndices E.
@@ -5912,18 +6538,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[83] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[103] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
@@ -5938,10 +6564,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[84] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[104] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Info: Redefining \. on input line 137.
 LaTeX Info: Redefining \% on input line 137.
@@ -5957,14 +6583,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[85] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[105] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Underfull \vbox (badness 10000) detected at line 166
@@ -5979,9 +6605,9 @@ h: 1: gnuplot: not found
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
-Package cleveref Info: loaded `spanish' language definitions on input line 122.
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+Package cleveref Info: loaded `spanish' language definitions on input line 124.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -5993,24 +6619,24 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[86] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[106] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
  (tfgtfmthesisuam.ind
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [87
+ [107
 
 
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.glsdefs'.
 
@@ -6024,18 +6650,18 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[88
+[108
 
 
-] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [89] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+ [109] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6061,1256 +6687,1400 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[90 <./logoUAMw.png>] (tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
+[110 <./logoUAMw.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (tfgtfmthesisuam.aux
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
 Package cleveref Info: loaded `spanish' language definitions on input line 31.
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+(estructura/sistema/dron/motores.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
+) (estructura/sistema/dron/esc.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+(estructura/sistema/dron/helices.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ (estructura/sistema/dron/pdb.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+(estructura/sistema/dron/controladorvuelo.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+(estructura/sistema/dron/sistemacomunicacion.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+(estructura/sistema/dron/chasis.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+) (estructura/sistema/dron/bateria.aux
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 4EC23BED4A4B7B4E2483D9DE0D860837;5986.
+(rerunfilecheck)             Checksum: 477B06BBF8CED35533D60C58D9DE251B;6126.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -7346,11 +8116,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 58069 strings out of 492895
- 1278175 string characters out of 3123735
- 1952492 words of memory out of 3000000
- 60196 multiletter control sequences out of 15000+200000
- 685500 words of font info for 227 fonts, out of 3000000 for 9000
+ 58265 strings out of 492895
+ 1286567 string characters out of 3123735
+ 1959494 words of memory out of 3000000
+ 60229 multiletter control sequences out of 15000+200000
+ 684993 words of font info for 226 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,21n,108p,1987b,2454s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
@@ -7391,9 +8161,9 @@ s/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><
 C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb>
-Output written on tfgtfmthesisuam.pdf (110 pages, 4720134 bytes).
+Output written on tfgtfmthesisuam.pdf (132 pages, 8866820 bytes).
 PDF statistics:
- 1580 PDF objects out of 1728 (max. 8388607)
- 365 named destinations out of 1000 (max. 500000)
- 804 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1799 PDF objects out of 2073 (max. 8388607)
+ 420 named destinations out of 1000 (max. 500000)
+ 930 words of extra memory for PDF output out of 10000 (max. 10000000)
 
