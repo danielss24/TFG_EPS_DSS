@@ -11,7 +11,7 @@
  
  Los datos obtenidos por el sensor MPU6050 son datos sin tratar, que indican la aceleración en el instante de la medición y la inclinación respecto de la anterior medida tomada, mientras que el sensor AK8963 indica la orientación del sensor.
  
-\begin{figure}{FIG:FOTOWARNING}{PONER FOTO DE LOS SENSORES.}
+\begin{figure}[Sensor MPU0250]{FIG:FOTOWARNING}{PONER FOTO DE LOS SENSORES.}
 	\image{4cm}{}{warningFoto}
 \end{figure}
  
@@ -19,7 +19,7 @@
  
  Los cuaterniones son un conjunto de cuatro componentes complejos que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos; en mi caso lo utilizaré para las rotaciones en el espacio. Los cuaterniones se pueden expresar de la siguiente forma \cite{Graves1999}.
  
-\begin{figure}{FIG:CUATERNIONFORMULA}{Fórmula de cuaternion, podemos diferenciar w, x, y, z que son los valores reales que componen el cuaternion Q y el conjunto i, j, k que componen la parte imaginaria de las unidades. }
+\begin{figure}[Fórmula cuaternion]{FIG:CUATERNIONFORMULA}{Fórmula de cuaternion, podemos diferenciar w, x, y, z que son los valores reales que componen el cuaternion Q y el conjunto i, j, k que componen la parte imaginaria de las unidades. }
         \image{6cm}{}{cuaternionformula}
 \end{figure}
 
@@ -27,7 +27,7 @@
    Cada uno de estos elementos nos indica su rotación respecto a un eje del aeromodelo. 
  
 
-\begin{figure}{FIG:YAWPITCHROLLPLANE}{Avión con los ejes de giro, yaw, pitch y roll, obtenidos mediante cuaterniones.}
+\begin{figure}[Ejes yaw, pitch y roll]{FIG:YAWPITCHROLLPLANE}{Avión con los ejes de giro, yaw, pitch y roll, obtenidos mediante cuaterniones.}
 	\image{4cm}{}{yawpitchrollplane}
 \end{figure}
  

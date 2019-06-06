@@ -1,81 +1,15 @@
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Estado del arte}{}% 2
-\BOOKMARK [0][-]{chapter.3}{Teor\355a}{}% 3
-\BOOKMARK [0][-]{chapter.4}{Sistema}{}% 4
-\BOOKMARK [1][-]{section.4.1}{Sensor de viento}{chapter.4}% 5
-\BOOKMARK [1][-]{section.4.2}{Dron}{chapter.4}% 6
-\BOOKMARK [2][-]{subsection.4.2.1}{Sistema de propulsion}{section.4.2}% 7
-\BOOKMARK [2][-]{subsection.4.2.2}{Sistema de control}{section.4.2}% 8
-\BOOKMARK [2][-]{subsection.4.2.3}{Mec\341nica}{section.4.2}% 9
-\BOOKMARK [1][-]{section.4.3}{Sensor de viento en Dron}{chapter.4}% 10
-\BOOKMARK [0][-]{chapter.5}{Resultados experimentales y discusi\363n}{}% 11
-\BOOKMARK [0][-]{chapter.6}{Conclusi\363n y outlook}{}% 12
-\BOOKMARK [0][-]{chapter.7}{Como continuar el proyecto a partir de mis resultados}{}% 13
-\BOOKMARK [0][-]{chapter.8}{Bibliograf\355a}{}% 14
-\BOOKMARK [0][-]{chapter.9}{Est\351tica}{}% 15
-\BOOKMARK [1][-]{section.9.1}{Tipo de documento}{chapter.9}% 16
-\BOOKMARK [1][-]{section.9.2}{Gama de colores}{chapter.9}% 17
-\BOOKMARK [1][-]{section.9.3}{Colores}{chapter.9}% 18
-\BOOKMARK [1][-]{section.9.4}{Uso de los colores}{chapter.9}% 19
-\BOOKMARK [0][-]{chapter.10}{Estructura}{}% 20
-\BOOKMARK [1][-]{section.10.1}{T\355tulo, autor, tutor y otras variables}{chapter.10}% 21
-\BOOKMARK [1][-]{section.10.2}{\315ndices}{chapter.10}% 22
-\BOOKMARK [1][-]{section.10.3}{Copyright, dedicatoria y cita inicial}{chapter.10}% 23
-\BOOKMARK [1][-]{section.10.4}{Prefacio, resumen ...}{chapter.10}% 24
-\BOOKMARK [1][-]{section.10.5}{Partes, cap\355tulos ...}{chapter.10}% 25
-\BOOKMARK [1][-]{section.10.6}{Glosario, acr\363nimos y definiciones}{chapter.10}% 26
-\BOOKMARK [2][-]{subsection.10.6.1}{Glosario}{section.10.6}% 27
-\BOOKMARK [2][-]{subsection.10.6.2}{Acronimos}{section.10.6}% 28
-\BOOKMARK [2][-]{subsection.10.6.3}{Definiciones}{section.10.6}% 29
-\BOOKMARK [1][-]{section.10.7}{Referencias}{chapter.10}% 30
-\BOOKMARK [1][-]{section.10.8}{Bibliograf\355a}{chapter.10}% 31
-\BOOKMARK [0][-]{chapter.11}{Primeros pasos}{}% 32
-\BOOKMARK [1][-]{section.11.1}{Estructurar el documento}{chapter.11}% 33
-\BOOKMARK [2][-]{subsection.11.1.1}{Organizaci\363n de LaTeX2e}{section.11.1}% 34
-\BOOKMARK [2][-]{subsection.11.1.2}{Organizaci\363n de la documentaci\363n}{section.11.1}% 35
-\BOOKMARK [2][-]{subsection.11.1.3}{Otros elementos de la estructura del documento}{section.11.1}% 36
-\BOOKMARK [1][-]{section.11.2}{Enlazar la bibliograf\355a}{chapter.11}% 37
-\BOOKMARK [0][-]{chapter.12}{Elementos internos}{}% 38
-\BOOKMARK [1][-]{section.12.1}{Figuras}{chapter.12}% 39
-\BOOKMARK [2][-]{subsection.12.1.1}{Gr\341ficas}{section.12.1}% 40
-\BOOKMARK [2][-]{subsection.12.1.2}{Gr\341ficas con pgfplots}{section.12.1}% 41
-\BOOKMARK [2][-]{subsection.12.1.3}{Gr\341ficas con gnuplot}{section.12.1}% 42
-\BOOKMARK [2][-]{subsection.12.1.4}{Im\341genes}{section.12.1}% 43
-\BOOKMARK [2][-]{subsection.12.1.5}{Diagramas de Gantt}{section.12.1}% 44
-\BOOKMARK [1][-]{section.12.2}{Tablas}{chapter.12}% 45
-\BOOKMARK [2][-]{subsection.12.2.1}{Presupuestos}{section.12.2}% 46
-\BOOKMARK [1][-]{section.12.3}{Cuadros de texto}{chapter.12}% 47
-\BOOKMARK [1][-]{section.12.4}{Ecuaciones}{chapter.12}% 48
-\BOOKMARK [1][-]{section.12.5}{C\363digo}{chapter.12}% 49
-\BOOKMARK [1][-]{section.12.6}{Algoritmos}{chapter.12}% 50
-\BOOKMARK [1][-]{section.12.7}{Listas}{chapter.12}% 51
-\BOOKMARK [2][-]{subsection.12.7.1}{Listas tradicionales de LaTeX2e}{section.12.7}% 52
-\BOOKMARK [2][-]{subsection.12.7.2}{Nuevos tipos de listas}{section.12.7}% 53
-\BOOKMARK [1][-]{section.12.8}{Referencias internas e hiperenlaces}{chapter.12}% 54
-\BOOKMARK [0][-]{chapter.13}{Compilaci\363n}{}% 55
-\BOOKMARK [1][-]{section.13.1}{Pdflatex}{chapter.13}% 56
-\BOOKMARK [1][-]{section.13.2}{Arara}{chapter.13}% 57
-\BOOKMARK [1][-]{section.13.3}{Overleaf}{chapter.13}% 58
-\BOOKMARK [1][-]{section.13.4}{Permitir el uso de la shell al compilador}{chapter.13}% 59
-\BOOKMARK [0][-]{chapter*.61}{Bibliograf\355a}{}% 60
-\BOOKMARK [0][-]{section*.62}{Definiciones}{}% 61
-\BOOKMARK [0][-]{section*.64}{Acr\363nimos}{}% 62
-\BOOKMARK [-1][-]{part.1}{Ap\351ndices}{}% 63
-\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 64
-\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 65
-\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 66
-\BOOKMARK [1][-]{section.Alph1.3}{\277Cu\341l elijo?}{appendix.Alph1}% 67
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n}{part.1}% 68
-\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 69
-\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 70
-\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 71
-\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 72
-\BOOKMARK [1][-]{section.Alph2.5}{\277D\363nde est\341 el manual?}{appendix.Alph2}% 73
-\BOOKMARK [1][-]{section.Alph2.6}{Correcci\363n ortogr\341fica y codificaci\363n de caracteres}{appendix.Alph2}% 74
-\BOOKMARK [1][-]{section.Alph2.7}{\277Qu\351 editor utilizo?}{appendix.Alph2}% 75
-\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 76
-\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 77
-\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 78
-\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el pre\341mbulo}{appendix.Alph5}% 79
-\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 80
-\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 81
+\BOOKMARK [0][-]{chapter.3}{Sistema}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Sensor de viento}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Dron}{chapter.3}% 5
+\BOOKMARK [2][-]{subsection.3.2.1}{Sistema de propulsi\363n}{section.3.2}% 6
+\BOOKMARK [2][-]{subsection.3.2.2}{Sistema de control}{section.3.2}% 7
+\BOOKMARK [2][-]{subsection.3.2.3}{Mec\341nica}{section.3.2}% 8
+\BOOKMARK [1][-]{section.3.3}{Sensor de viento en Dron}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Resultados experimentales y discusi\363n}{}% 10
+\BOOKMARK [0][-]{chapter.5}{Conclusi\363n}{}% 11
+\BOOKMARK [0][-]{chapter*.45}{Bibliograf\355a}{}% 12
+\BOOKMARK [0][-]{section*.46}{Definiciones}{}% 13
+\BOOKMARK [0][-]{section*.48}{Acr\363nimos}{}% 14
+\BOOKMARK [-1][-]{part.1}{Ap\351ndices}{}% 15
