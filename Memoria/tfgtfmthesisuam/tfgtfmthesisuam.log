@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  6 JUN 2019 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  8 JUN 2019 23:54
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -949,15 +949,15 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-201966825.tex)...disabled (restricted).
+runsystem(touch w18-test-2019681434.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-201966825.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2019681434.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-201966825.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-2019681434.tex")...disabled (restricted).
 
 
 
@@ -2748,7 +2748,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 28.
+(Font)              scaled to size 11.39996pt on input line 35.
 )
 \tf@toc=\write24
 \openout6 = `tfgtfmthesisuam.toc'.
@@ -3330,9 +3330,6 @@ LaTeX Warning: Command \' invalid in math mode on input line 70.
 
 Missing character: There is no í in font cmr10!
 Figure diagramaPlacaControladora with width data
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
 Package cleveref Info: loaded `spanish' language definitions on input line 80.
@@ -3373,9 +3370,11 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 Figure mandoDron with width data
 ) (estructura/sistema/dron/mecanica.tex
 Begining description
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-Package cleveref Info: loaded `spanish' language definitions on input line 11.
+Figure ChasisDroneX with width data
+Figure ChasisDroneH with width data
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+Package cleveref Info: loaded `spanish' language definitions on input line 18.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3396,14 +3395,12 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
-Figure ChasisDroneX with width data
-Figure ChasisDroneH with width data
 Ending description list
 Figure chasisDron with width data
 Begining description
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-Package cleveref Info: loaded `spanish' language definitions on input line 38.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+Package cleveref Info: loaded `spanish' language definitions on input line 40.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3425,9 +3422,9 @@ Ending description list
 Figure bateriaDron with width data
 ) (estructura/sistema/sensorvientodron.tex
 Begining description
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-Package cleveref Info: loaded `spanish' language definitions on input line 10.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+Package cleveref Info: loaded `spanish' language definitions on input line 12.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3453,9 +3450,11 @@ Begining description
 Figure ChasisRaspberryDron with width data
 Figure TapaIntermediaDron with width data
 Figure TapaChasisDron2 with width data
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-Package cleveref Info: loaded `spanish' language definitions on input line 47.
+Figure PataDron with width data
+Ending description list
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+Package cleveref Info: loaded `spanish' language definitions on input line 54.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3473,8 +3472,6 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
-Figure PataDron with width data
-Ending description list
 Figure warningFoto with width data
 Ending description list
 )
@@ -3494,38 +3491,68 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 [18 <./img/TapaIntermediaDron.png> <./img/TapaChasisDron2.png> <./img/PataDron.
-png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
-Package cleveref Info: loaded `spanish' language definitions on input line 60.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[19 <./img/warningFoto.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
- [20
-
-]
-(tfgtfmthesisuam.mw.mw)
+png> <./img/warningFoto.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 4.
-(estructura/resultadosydiscusion.tex)
+(estructura/resultadosydiscusion.tex
+(estructura/resultados/dronsensorizacion.tex)
+(estructura/resultados/escenario.tex
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[19
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Figure planoGimnasio with width data
+) (estructura/resultados/tomamedidas.tex)
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+Package cleveref Info: loaded `spanish' language definitions on input line 12.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[20 <./img/planoGimnasio.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+Package cleveref Info: loaded `spanish' language definitions on input line 62.
+
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -3538,6 +3565,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 [21] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
@@ -3761,10 +3792,10 @@ Package gnuplottex Warning: Gnuplot execution produced errors:
 h: 1: gnuplot: not found
 .
 
-(tfgtfmthesisuam.ind)
+No file tfgtfmthesisuam.ind.
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [33
+[33
 
 
 ] (tfgtfmthesisuam.mw.mw)
@@ -4307,13 +4338,45 @@ Package cleveref Info: loaded `spanish' language definitions on input line 31.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 0DBB1C85D5D325964577015C2CA22AD0;875.
+(rerunfilecheck)             Checksum: 11C8CA36D318012DA3B25D6DE222CC3F;1177.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4346,11 +4409,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 55141 strings out of 492895
- 1216858 string characters out of 3123735
- 1626925 words of memory out of 3000000
- 57854 multiletter control sequences out of 15000+200000
- 611027 words of font info for 117 fonts, out of 3000000 for 9000
+ 55189 strings out of 492895
+ 1217922 string characters out of 3123735
+ 1628620 words of memory out of 3000000
+ 57883 multiletter control sequences out of 15000+200000
+ 612041 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,9n,105p,1987b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
@@ -4374,9 +4437,9 @@ danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
 /Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
 pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb>
-Output written on tfgtfmthesisuam.pdf (50 pages, 6361338 bytes).
+Output written on tfgtfmthesisuam.pdf (50 pages, 6393818 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 689 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

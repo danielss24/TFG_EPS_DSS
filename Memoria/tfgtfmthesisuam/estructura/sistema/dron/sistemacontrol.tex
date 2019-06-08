@@ -43,10 +43,10 @@ REF %https://www.banggood.com/Matek-F405-OSD-BetaFlight-STM32F405-Flight-Control
 El paquete recibido tiene un tamaño total de 31 bytes, con un byte inicial estándar con contenido igual a BLABLABLA, a continuación encontramos un total de 14 canales con 2 bytes por canal y un checksum al final con un tamaño de 1 byte. El paquete se transmite cada 7 ms con una tasa de baudios de 115200, es decir, un total de 115200 bits por segundo.
 Para desglosar el paquete recibido, enviado por el mando, he codificado un algoritmo en python donde diferencio y convierto cada uno de los bytes a decimal, obteniendo de esta forma un valor de cada canal entre 1000 y 2000, siendo 1000 el valor mínimo y 2000 el máximo valor posible.
 
-Para poder producir el PWM correcto y enviárselo a los controladores de velocidad, he escogido el chip PCA968 que conviertede digital a PWM y tiene hasta un máximo de 8 canales. Ha sido necesario dicho chip ya que la raspberry no cuenta con el número suficiente de canales para controlar los 4 motores.
-La configuración del chip PCA9685 se ha realizado mediante comunicación por I2C y su respectiva librería de adafruit obtenida por github. 
+Para poder producir el PWM correcto y enviárselo a los controladores de velocidad, he escogido el chip PCA9685 que convierte de digital a PWM y tiene hasta un máximo de 8 canales. Ha sido necesario dicho chip ya que la raspberry no cuenta con el número suficiente de canales para controlar los 4 motores.
+La configuración del chip PCA9685 se ha realizado mediante comunicación por I2C\footnote{I2C, es un protocolo de comunicación que cuenta con 2 cables: uno de ellos (SCL) indica los pulsos de reloj y el otro (SDA) se encarga de transportar los datos. Al contar con un único cable de datos y ser capaz de comunicar dos o más dispositivo es necesario de un maestro que se encargue de mediar la comunicación.} y su respectiva librería de adafruit obtenida por github. 
 
-I2C, es un protocolo de comunicación que cuenta con 2 cables: uno de ellos (SCL) indica los pulsos de reloj y el otro (SDA) se encarga de transportar los datos. I2C es un protocolo de comunicación entre dos o más puntos con un solo cable de datos, por ello la comunicación cuenta con un maestro que se encarga de mediar.
+
 
 He tenido que indicar desde la raspberry la frecuencia de salida de los PWM, 2000 hercios (Hz) , y el ciclo de trabajo previamente obtenido por nuestro rango de entrada entre 1000 y 2000.\cite{Industries}
 \paragraph{Sistema}
@@ -71,25 +71,25 @@ He tenido que indicar desde la raspberry la frecuencia de salida de los PWM, 200
 	\end{equation}
 \end{subequations}
 
-\begin{figure}[Diagrama placa controladora desarrollada]{FIG:DIAGRAMAPLACACONTROLADOR}{Diagrama de placa controladora. El receptor obtiene la señal mandada por el mando y la manda a la raspberry mediante el protocolo iBus. La raspberry descifra utiliza el algoritmo desarrollado el paquete en valores entre 1000 y 2000 por cada canal. Posteriormente genera la señal que tiene que mandar al controlador PCA9685 mediante la libreria de adafruit. El controlador PCA9685 convierte los datos obtenidos en PWM que manda por 4 canales a los ESC-Motores.}
-	\image{8cm}{}{diagramaPlacaControladora}
+\begin{figure}[Diagrama placa controladora desarrollada]{FIG:DIAGRAMAPLACACONTROLADOR}{Diagrama de placa controladora. El receptor obtiene la señal emitida por el mando y la envía a la raspberry mediante el protocolo iBus. La raspberry descifra el paquete utilizando el algoritmo desarrollado  en python y obteniendo valores entre 1000 y 2000 por cada canal. Posteriormente genera la señal que tiene que enviar al controlador PCA9685 mediante la librería de adafruit. El controlador PCA9685 convierte los datos obtenidos en PWM que manda por 4 canales a los ESC-Motores.}
+	\image{10cm}{}{diagramaPlacaControladora}
 \end{figure}
 
-Una vez conseguida la señal de salida PWM en función de la entrada del mando, modifico la señal a partir de los datos obtenidos por el sensor MPU9250 el cual nos indica la inclinación y fuerzas que se ejercen sobre el dron.
+Una vez conseguida la señal de salida PWM en función de la entrada del mando, modifico la señal a partir de los datos obtenidos por el sensor MPU9250, el cual nos indica la inclinación y fuerzas que se ejercen sobre el dron.
 De esta forma mandamos la potencia adecuada a cada motor para conseguir un vuelo estable y horizontal. Debido a las dificultades de probar el sistema de estabilización y su ajuste, decidí trabajar con la placa comercial.
 
 \paragraph{Sistema de comunicación}
 
  %https://es.banggood.com/FlySky-FS-i6-2_4G-6CH-AFHDS-RC-Transmitter-With-FS-iA6B-Receiver-p-983537.html?gmcCountry=ES&currency=EUR&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgcs&utm_content=garman&utm_campaign=pla-esg-rctoys-radio-pc&ad_id=338479731096&gclid=CjwKCAjw2cTmBRAVEiwA8YMgzS7EVYrO8PpApLkYJTjOdKBY6DY7hsZJ_vUVyxS805q55G8okvvf6RoCRSQQAvD_BwE&ID=42481&cur_warehouse=CN
-	El sistema de comunicación cuenta con dos componentes, receptor y transmisor, se pueden elegir diferentes tipos teniendo en cuenta su protocolo de comunicación. 
+	El sistema de comunicación está compuesto por dos componentes, receptor y transmisor, y se pueden elegir diferentes tipos teniendo en cuenta su protocolo de comunicación. 
 	
-	El sistema de comunicación tiene diferentes protocolos para transmitir la información, utiliza un protocolo de comunicación entre emisor y receptor y otro distinto entre receptor y unidad de procesamiento o controladora de vuelo.\cite{Eric2017}
+	El sistema de comunicación tiene diferentes protocolos para transmitir la información, utiliza un protocolo entre emisor y receptor y otro distinto entre receptor y unidad de procesamiento o controladora de vuelo.\cite{Eric2017}
 	
 	\begin{figure}[Mando FlySky dron]{FIG:MANDODRON}{Mando FlySky para dron.}
 	\image{4cm}{}{mandoDron}
 \end{figure}	
 	
-	El protocolo de comunicación entre receptor y emisor tiene que ser siempre iguales, es por eso que la mayoria de mandos, emisores, vienen con un receptor standard. En mi caso he utilizado un pack FlySky entre emisor y receptor.
+	El protocolo de comunicación entre emisor y receptor tiene que ser siempre igual, es por eso que la mayoría de mandos, emisores, incluyen un receptor estándar. En mi caso he utilizado un pack FlySky emisor-receptor.
 	
-	Entre el receptor y la unidad de procesamiento podemos encontrar protocolos como PWM, PPM, SBUS, iBus entre otros. La diferencia entre estos protocolos es la forma de estructurar el paquete de datos o la conexión que hay que realizar a nivel de hardware. Por su simplicidad y comodidad he utilizado el protocolo PWM que cuenta con un paquete de transmisión de 31 bytes.
+	En el caso del protocolo entre el receptor y la unidad de procesamiento podemos encontrar señales PWM, PPM, SBUS, iBus entre otras. La diferencia entre estos protocolos es la forma de estructurar el paquete de datos o la conexión que hay que realizar a nivel de hardware. Por su simplicidad y comodidad he utilizado el protocolo iBus que cuenta con un paquete de transmisión de 31 bytes.
 	
