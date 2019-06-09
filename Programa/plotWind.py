@@ -157,8 +157,8 @@ def heatmap(rutaPlot, fichero):
     # Evaluate a gaussian kde on a regular grid of nbins x nbins over data extents
     k = kde.gaussian_kde(data.T)
     # xi, yi = np.mgrid[-maxAxisValue:maxAxisValue:nbins * 1j, -maxAxisValue:maxAxisValue:nbins * 1j]
-    xi, yi = np.mgrid[-4:4:nbins * 1j, -4:4:nbins * 1j]
-    # xi, yi = np.mgrid[y.min():y.max():nbins * 1j, x.min():x.max():nbins * 1j]
+    # xi, yi = np.mgrid[-4:4:nbins * 1j, -4:4:nbins * 1j]
+    xi, yi = np.mgrid[y.min():y.max():nbins * 1j, x.min():x.max():nbins * 1j]
     zi = k(np.vstack([xi.flatten(), yi.flatten()]))
 
     axes[1].set_title('2D Density with shading')
@@ -178,7 +178,7 @@ def guardarImagen(rutaPlot,fichero,fig,numPlot):
     fig.savefig(nombreFichero)
 
 if __name__ == '__main__':
-    ruta = "2019/06/05/"
+    ruta = "2019/06/09/"
     rutaFull = "./" + ruta
     fichero = util.cargadorFich(rutaFull)
     rutaPlot = ruta+"Plot/"
