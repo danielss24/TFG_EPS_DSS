@@ -1,24 +1,54 @@
+# importing libraries 
+import random
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import numpy as np
-from numpy.random import multivariate_normal
 
-data = np.vstack([
-    multivariate_normal([10, 10], [[3, 2], [2, 3]], size=100000),
-    multivariate_normal([30, 20], [[2, 3], [1, 3]], size=1000)
-])
+fig = plt.figure()
 
-gammas = [0.8, 0.5, 0.3]
 
-fig, axes = plt.subplots(nrows=2, ncols=2)
+# function to get random values for graph
+def get_graphs():
+    xs = []
+    ys = []
+    for i in range(10):
+        xs.append(i)
+        ys.append(random.randrange(10))
+    return xs, ys
 
-axes[0, 0].set_title('Linear normalization')
-axes[0, 0].hist2d(data[:, 0], data[:, 1], bins=100)
 
-for ax, gamma in zip(axes.flat[1:], gammas):
-    ax.set_title(r'Power law $(\gamma=%1.1f)$' % gamma)
-    ax.hist2d(data[:, 0], data[:, 1], bins=100, norm=mcolors.PowerNorm(gamma))
+# defining subplots
+ax1 = fig.add_subplot(221)
+ax2 = fig.add_subplot(222)
+ax3 = fig.add_subplot(223)
+ax4 = fig.add_subplot(224)
 
-fig.tight_layout()
+# hiding the marker on axis
+x, y = get_graphs()
+# x =(50,51,52,53,54,55,56,57,58,59)
+ax1.plot(x, y)
+ax1.tick_params(axis='both', which='both', length=0)
 
-plt.show()
+# One can also change marker length
+# by setting (length = any float value)
+
+# hiding the ticks and markers
+# x, y = get_graphs()
+x =(50,51,52,53,54,55,56,57,58,59)
+ax2.plot(x, y)
+ax1.tick_params(axis='both', which='both', length=0)
+# ax2.axes.get_xaxis().set_visible(False)
+# ax2.axes.get_yaxis().set_visible(False)
+
+# hiding the values and displaying the marker 
+x, y = get_graphs()
+ax3.plot(x, y)
+ax3.yaxis.set_major_formatter(plt.NullFormatter())
+ax3.xaxis.set_major_formatter(plt.NullFormatter())
+
+# tilting the ticks (usually needed when 
+# the ticks are densely populated) 
+x, y = get_graphs()
+ax4.plot(x, y)
+ax4.tick_params(axis='x', rotation=45)
+ax4.tick_params(axis='y', rotation=-45)
+
+plt.show() 

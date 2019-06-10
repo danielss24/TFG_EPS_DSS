@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  8 JUN 2019 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  10 JUN 2019 12:15
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -949,15 +949,15 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2019681434.tex)...disabled (restricted).
+runsystem(touch w18-test-2019610735.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2019681434.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2019610735.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-2019681434.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-2019610735.tex")...disabled (restricted).
 
 
 
@@ -2748,7 +2748,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 35.
+(Font)              scaled to size 11.39996pt on input line 37.
 )
 \tf@toc=\write24
 \openout6 = `tfgtfmthesisuam.toc'.
@@ -2858,7 +2858,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 ...{Estado del arte\label{CAP:ESTADODELARTE}}
+l.50 ...{Estado del arte\label{CAP:ESTADODELARTE}}
                                                   {inicio/estadodelarte}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2872,11 +2872,23 @@ l.47 ...{Estado del arte\label{CAP:ESTADODELARTE}}
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 ...{Estado del arte\label{CAP:ESTADODELARTE}}
+l.50 ...{Estado del arte\label{CAP:ESTADODELARTE}}
                                                   {inicio/estadodelarte}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2902,7 +2914,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \chapter{Sistema\label{CAP:SISTEMA}}
+l.52 \chapter{Sistema\label{CAP:SISTEMA}}
                                          {estructura/sistema}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2918,7 +2930,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \chapter{Sistema\label{CAP:SISTEMA}}
+l.52 \chapter{Sistema\label{CAP:SISTEMA}}
                                          {estructura/sistema}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2994,7 +3006,7 @@ ne.png (PNG copy)>] (tfgtfmthesisuam.mw.mw)
 Figure warningFoto with width data
 )
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 54.
+(Font)              scaled to size 13.67995pt on input line 57.
  (estructura/sistema/dron/sistemapropulsion.tex
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
@@ -3254,9 +3266,9 @@ Figure helicePunta with width data
 Figure heliceBullnose with width data
 Figure heliceHBullnose with width data
 )
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
-Package cleveref Info: loaded `spanish' language definitions on input line 55.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+Package cleveref Info: loaded `spanish' language definitions on input line 58.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3475,9 +3487,9 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 Figure warningFoto with width data
 Ending description list
 )
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
-Package cleveref Info: loaded `spanish' language definitions on input line 60.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3525,10 +3537,12 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 
 Figure planoGimnasio with width data
-) (estructura/resultados/tomamedidas.tex)
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-Package cleveref Info: loaded `spanish' language definitions on input line 12.
+) (estructura/resultados/tomamedidas.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+Package cleveref Info: loaded `spanish' language definitions on input line 5.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3544,14 +3558,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 [20 <./img/planoGimnasio.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-)
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
-Package cleveref Info: loaded `spanish' language definitions on input line 62.
+))
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+Package cleveref Info: loaded `spanish' language definitions on input line 65.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3565,6 +3575,10 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 [21] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
@@ -3768,7 +3782,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 107.
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 110.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -3832,8 +3846,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [34 <./logoUAMw.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
  (tfgtfmthesisuam.aux
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
@@ -4370,13 +4384,21 @@ Package cleveref Info: loaded `spanish' language definitions on input line 31.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 11C8CA36D318012DA3B25D6DE222CC3F;1177.
+(rerunfilecheck)             Checksum: C9C951E8D8412294E53A6B3AC67E23CF;1352.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4409,11 +4431,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 55189 strings out of 492895
- 1217922 string characters out of 3123735
- 1628620 words of memory out of 3000000
- 57883 multiletter control sequences out of 15000+200000
- 612041 words of font info for 119 fonts, out of 3000000 for 9000
+ 55194 strings out of 492895
+ 1218021 string characters out of 3123735
+ 1628499 words of memory out of 3000000
+ 57886 multiletter control sequences out of 15000+200000
+ 611534 words of font info for 118 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,9n,105p,1987b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
@@ -4437,9 +4459,9 @@ danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
 /Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
 pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb>
-Output written on tfgtfmthesisuam.pdf (50 pages, 6393818 bytes).
+Output written on tfgtfmthesisuam.pdf (50 pages, 6395675 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
