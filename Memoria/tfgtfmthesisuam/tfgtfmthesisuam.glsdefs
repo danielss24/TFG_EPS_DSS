@@ -1,3 +1,93 @@
+\ifglsentryexists{cw}{}%
+{%
+\gls@defglossaryentry{cw}%
+{%
+name={CW},%
+sort={CW},%
+type={acronym},%
+first={Continuous Wave\glsspace (CW)},%
+firstplural={Continuous Waves\glsspace (CWs)},%
+text={CW},%
+plural={CWs},%
+description={Continuous Wave},%
+descriptionplural={Continuous Wave\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Continuous Wave},%
+longplural={Continuous Waves},%
+short={CW},%
+shortplural={CWs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ccw}{}%
+{%
+\gls@defglossaryentry{ccw}%
+{%
+name={CCW},%
+sort={CCW},%
+type={acronym},%
+first={Counter Continuous Wave\glsspace (CCW)},%
+firstplural={Counter Continuous Waves\glsspace (CCWs)},%
+text={CCW},%
+plural={CCWs},%
+description={Counter Continuous Wave},%
+descriptionplural={Counter Continuous Wave\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Counter Continuous Wave},%
+longplural={Counter Continuous Waves},%
+short={CCW},%
+shortplural={CCWs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{kv}{}%
+{%
+\gls@defglossaryentry{kv}%
+{%
+name={KV},%
+sort={KV},%
+type={acronym},%
+first={Kilo Voltage\glsspace (KV)},%
+firstplural={Kilo Voltages\glsspace (KVs)},%
+text={KV},%
+plural={KVs},%
+description={Kilo Voltage},%
+descriptionplural={Kilo Voltage\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Kilo Voltage},%
+longplural={Kilo Voltages},%
+short={KV},%
+shortplural={KVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{pwm}{}%
 {%
 \gls@defglossaryentry{pwm}%
@@ -53,6 +143,216 @@ long={Electronic Speed Controller},%
 longplural={Electronic Speed Controllers},%
 short={ESC},%
 shortplural={ESCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pdb}{}%
+{%
+\gls@defglossaryentry{pdb}%
+{%
+name={PDB},%
+sort={PDB},%
+type={acronym},%
+first={Pluggable Database\glsspace (PDB)},%
+firstplural={Pluggable Databases\glsspace (PDBs)},%
+text={PDB},%
+plural={PDBs},%
+description={Pluggable Database},%
+descriptionplural={Pluggable Database\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Pluggable Database},%
+longplural={Pluggable Databases},%
+short={PDB},%
+shortplural={PDBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tfg}{}%
+{%
+\gls@defglossaryentry{tfg}%
+{%
+name={TFG},%
+sort={TFG},%
+type={acronym},%
+first={Trabajo final de grado\glsspace (TFG)},%
+firstplural={Trabajo final de grados\glsspace (TFGs)},%
+text={TFG},%
+plural={TFGs},%
+description={Trabajo final de grado},%
+descriptionplural={Trabajo final de grado\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Trabajo final de grado},%
+longplural={Trabajo final de grados},%
+short={TFG},%
+shortplural={TFGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ppm}{}%
+{%
+\gls@defglossaryentry{ppm}%
+{%
+name={PPM},%
+sort={PPM},%
+type={acronym},%
+first={Parts per million\glsspace (PPM)},%
+firstplural={Parts per millions\glsspace (PPMs)},%
+text={PPM},%
+plural={PPMs},%
+description={Parts per million},%
+descriptionplural={Parts per million\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Parts per million},%
+longplural={Parts per millions},%
+short={PPM},%
+shortplural={PPMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nicd}{}%
+{%
+\gls@defglossaryentry{nicd}%
+{%
+name={NiCd},%
+sort={NiCd},%
+type={acronym},%
+first={Niquel Cadmio\glsspace (NiCd)},%
+firstplural={Niquel Cadmios\glsspace (NiCds)},%
+text={NiCd},%
+plural={NiCds},%
+description={Niquel Cadmio},%
+descriptionplural={Niquel Cadmio\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Niquel Cadmio},%
+longplural={Niquel Cadmios},%
+short={NiCd},%
+shortplural={NiCds},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lion}{}%
+{%
+\gls@defglossaryentry{lion}%
+{%
+name={L-ion},%
+sort={L-ion},%
+type={acronym},%
+first={Ion Litio\glsspace (L-ion)},%
+firstplural={Ion Litios\glsspace (L-ions)},%
+text={L-ion},%
+plural={L-ions},%
+description={Ion Litio},%
+descriptionplural={Ion Litio\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ion Litio},%
+longplural={Ion Litios},%
+short={L-ion},%
+shortplural={L-ions},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lipo}{}%
+{%
+\gls@defglossaryentry{lipo}%
+{%
+name={LiPo},%
+sort={LiPo},%
+type={acronym},%
+first={Pol\IeC {\'\i }mero de Ion Litio\glsspace (LiPo)},%
+firstplural={Pol\IeC {\'\i }mero de Ion Litios\glsspace (LiPos)},%
+text={LiPo},%
+plural={LiPos},%
+description={Polímero de Ion Litio},%
+descriptionplural={Polímero de Ion Litio\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Pol\IeC {\'\i }mero de Ion Litio},%
+longplural={Pol\IeC {\'\i }mero de Ion Litios},%
+short={LiPo},%
+shortplural={LiPos},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ies}{}%
+{%
+\gls@defglossaryentry{ies}%
+{%
+name={IES},%
+sort={IES},%
+type={acronym},%
+first={Instituto de Educaci\IeC {\'o}n Secundaria Obligatoria\glsspace (IES)},%
+firstplural={Instituto de Educaci\IeC {\'o}n Secundaria Obligatorias\glsspace (IESs)},%
+text={IES},%
+plural={IESs},%
+description={Instituto de Educación Secundaria Obligatoria},%
+descriptionplural={Instituto de Educación Secundaria Obligatoria\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Instituto de Educaci\IeC {\'o}n Secundaria Obligatoria},%
+longplural={Instituto de Educaci\IeC {\'o}n Secundaria Obligatorias},%
+short={IES},%
+shortplural={IESs},%
 counter={page},%
 parent={},%
 %

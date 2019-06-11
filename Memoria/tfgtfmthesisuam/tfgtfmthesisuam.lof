@@ -2,35 +2,32 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sensor MPU0250}}{6}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces F\IeC {\'o}rmula cuaternion}}{6}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejes yaw, pitch y roll}}{6}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejes MPU9250}}{7}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{7}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{7}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Dron b\IeC {\'a}sico}}{7}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Motores dron}}{8}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Controlador de velocidad}}{9}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Tipos de h\IeC {\'e}lices dron}}{10}{figure.caption.23}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{10}{figure.caption.23}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{10}{figure.caption.23}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{10}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Placa distribuidora de potencia}}{10}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Controladora de dron}}{11}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama placa controladora desarrollada}}{13}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Mando FlySky dron}}{14}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Chasis dron en X y H}}{15}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{15}{figure.caption.36}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{15}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Chasis dron}}{15}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Bater\IeC {\'\i }a dron}}{16}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Dron con y sin piezas a\IeC {\~n}adidas}}{17}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Chasis raspberry dron}}{17}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Zona sensorizaci\IeC {\'o}n dron}}{18}{figure.caption.42}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{18}{figure.caption.42}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{18}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Pata dron}}{18}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Foto del dron con sensorizaci\IeC {\'o}n de viento}}{18}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sensor MPU0250}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces F\IeC {\'o}rmula cuaternion}}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejes yaw, pitch y roll}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejes MPU9250}}{7}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{7}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Dron b\IeC {\'a}sico}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Tipos de h\IeC {\'e}lices dron}}{9}{figure.caption.17}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{9}{figure.caption.17}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{9}{figure.caption.17}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces lof}}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama placa controladora desarrollada}}{12}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Dron con y sin piezas a\IeC {\~n}adidas}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Chasis raspberry dron}}{15}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Zona sensorizaci\IeC {\'o}n dron}}{16}{figure.caption.30}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces lof}}{16}{figure.caption.30}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces lof}}{16}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Pata dron}}{16}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Foto del dron con sensorizaci\IeC {\'o}n de viento}}{17}{figure.caption.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Plano gimnasio IES Valle Incl\IeC {\'a}n.}}{20}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Plano gimnasio IES Valle Incl\IeC {\'a}n.}}{20}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Aceleraciones en 3 ejes.}}{22}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Puntos de medida}}{22}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Mapa de calor con zoom}}{23}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mapa de calor sin zoom}}{23}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mapa viento 2D - Z0}}{24}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Mapa viento 2D - Z1}}{25}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Mapa de viento 3D}}{26}{figure.caption.42}%
 \addvspace {10\p@ }

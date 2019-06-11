@@ -1,25 +1,26 @@
 
-En esta sección describiré como unifico el sensor de viento con el dron y que es necesario para que todo funcione como un único sistema.
-Para poder llevar a cabo esta unión se ha de tener en cuenta el peso del sistema de viento, raspberry y sensorización, junto con el peso del dron para hacer una estimación media de la duración de vuelo.
+En esta sección describiré como unifico el sensor de viento con el dron y qué es necesario para que todo funcione como un único sistema.
+Para poder llevar a cabo esta unión se ha de tener en cuenta el peso del sistema de viento, la Raspberry y el sistema de sensorización, junto con el peso del dron para hacer una estimación media de la duración de vuelo.
 
+A continuación explicaré los tres pasos que he llevado a cabo: en primer lugar desde donde empiezo, seguido de como junto todos los sistemas y finalizando con como funciona todo el conjunto.
 
 %\paragraph{Uniendo sistemas}
 \begin{description}
 \item[Desde donde parto]
-Para poder diseñar un sensor de viento que funcione con un dron primero hay que estudiar que sistema de estabilización usa el dron, podemos diferenciar entre dos principales sistemas. Un primer sistema realiza una estabilización del dron que registra la desviación de su posición desde un punto y lo corrige para mantenerse siempre en el mismo punto. El segundo sistema de estabilización, intenta que el dron no se caiga modificando la potencia de los motores acorde con la fuerza que se ejerce sobre el, de esta forma consigue que el dron esté los más horizontal posible.
+Para poder diseñar un sensor de viento que funcione con un dron primero hay que estudiar que sistema de estabilización usa el dron, podemos diferenciar entre dos sistemas principales. Un primer sistema realiza una estabilización del dron que registra la desviación de su posición desde un punto y lo corrige para mantenerse siempre en ese mismo punto. El segundo sistema de estabilización intenta que el dron no se caiga, modificando la potencia de los motores acorde con la fuerza que se ejerce sobre el, de esta forma consigue que el dron esté los más horizontal posible.
 
-En mi caso, uso un sistema comercial que funciona como el segundo sistema descrito y por tanto uso un giroscopio para poder medir dichas variaciones. En el caso de usar el primer sistema se debería usar una medición de la potencia suministrada a los motores para ver que potencia esta ejerciendo para contrarrestar la fuerza que se ejerce sobre él.
+En mi caso, uso un placa comercial que funciona como el segundo sistema descrito y por tanto uso un giroscopio para poder medir las diferentes inclinaciones y fuerzas que sufre el dron. En el caso de utilizar el primer sistema se debería usar una medición de la potencia suministrada a los motores para ver que potencia se esta ejerciendo para contrarrestar la fuerza que se ejerce sobre él.
 
   \begin{figure}[Dron con y sin piezas añadidas]{FIG:FOTOWARNING}{PONER FOTO DE DRON VIRGEN Y RASPY/SENSOR.}
 	\image{4cm}{}{warningFoto}
 \end{figure}
 
-Por otro lado contamos con un chasis base de un dron de 220 mm de longitud de hélice a hélice donde es necesario montar un soporte para instalar nuestro ordenador o unidad de procesamiento, en mi caso una Raspberry Pi 3 B+, y nuestro sistema de sensorización.
+Por otro lado contamos con un chasis base de un dron de 220 mm entre ejes donde es necesario montar un soporte para instalar nuestro ordenador o unidad de procesamiento, en mi caso una Raspberry Pi 3 B+, y nuestro sistema de sensorización.
 
 \item[Como lo junto]
-Para poder unir los dos sistemas y realizar medidas en vuelo, he tenido que diseñar una serie de piezas 3D para sus posterior impresión y acoplamiento en el chasis del dron.
+Para poder unir los dos sistemas y realizar medidas en vuelo, he tenido que aprender a utilizar un software específico para diseñar una serie de piezas 3D y así poder acoplar la sensorización al dron.
 
-Entre las piezas de impresión podemos contar con:
+Entre las piezas de impresión contamos con:
 \begin{description}
 \item[Soporte Raspberry Pi]
 Para el soporte de la Raspberry Pi 3 B+, he diseñado una pieza que se acopla en la parte inferior del chasis del dron. 
@@ -30,7 +31,8 @@ Para el soporte de la Raspberry Pi 3 B+, he diseñado una pieza que se acopla en
 
 \item[Zona de sensorización: ]
 
-Una vez instalado el soporte de la Raspberry he diseñado una tapa intermedia donde se puede instalar el sistema de sensorización necesario. Esta zona esta diseñada con suficiente espacio para instalar mas sensores a parte del sensor base diseñado, sensor de viento, como por ejemplo un sensor de gas con sus componentes necesarios.
+Una vez instalado el soporte de la Raspberry, he diseñado una tapa intermedia donde se puede instalar el sistema de sensorización necesario. 
+Esta zona esta diseñada con suficiente espacio para poder instalar además del sensor base diseñado, sensor de viento, otros sensores como por ejemplo un sensor de gas con sus componentes necesarios.
 
 \begin{figure}[Zona sensorización dron]{FIG:ZONASENSORIZACION}{Zona de sensorización. Tapa intermedia \ref{SBFIG:TAPAINTERMEDIA} acoplada al soporte de la raspberry \ref{FIG:CHASISRASPIDRON} y a ella se ancla la tapa \ref{SBFIG:TAPACHASISDRON} para cerrar nuestro modelo.}
 	
@@ -39,25 +41,25 @@ Una vez instalado el soporte de la Raspberry he diseñado una tapa intermedia do
   
 \end{figure} 
 
-Al diseñarlo de forma modular, por piezas, podemos modificar la tapa del chasis del dron \ref{SBFIG:TAPACHASISDRON} y diseñar otra forma o ampliar el espacio para que se acople a la tapa intermedia  \ref{SBFIG:TAPAINTERMEDIA}.
+Al diseñar las piezas de forma independiente podemos modificar, en caso de necesidad, la tapa del chasis del dron \ref{SBFIG:TAPACHASISDRON} y crear otra forma o ampliar el espacio respetando el acoplamiento a la tapa intermedia  \ref{SBFIG:TAPAINTERMEDIA}.
 
 \item[Elementos de aterrizaje]
 
-Una vez instaladas las anteriores piezas, hemos prolongado el dron por su parte inferior un total de TANTOS cm y es necesario instalar un tren de aterrizaje.
+Una vez instaladas las anteriores piezas, he prolongado el dron por su parte inferior un total de TANTOS cm y por ello es necesario instalar un tren de aterrizaje.
 
 \begin{figure}[Pata dron]{FIG:PATADRON}{Diseño de pata del dron del tren de aterrizaje.}
 	\image{4cm}{}{PataDron}
 \end{figure}
 \end{description}
 
-Para el tren de aterrizaje se ha probado instalar un total de 4 patas, una por cada motor. Por problemas de estabilidad se eliminó una de ellas y la tercera se instaló en la parte delantera-media del dron. Con 3 patas nos aseguramos aterrizar el dron en una superficie plana.
+Para el tren de aterrizaje he probado a instalar un total de 4 patas, una por cada motor. Por problemas de estabilidad se eliminó una de ellas, distribuyendo 2 de las patas en los motores traseros y la tercera en la parte delantera-media del dron. Con 3 patas nos aseguramos aterrizar el dron correctamente en una superficie plana.
 
-\item[Como funciona todo junto]
+\item[Funcionando conjuntamente]
 
 Una vez unido todo como un solo sistema, dron y sensorización junto con la raspberry, procederé a realizar las mediciones con el dron volando.
 
-Para tomar las medidas correctamente se tiene que mantener volando. Se obtienen los datos a partir de la variación de su posición en cuanto a inclinación que sufre por fuerzas como el viento.
-Para la realización de esta prueba contamos con los cálculos de vuelo previamente hechos sobre un dron con un peso máximo de 900 gramos y con una batería de 3 celdas y 1500 mAh de capacidad. El único manejo que se ha de hacer con el dron a la hora de medir es modificar su altura ya que no tiene un sistema automático de mantenimiento de distancia respecto del suelo.
+Para tomar las medidas correctamente con el dron se tiene que mantener volando, los datos se obtienen a partir de la variación de su posición en cuanto a inclinación que sufre por fuerzas como el viento.
+Para la realización de esta prueba contamos con los cálculos de vuelo previamente hechos sobre un dron con un peso máximo de 900 gramos y con una batería de 3 celdas y 1500 mAh de capacidad. El único manejo que se debe hacer con el dron en el momento de medir es modificar su altura ya que no tiene un sistema automático de mantenimiento de distancia respecto del suelo.
 
   \begin{figure}[Foto del dron con sensorización de viento]{FIG:FOTOWARNING}{FOTO DEL SISTEMA FINAL.}
 	\image{4cm}{}{warningFoto}

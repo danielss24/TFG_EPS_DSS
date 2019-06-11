@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  10 JUN 2019 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  11 JUN 2019 23:36
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -949,15 +949,15 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2019610735.tex)...disabled (restricted).
+runsystem(touch w18-test-20196111416.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2019610735.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20196111416.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-2019610735.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-20196111416.tex")...disabled (restricted).
 
 
 
@@ -1960,34 +1960,34 @@ LaTeX Warning: Label `FIG:FOTOWARNING@cref' multiply defined.
 )
 \openout1 = `tfgtfmthesisuam.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 45.
  ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for T1+txss on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 45.
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\t1txss.fd"
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.44997pt on input line 44.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+(Font)              scaled to size 10.44997pt on input line 45.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2039,7 +2039,7 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.13).
 
 (tfgtfmthesisuam.glsdefs)
 \AtBeginShipoutBox=\box113
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -2051,14 +2051,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count437
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
  (tfgtfmthesisuam.out) (tfgtfmthesisuam.out)
 \@outlinefile=\write23
 \openout6 = `tfgtfmthesisuam.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 45.
 
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -2118,48 +2118,48 @@ Overfull \hbox (73.48502pt too wide) has occurred while \output is active
 []
  []
 
-LaTeX Font Info:    Try loading font information for T1+pxss on input line 44.
+LaTeX Font Info:    Try loading font information for T1+pxss on input line 45.
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pxfonts\t1pxss.fd"
 File: t1pxss.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.44997pt on input line 44.
+(Font)              scaled to size 10.44997pt on input line 45.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 44.
+(Font)              scaled to size 16.41594pt on input line 45.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 44.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 44.
+(Font)              scaled to size 16.41594pt on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 45.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 44.
+(Font)              size <5> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 44.
+(Font)              size <5> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 44.
+(Font)              size <5> substituted on input line 45.
 
-LaTeX Font Info:    Try loading font information for T1+pxr on input line 44.
+LaTeX Font Info:    Try loading font information for T1+pxr on input line 45.
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pxfonts\t1pxr.fd"
 File: t1pxr.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <25> not available
-(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 44.
+(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 44.
+(Font)              scaled to size 11.39996pt on input line 45.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+txss on input line 44.
+(Font)              scaled to size 7.59998pt on input line 45.
+LaTeX Font Info:    Try loading font information for TS1+txss on input line 45.
 
 ("C:\Users\danie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ts1txss.fd
 "
 File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 44.
+(Font)              scaled to size 7.59998pt on input line 45.
 
 
 Package morewrites Warning: File 'tfgtfmthesisuam.mw' exists, using
@@ -2638,11 +2638,11 @@ Package morewrites Warning: File 'tfgtfmthesisuam.mw' exists, using
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <12> not available
-(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 44.
+(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 44.
+(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 44.
+(Font)              Font shape `T1/pxr/bx/n' tried instead on input line 45.
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [3 <./logoEPS.png (PNG copy)> <./logoUAM.png>]
@@ -2655,9 +2655,9 @@ LaTeX Font Info:    Font shape `T1/pxr/b/n' in size <20.74> not available
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <11> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 44.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 10.44997pt on input line 44.
+(Font)              scaled to size 10.44997pt on input line 45.
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
  [5] (tfgtfmthesisuam.mw.mw)
@@ -2671,14 +2671,17 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <32> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 44.
- (inicio/agradecimientos.tex)
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 45.
+ (inicio/prefacio.tex
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 7.31494pt on input line 1.
+)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
 
 LaTeX Font Info:    Font shape `T1/txss/m/sc' will be
-(Font)              scaled to size 10.44997pt on input line 44.
+(Font)              scaled to size 10.44997pt on input line 45.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -2696,10 +2699,8 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- (inicio/resumen.tex
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 7.31494pt on input line 7.
-)
+
+(inicio/agradecimientos.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -2721,7 +2722,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- (inicio/abstract.tex)
+ (inicio/resumen.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -2743,17 +2744,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- (tfgtfmthesisuam.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package cleveref Info: loaded `spanish' language definitions on input line 1.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 37.
-)
-\tf@toc=\write24
-\openout6 = `tfgtfmthesisuam.toc'.
-
-
+ (inicio/abstract.tex)
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -2775,27 +2766,16 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- (tfgtfmthesisuam.loa)
-\tf@loa=\write25
-\openout6 = `tfgtfmthesisuam.loa'.
-
-(tfgtfmthesisuam.lol)
-\tf@lol=\write26
-\openout6 = `tfgtfmthesisuam.lol'.
-
- (tfgtfmthesisuam.ltb)
-\tf@ltb=\write27
-\openout6 = `tfgtfmthesisuam.ltb'.
-
- (tfgtfmthesisuam.loe)
-\tf@loe=\write28
-\openout6 = `tfgtfmthesisuam.loe'.
-
-
-(tfgtfmthesisuam.lof
+ (tfgtfmthesisuam.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 11.39996pt on input line 36.
+)
+\tf@toc=\write24
+\openout6 = `tfgtfmthesisuam.toc'.
+
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -2811,21 +2791,24 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 [15] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-)
-\tf@lof=\write29
-\openout6 = `tfgtfmthesisuam.lof'.
+\openout6 = `tfgtfmthesisuam.mw.mw'.
 
- (tfgtfmthesisuam.lot
+ [16
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ (tfgtfmthesisuam.loe)
+\tf@loe=\write25
+\openout6 = `tfgtfmthesisuam.loe'.
+
+(tfgtfmthesisuam.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 )
-\tf@lot=\write30
-\openout6 = `tfgtfmthesisuam.lot'.
-
- (tfgtfmthesisuam.ltb)
-\tf@ltb=\write31
-\openout6 = `tfgtfmthesisuam.ltb'.
+\tf@lof=\write26
+\openout6 = `tfgtfmthesisuam.lof'.
 
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
@@ -2839,7 +2822,14 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[16] (tfgtfmthesisuam.mw.mw)
+[17] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [18
+
+] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
@@ -2858,14 +2848,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 ...{Estado del arte\label{CAP:ESTADODELARTE}}
+l.48 ...{Estado del arte\label{CAP:ESTADODELARTE}}
                                                   {inicio/estadodelarte}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
-[1
-
-] (tfgtfmthesisuam.mw.mw)
+[1] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
@@ -2888,7 +2876,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 ...{Estado del arte\label{CAP:ESTADODELARTE}}
+l.48 ...{Estado del arte\label{CAP:ESTADODELARTE}}
                                                   {inicio/estadodelarte}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2914,7 +2902,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \chapter{Sistema\label{CAP:SISTEMA}}
+l.50 \chapter{Sistema\label{CAP:SISTEMA}}
                                          {estructura/sistema}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2930,7 +2918,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \chapter{Sistema\label{CAP:SISTEMA}}
+l.50 \chapter{Sistema\label{CAP:SISTEMA}}
                                          {estructura/sistema}
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -2981,8 +2969,6 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Figure mpu9250_magneto_axes with width data
 ) (estructura/sistema/dron.tex
-Underfull \vbox (badness 2073) has occurred while \output is active []
-
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 Package cleveref Info: loaded `spanish' language definitions on input line 4.
@@ -3006,38 +2992,9 @@ ne.png (PNG copy)>] (tfgtfmthesisuam.mw.mw)
 Figure warningFoto with width data
 )
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 57.
+(Font)              scaled to size 13.67995pt on input line 55.
  (estructura/sistema/dron/sistemapropulsion.tex
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-Package cleveref Info: loaded `spanish' language definitions on input line 10.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[7 <./img/mpu9250_acelgyro_axes.png> <./img/mpu9250_magneto_axes.png> <./img/wa
-rningFoto.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Figure motoresDron with width data
-\@gls@deffile=\write32
+\@gls@deffile=\write27
 \openout6 = `tfgtfmthesisuam.glsdefs'.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
@@ -3240,200 +3197,11 @@ Figure motoresDron with width data
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-Figure escDron with width data
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
-Package cleveref Info: loaded `spanish' language definitions on input line 41.
 
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+\T1/txss/m/n/11 mis-mo y sin nin-gún con-trol.
  []
 
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[8 <./img/motoresDron.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Begining description
-Ending description list
-Figure helicePunta with width data
-Figure heliceBullnose with width data
-Figure heliceHBullnose with width data
-)
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-Package cleveref Info: loaded `spanish' language definitions on input line 58.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[9 <./img/escDron.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-(estructura/sistema/dron/sistemacontrol.tex
-Figure pdbDron with width data
-Begining description
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
-Package cleveref Info: loaded `spanish' language definitions on input line 16.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[10 <./img/helicePunta.jpg> <./img/heliceBullnose.png> <./img/heliceHBullnose.j
-pg> <./img/pdbDron.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Ending description list
-Figure controladoraDron with width data
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-Package cleveref Info: loaded `spanish' language definitions on input line 45.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[11 <./img/controladoraDron.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Begining description
-Ending description list
-Begining description
-Ending description list
-
-LaTeX Warning: Command \' invalid in math mode on input line 70.
-
-Missing character: There is no í in font cmr10!
-Figure diagramaPlacaControladora with width data
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-Package cleveref Info: loaded `spanish' language definitions on input line 80.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[12] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-Package cleveref Info: loaded `spanish' language definitions on input line 80.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[13 <./img/diagramaPlacaControladora.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Figure mandoDron with width data
-) (estructura/sistema/dron/mecanica.tex
-Begining description
-Figure ChasisDroneX with width data
-Figure ChasisDroneH with width data
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-Package cleveref Info: loaded `spanish' language definitions on input line 18.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[14 <./img/mandoDron.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Ending description list
-Figure chasisDron with width data
-Begining description
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
-Package cleveref Info: loaded `spanish' language definitions on input line 40.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[15 <./img/ChasisDroneX.jpg> <./img/ChasisDroneH.jpg> <./img/chasisDron.png>]
-(tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Ending description list
-Figure bateriaDron with width data
-) (estructura/sistema/sensorvientodron.tex
-Begining description
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 Package cleveref Info: loaded `spanish' language definitions on input line 12.
@@ -3449,7 +3217,320 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[16 <./img/bateriaDron.png>] (tfgtfmthesisuam.mw.mw)
+[7 <./img/mpu9250_acelgyro_axes.png> <./img/mpu9250_magneto_axes.png> <./img/wa
+rningFoto.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
@@ -3457,88 +3538,44 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
-Figure warningFoto with width data
 Begining description
-Figure ChasisRaspberryDron with width data
-Figure TapaIntermediaDron with width data
-Figure TapaChasisDron2 with width data
-Figure PataDron with width data
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+Package cleveref Info: loaded `spanish' language definitions on input line 55.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[8] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
 Ending description list
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
-Package cleveref Info: loaded `spanish' language definitions on input line 54.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[17 <./img/warningFoto.png> <./img/ChasisRaspberryDron.png>]
-(tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Figure warningFoto with width data
-Ending description list
-)
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
-Package cleveref Info: loaded `spanish' language definitions on input line 63.
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[18 <./img/TapaIntermediaDron.png> <./img/TapaChasisDron2.png> <./img/PataDron.
-png> <./img/warningFoto.png>] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Cap\'{\i }tulo 4.
-(estructura/resultadosydiscusion.tex
-(estructura/resultados/dronsensorizacion.tex)
-(estructura/resultados/escenario.tex
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[19
-
-] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Figure planoGimnasio with width data
-) (estructura/resultados/tomamedidas.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Figure helicePunta with width data
+Figure heliceBullnose with width data
+Figure heliceHBullnose with width data
+) (estructura/sistema/dron/sistemacontrol.tex
+Underfull \vbox (badness 1715) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
@@ -3555,13 +3592,1007 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+[9 <./img/helicePunta.jpg> <./img/heliceBullnose.png> <./img/heliceHBullnose.jp
+g>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+Ending description list
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+Package cleveref Info: loaded `spanish' language definitions on input line 48.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[10] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+Ending description list
+Begining description
+Ending description list
+
+LaTeX Warning: Command \' invalid in math mode on input line 73.
+
+Missing character: There is no í in font cmr10!
+Figure diagramaPlacaControladora with width data
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+Package cleveref Info: loaded `spanish' language definitions on input line 82.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[11] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+Package cleveref Info: loaded `spanish' language definitions on input line 82.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[12 <./img/diagramaPlacaControladora.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+(estructura/sistema/dron/mecanica.tex
+Begining description
+Ending description list
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+Package cleveref Info: loaded `spanish' language definitions on input line 28.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[13] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+Ending description list
+) (estructura/sistema/sensorvientodron.tex
+Begining description
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package cleveref Info: loaded `spanish' language definitions on input line 11.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[14] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Figure warningFoto with width data
+Begining description
+Figure ChasisRaspberryDron with width data
+Figure TapaIntermediaDron with width data
+Figure TapaChasisDron2 with width data
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+Package cleveref Info: loaded `spanish' language definitions on input line 44.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[15 <./img/warningFoto.png> <./img/ChasisRaspberryDron.png>]
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Figure PataDron with width data
+Ending description list
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+Package cleveref Info: loaded `spanish' language definitions on input line 62.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[16 <./img/TapaIntermediaDron.png> <./img/TapaChasisDron2.png> <./img/PataDron.
+png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Figure warningFoto with width data
+Ending description list
+)
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+Package cleveref Info: loaded `spanish' language definitions on input line 61.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[17 <./img/warningFoto.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [18
+
+]
+(tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Cap\'{\i }tulo 4.
+(estructura/resultadosydiscusion.tex
+(estructura/resultados/dronsensorizacion.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+
+
+LaTeX Warning: Reference `FIG:MANDODRON' on page 19 undefined on input line 3.
+
+) (estructura/resultados/escenario.tex
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[19] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Figure planoGimnasio with width data
+) (estructura/resultados/tomamedidas.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 [20 <./img/planoGimnasio.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+)
+(estructura/resultados/exposicion.tex
+Figure 3axisforces with width data
+Figure scatterFit with width data
+Figure mapaCalor with width data
+Figure mapaCalorSZ with width data
+Figure z0MapaViento with width data
+Figure z1MapaViento with width data
+Figure mapa3d with width data
 ))
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-Package cleveref Info: loaded `spanish' language definitions on input line 65.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
 
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
@@ -3585,105 +4616,99 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw.mw'.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+[22 <./img/3axisforces.png> <./img/scatterFit.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [22
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
 
-] (tfgtfmthesisuam.mw.mw)
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[23 <./img/mapaCalor.png> <./img/mapaCalorSZ.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[24 <./img/z0MapaViento.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[25 <./img/z1MapaViento.png>] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package cleveref Info: loaded `spanish' language definitions on input line 63.
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[26 <./img/mapa3d.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
 Cap\'{\i }tulo 5.
 (estructura/conclusion.tex) (tfgtfmthesisuam.bbl
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-
-Overfull \hbox (2.21538pt too wide) has occurred while \output is active
- []
- []
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[23] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
- [24
-
-] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-) (tfgtfmthesisuam.gls
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-[25] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
- [26
-
-] (tfgtfmthesisuam.mw.mw)
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-
-Begining description
-
-Package glossaries Warning: Glossary entry `acronimo' has not been defined on i
-nput line 28.
-
-
-Underfull \hbox (badness 10000) detected at line 28
-[][][][]
- []
-
-
-Package glossaries Warning: Glossary entry `acronimo' has not been defined on i
-nput line 28.
-
-
-Package glossaries Warning: Glossary entry `definicion' has not been defined on
- input line 31.
-
-
-Underfull \hbox (badness 10000) detected at line 31
-[][][][]
- []
-
-
-Package glossaries Warning: Glossary entry `definicion' has not been defined on
- input line 31.
-
-
-Package glossaries Warning: Glossary entry `OPCST' has not been defined on inpu
-t line 34.
-
-
-Underfull \hbox (badness 10000) detected at line 34
-[][][][]
- []
-
-
-Package glossaries Warning: Glossary entry `OPCST' has not been defined on inpu
-t line 34.
-
-Ending description list
-) (tfgtfmthesisuam.acr
 Overfull \hbox (2.21538pt too wide) has occurred while \output is active
  []
  []
@@ -3711,6 +4736,105 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
+) (tfgtfmthesisuam.gls
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[29] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [30
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+
+Begining description
+
+Package glossaries Warning: Glossary entry `acronimo' has not been defined on i
+nput line 28.
+
+
+Package glossaries Warning: Glossary entry `acronimo' has not been defined on i
+nput line 28.
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][][][][]
+ []
+
+
+Package glossaries Warning: Glossary entry `acronimo' has not been defined on i
+nput line 28.
+
+
+Package glossaries Warning: Glossary entry `definicion' has not been defined on
+ input line 31.
+
+
+Package glossaries Warning: Glossary entry `definicion' has not been defined on
+ input line 31.
+
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][][][]
+ []
+
+
+Package glossaries Warning: Glossary entry `definicion' has not been defined on
+ input line 31.
+
+
+Package glossaries Warning: Glossary entry `OPCST' has not been defined on inpu
+t line 34.
+
+
+Package glossaries Warning: Glossary entry `OPCST' has not been defined on inpu
+t line 34.
+
+
+Underfull \hbox (badness 10000) detected at line 34
+[][][][][]
+ []
+
+
+Package glossaries Warning: Glossary entry `OPCST' has not been defined on inpu
+t line 34.
+
+Ending description list
+) (tfgtfmthesisuam.acr
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+
+Overfull \hbox (2.21538pt too wide) has occurred while \output is active
+ []
+ []
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+[31
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
+ [32
+
+] (tfgtfmthesisuam.mw.mw)
+\openout6 = `tfgtfmthesisuam.mw.mw'.
+
 
 Begining description
 
@@ -3718,8 +4842,12 @@ Package glossaries Warning: Glossary entry `ieee' has not been defined on input
  line 28.
 
 
+Package glossaries Warning: Glossary entry `ieee' has not been defined on input
+ line 28.
+
+
 Underfull \hbox (badness 10000) detected at line 28
-[][][][]
+[][][][][]
  []
 
 
@@ -3731,8 +4859,12 @@ Package glossaries Warning: Glossary entry `wysiwyg' has not been defined on in
 put line 31.
 
 
+Package glossaries Warning: Glossary entry `wysiwyg' has not been defined on in
+put line 31.
+
+
 Underfull \hbox (badness 10000) detected at line 31
-[][][][]
+[][][][][]
  []
 
 
@@ -3744,8 +4876,12 @@ Package glossaries Warning: Glossary entry `wytiwyg' has not been defined on in
 put line 33.
 
 
+Package glossaries Warning: Glossary entry `wytiwyg' has not been defined on in
+put line 33.
+
+
 Underfull \hbox (badness 10000) detected at line 33
-[][][][]
+[][][][][]
  []
 
 
@@ -3765,7 +4901,7 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[29
+[33
 
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
@@ -3776,17 +4912,17 @@ Overfull \hbox (2.21538pt too wide) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [30
+ [34
 
 ] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 110.
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 108.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [31]
+ [35]
 (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
@@ -3796,7 +4932,7 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
- [32] (tfgtfmthesisuam.mw.mw)
+ [36] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
 
@@ -3809,7 +4945,7 @@ h: 1: gnuplot: not found
 No file tfgtfmthesisuam.ind.
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[33
+[37
 
 
 ] (tfgtfmthesisuam.mw.mw)
@@ -3843,11 +4979,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-[34 <./logoUAMw.png>] (tfgtfmthesisuam.mw.mw)
+[38 <./logoUAMw.png>] (tfgtfmthesisuam.mw.mw)
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (tfgtfmthesisuam.aux
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
@@ -4192,217 +5328,26 @@ Package cleveref Info: loaded `spanish' language definitions on input line 31.
 
 \openout6 = `tfgtfmthesisuam.mw.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw.mw'.
-
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 \openout6 = `tfgtfmthesisuam.out'.
 
-Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: C9C951E8D8412294E53A6B3AC67E23CF;1352.
 
+
+Package rerunfilecheck Warning: File `tfgtfmthesisuam.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tfgtfmthesisuam.out':
+(rerunfilecheck)             Before: D8A532BF364721192A33525C2513756A;1246
+(rerunfilecheck)             After:  0E3279BBAA6B219C2B842A4E0AB25138;1246.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4415,53 +5360,101 @@ LaTeX Warning: There were multiply-defined labels.
 
 \openout6 = `tfgtfmthesisuam.toc'.
 
-\openout6 = `tfgtfmthesisuam.loa'.
-
-\openout6 = `tfgtfmthesisuam.lol'.
-
-\openout6 = `tfgtfmthesisuam.ltb'.
-
 \openout6 = `tfgtfmthesisuam.loe'.
 
 \openout6 = `tfgtfmthesisuam.lof'.
 
-\openout6 = `tfgtfmthesisuam.lot'.
-
-\openout6 = `tfgtfmthesisuam.ltb'.
-
  ) 
 Here is how much of TeX's memory you used:
- 55194 strings out of 492895
- 1218021 string characters out of 3123735
- 1628499 words of memory out of 3000000
- 57886 multiletter control sequences out of 15000+200000
- 611534 words of font info for 118 fonts, out of 3000000 for 9000
+ 55515 strings out of 492895
+ 1222910 string characters out of 3123735
+ 1631199 words of memory out of 3000000
+ 58178 multiletter control sequences out of 15000+200000
+ 613160 words of font info for 120 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,105p,1987b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-} <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cbi0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\tcrm0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecti0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/danie/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/danie
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
-/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/txfonts/rtxbsssc.pfb><C:/Users/danie/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/txfonts/rtxsssc.pfb><C:/Users/danie/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/danie/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/
-danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
-/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
-pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
-r8a.pfb>
-Output written on tfgtfmthesisuam.pdf (50 pages, 6395675 bytes).
+ 69i,9n,105p,1987b,909s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:ies} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subfigure.3.11.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subfigure.3.11.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:lipo} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:lion} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:nicd} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:tfg} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:pdb} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:esc} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:pwm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:kv} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:ccw} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:cw} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.47} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.45} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.44} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} 
+<C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
+i0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
+dpi600\tcrm0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecti0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.9\fonts/pk
+/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\danie\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk><C:/Users/danie/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/danie/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/U
+sers/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/txfonts/rtxbsssc.pfb><C:/Users/danie/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/txfonts/rtxsssc.pfb><C:/Users/danie/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/danie/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/da
+nie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/U
+sers/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pf
+b><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8
+a.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
+tmr8a.pfb>
+Output written on tfgtfmthesisuam.pdf (56 pages, 5038427 bytes).
 PDF statistics:
- 704 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 349 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 754 PDF objects out of 1000 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,20 +2,20 @@
  Actualmente los sensores de vientos habituales cuentan con dos elementos básicos: el anemómetro y la veleta, el primero se encarga de medir la velocidad del viento y la veleta su dirección. Estos dos elementos pueden encontrarse montados de forma separada o conjuntamente denominándose veleta potenciométrica.
  Hay que tener en cuenta que este sistema de medición, aún siendo muy preciso, tiene un coste elevado y necesita de una instalación en una localización fija, que además de necesitar una altura mínima debe estar libre de obstáculos para poder realizar las medidas correctamente.
  
- En nuestra vida diaria utilizamos desde dispositivos electrónicos hasta medios de transporte que incluyen sensores que miden su inclinación, aceleración y dirección, se puede ver como ejemplo desde un teléfono móvil a un coche o incluso un avión.
- Estos sensores en utilizan en la estabilización de un avión, el registro del movimiento de un coche o incluso en aplicaciones móviles.
+ En nuestra vida diaria utilizamos desde dispositivos electrónicos hasta medios de transporte que incluyen sensores que miden su inclinación, aceleración y dirección, se puede ver como ejemplo un teléfono móvil, un coche o incluso un avión.
+ Estos sensores se utilizan en la estabilización de un avión, el registro del movimiento de un coche o incluso en aplicaciones móviles.
  
  El objeto de estudio de este trabajo es utilizar estos sensores para la medición del viento; en esta sección explicaré como utilizar un sensor de aceleración, giroscopio y magnetómetro.
  
- Para realizar este experimento he utilizado el sensor MPU9250\cite{InvenSense2016} que a su vez tiene integrado otros dos sensores el MPU6050, que se encarga de la aceleración y el giroscopio, y el AK8963 que gestiona el magnetómetro, componiendo de esta forma un microchip que mide la alteración de su posición en función de 3 ejes.
+ Para realizar este experimento he utilizado el sensor MPU9250\footnote{Datasheet: InvenSense, ``{MPU9250 Product Specification Revision 1.1},'' 2016.} que a su vez tiene integrado otros dos sensores el MPU6050, que se encarga de la aceleración y el giroscopio, y el AK8963 que gestiona el magnetómetro, componiendo de esta forma un microchip que mide la alteración de su posición en función de 3 ejes.
  
- Los datos obtenidos por el sensor MPU6050 son datos sin tratar, que indican la aceleración en el instante de la medición y la inclinación respecto de la anterior medida tomada, mientras que el sensor AK8963 indica la orientación del sensor.
+ Los datos obtenidos por el sensor MPU6050 son datos sin tratar, que indican la aceleración en el instante de la medición y la inclinación respecto de la anterior medida tomada, mientras que el sensor AK8963 indica la orientación.
  
 \begin{figure}[Sensor MPU0250]{FIG:FOTOWARNING}{PONER FOTO DE LOS SENSORES.}
 	\image{4cm}{}{warningFoto}
 \end{figure}
  
- Para poder saber claramente en que posición se encuentra el microchip con respecto a una superficie plana y no a su inclinación en relación a la anterior medida. He aplicado el algoritmo de madgwick que utiliza cuaterniones para indicar la inclinación absoluta en función de los ejes de la tierra. 
+ Para poder saber claramente en que posición se encuentra el microchip con respecto a una superficie plana y no a su inclinación en relación a la anterior medida, he aplicado el algoritmo de madgwick que utiliza cuaterniones para indicar la inclinación absoluta en función de los ejes de la tierra. 
  
  Los cuaterniones son un conjunto de cuatro componentes complejos que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos; en mi caso lo utilizaré para las rotaciones en el espacio. Los cuaterniones se pueden expresar de la siguiente forma \cite{Graves1999}.
  

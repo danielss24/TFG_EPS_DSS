@@ -53,35 +53,141 @@ def firstPlot(fichero):
 
     #plt.show()
 
-
 def secondPlot(ruta,fichero):
 
     fig, (xPlt, yPlt, zPlt) = plt.subplots(3, 1, sharex=True)
 
-    # xPlt.set_title("Vx/Tiempo")
-    # yPlt.set_title("Vy/Tiempo")
-    # zPlt.set_title("Vz/Tiempo")
     plt.xlabel("Tiempo / s")
-    plt.ylabel("Fuerza / g")
+    xPlt.set_ylabel("Fuerza / g")
+    yPlt.set_ylabel("Fuerza / g")
+    zPlt.set_ylabel("Fuerza / g")
 
     vx_x, vx_y = getXY(fichero, xIndex=0, yIndex=6, cabeceras=True)
     vy_x, vy_y = getXY(fichero, xIndex=0, yIndex=7, cabeceras=True)
     vz_x, vz_y = getXY(fichero, xIndex=0, yIndex=8, cabeceras=True)
 
+    #Conversion de array a numpy array
+    vx_x = np.array(vx_x)
+    vx_y = np.array(vx_y)
+    #Aqui aplicar conversion
+
+    #Conversion de array a numpy array
+    vy_x = np.array(vy_x)
+    vy_y = np.array(vy_y)
+    #Aqui aplicar conversion
+
+    #Conversion de array a numpy array
+    vz_x = np.array(vz_x)
+    vz_y = np.array(vz_y)
+    #Aqui aplicar conversion
+
     yMax = np.max((vx_y,vy_y,vz_y))
     yMin = np.min((vx_y,vy_y,vz_y))
+    xPlt.set_ylim([yMin-0.5,yMax+0.5])
+    yPlt.set_ylim([yMin-0.5,yMax+0.5])
 
-    xPlt.set_ylim([yMin,yMax])
-    yPlt.set_ylim([yMin,yMax])
-
-    x = np.arange(0,5,0.1)
+    x = np.arange(0,len(vx_x)/10,0.1)
     xPlt.plot(x,vx_y,zorder=0)
     xPlt.scatter(x,vx_y,s=10,c='black',zorder=1)
+
     yPlt.plot(x,vy_y,zorder=0)
     yPlt.scatter(x,vy_y,s=10,c='black',zorder=1)
 
     zPlt.plot(x,vz_y,zorder=0)
     zPlt.scatter(x,vz_y,s=10,c='black',zorder=1)
+
+
+    #Set max and minium values of plots
+    xMax_value = np.max(vx_y)
+    yMax_value = np.max(vy_y)
+    zMax_value = np.max(vz_y)
+    xMin_value = np.min(vx_y)
+    yMin_value = np.min(vy_y)
+    zMin_value = np.min(vz_y)
+
+    x2 = (0,len(vx_x)/10)
+    zPlt.plot(x2, (1,1), "r")
+    x2 = (0, len(vx_x)/10)
+    xPlt.plot(x2, (0,0), "r")
+    x2 = (0, len(vx_x)/10)
+    yPlt.plot(x2, (0,0), "r")
+
+
+    index_xMax_value = np.where(vx_y==xMax_value)
+    print("index_xMax_value")
+    print("Indices:", index_xMax_value[0])
+    # for i in range (len(index_xMax_value[0])):
+    #     indice = index_xMax_value[0][i]
+    #     string = "Máx:", np.round(vx_y[indice],3)
+    #     print(string)
+    #     xPlt.annotate(string,
+    #             xy=(indice/10, vx_y[indice]),
+    #             xycoords='data',
+    #             xytext=(indice/10, 2.5),
+    #             arrowprops=
+    #             dict(facecolor='black', shrink=5),
+    #             verticalalignment='top')
+    index_xMin_value = np.where(vx_y==xMin_value)
+    print("index_xMin_value")
+    print("Indices:", index_xMin_value[0])
+    # for i in range (len(index_xMin_value[0])):
+    #     indice = index_xMin_value[0][i]
+    #     str = 'Min:',np.round(vx_y[indice],3)
+    #     xPlt.annotate(str,
+    #                 xy=(indice/10, vx_y[indice]),
+    #                 xycoords='data',
+    #                 xytext=(indice/10, 2.5),
+    #                 arrowprops=
+    #                 dict(facecolor='black', shrink=5),
+    #                 verticalalignment='top')
+    index_yMax_value = np.where(vy_y==yMax_value)
+    print("index_yMax_value")
+    print("Indices:", index_yMax_value[0])
+    # for i in range (len(index_yMax_value[0])):
+    #     indice = index_yMax_value[0][i]
+    #     yPlt.annotate("Max",
+    #             xy=(indice/10, vy_y[indice]),
+    #             xycoords='data',
+    #             xytext=(indice/10, 2.5),
+    #             arrowprops=
+    #             dict(facecolor='black', shrink=5),
+    #             verticalalignment='top')
+    index_yMin_value = np.where(vy_y==yMin_value)
+    print("index_yMin_value")
+    print("Indices:", index_yMin_value[0])
+    # for i in range (len(index_yMin_value[0])):
+    #     indice = index_yMin_value[0][i]
+    #     yPlt.annotate("Min",
+    #             xy=(indice/10, vy_y[indice]),
+    #             xycoords='data',
+    #             xytext=(indice/10, 2.5),
+    #             arrowprops=
+    #             dict(facecolor='black', shrink=5),
+    #             verticalalignment='top')
+    index_zMax_value = np.where(vz_y==zMax_value)
+    print("index_zMax_value")
+    print("Indices:", index_zMax_value[0])
+    # for i in range (len(index_zMax_value[0])):
+    #     indice = index_zMax_value[0][i]
+    #     zPlt.annotate('function minium \n relative to data',
+    #             xy=(indice/10, vz_y[indice]),
+    #             xycoords='data',
+    #             xytext=(2, 3),
+    #             arrowprops=
+    #             dict(facecolor='black', shrink=0.05),
+    #             verticalalignment='top')
+    index_zMin_value = np.where(vz_y==zMin_value)
+    print("index_zMin_value")
+    print("Indices:", index_zMin_value[0])
+    # for i in range (len(index_zMin_value[0])):
+    #     indice = index_zMin_value[0][i]
+    #     zPlt.annotate('function minium \n re2lative to data',
+    #             xy=(indice/10, vz_y[indice]),
+    #             xycoords='data',
+    #             xytext=(2, 3),
+    #             arrowprops=
+    #             dict(facecolor='black', shrink=0.05, arrowstyle='->',connectionstyle='Arc3'),
+    #             verticalalignment='top',fontsize=20)
 
     guardarImagen(rutaPlot,fichero,fig,2)
     #plt.show()
@@ -181,6 +287,7 @@ def thirdPlot_v2(ruta,fichero):
     p1 = np.polyfit(x, y, 1)
     x2 = np.array((-2, 2))
     x2 = np.array((-maxAxisValue, maxAxisValue))
+    # print("pendiente", p1[0], "corte", p1[1])
     ax.plot(x2, p1[0] * x2 + p1[1], "b")
     guardarImagen(rutaPlot, fichero, fig,3)
 
@@ -217,8 +324,8 @@ def heatmap(rutaPlot, fichero):
 
     k = kde.gaussian_kde(data.T)
     # xi, yi = np.mgrid[-maxAxisValue:maxAxisValue:nbins * 1j, -maxAxisValue:maxAxisValue:nbins * 1j]
-    # xi, yi = np.mgrid[-4:4:nbins * 1j, -4:4:nbins * 1j]
-    xi, yi = np.mgrid[y.min():y.max():nbins * 1j, x.min():x.max():nbins * 1j]
+    xi, yi = np.mgrid[-4:4:nbins * 1j, -4:4:nbins * 1j]
+    # xi, yi = np.mgrid[y.min():y.max():nbins * 1j, x.min():x.max():nbins * 1j]
     zi = k(np.vstack([xi.flatten(), yi.flatten()]))
 
     axes[0].set_title('2D Density with shading')
@@ -255,18 +362,33 @@ def mapaViento2D(rutaPlot):
         p1 = np.polyfit(x, y, 1)
         xVector.append(p1[0])
 
-    plt.xlim(-2, 2)
-    plt.ylim(-2, 2)
+    plt.xlim(-1,11)
+    plt.ylim(-1,18)
 
-    origin = [1], [1]  # origin point
-    plt.quiver(*origin, xVector[0], 1, color=['r', 'b', 'g'], scale=21)
-    origin = [-1], [1]  # origin point
-    plt.quiver(*origin, xVector[1], 1, color=['r', 'b', 'g'], scale=21)
-    origin = [1], [-1]  # origin point
-    plt.quiver(*origin, xVector[2], 1, color=['r', 'b', 'g'], scale=21)
-    origin = [-1], [-1]  # origin point
-    plt.quiver(*origin, xVector[3], 1, color=['r', 'b', 'g'], scale=21)
-    plt.show()
+    plt.xlabel("Distancia / m")
+    plt.ylabel("Distancia / m")
+
+    origin = [7.5], [12]  # origin point
+    tam = np.sqrt(xVector[0]*xVector[0]+1)
+    print(tam)
+    plt.quiver(*origin, xVector[0], 1, color='b', scale=10/tam)
+    origin = [2.5], [12]  # origin point
+    tam = np.sqrt(xVector[1]*xVector[1]+1)
+    print(tam)
+    plt.quiver(*origin, xVector[1], 1, color='b', scale=10/tam)
+    origin = [7.5], [6]  # origin point
+    tam = np.sqrt(xVector[2]*xVector[2]+1)
+    print(tam)
+    plt.quiver(*origin, xVector[2], 1, color='b', scale=10/tam)
+    origin = [2.5], [6]  # origin point
+    tam = np.sqrt(xVector[3]*xVector[3]+1)
+    print(tam)
+    plt.quiver(*origin, xVector[3], 1, color='b', scale=10/tam)
+
+    plt.plot((0, 0), (0, 17), 'k')
+    plt.plot((0, 10), (0, 0), 'k')
+    plt.plot((0, 10), (17, 17), 'k')
+    plt.plot((10, 10), (17, 0), 'k')
     guardarImagen(rutaPlot, fichero, fig,5)
 
 
@@ -352,10 +474,24 @@ def mapaViento3D(rutaPlot):
     ax.plot((7.5,7.5),(12, 12), (0.3, 2.5), 'k--')
 
     #Rectas margen
+    #Plano 0
     ax.plot((0, 0), (0, 17), (0), 'k')
     ax.plot((0, 10), (0, 0), (0), 'k')
     ax.plot((0, 10), (17, 17), (0), 'k')
     ax.plot((10, 10), (17, 0), (0), 'k')
+
+    #Verticales
+    ax.plot((0, 0), (0, 0), (0,4.6), 'k')
+    ax.plot((10, 10), (17, 17), (0,4.6), 'k')
+    ax.plot((0, 0), (17, 17), (0,4.6), 'k')
+    ax.plot((10, 10), (0, 0), (0,4.6), 'k')
+
+    #Plano 1
+    ax.plot((0, 0), (0, 17), (4.6), 'k')
+    ax.plot((0, 10), (0, 0), (4.6), 'k')
+    ax.plot((0, 10), (17, 17), (4.6), 'k')
+    ax.plot((10, 10), (17, 0), (4.6), 'k')
+
 
     y = np.arange(6, 13, 1)
     x = np.arange(2.5, 8.5, 1)
@@ -382,17 +518,17 @@ def guardarImagen(rutaPlot,fichero,fig,numPlot):
     fig.savefig(nombreFichero)
 
 if __name__ == '__main__':
-    ruta = "2019/06/03/"
+    ruta = "2019/06/09/"
     rutaFull = "./" + ruta
     fichero = util.cargadorFich(rutaFull)
     rutaPlot = ruta+"Plot/"
     os.makedirs(rutaPlot, exist_ok=True)
-    # secondPlot(rutaPlot,fichero)
+    secondPlot(rutaPlot,fichero)
     # thirdPlot(rutaPlot,fichero)
     # thirdPlot_v2(rutaPlot,fichero)
     # heatmap(rutaPlot,fichero)
-    input("Mapa de 2D y 3D , OJO!")
+    # input("Mapa de 2D y 3D , OJO!")
     # mapaViento2D(rutaPlot)
-    mapaViento3D(rutaPlot)
+    # mapaViento3D(rutaPlot)
 
     plt.show()
