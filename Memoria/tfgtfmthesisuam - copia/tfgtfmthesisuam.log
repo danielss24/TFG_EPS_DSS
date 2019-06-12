@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  30 MAY 2019 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.30)  12 JUN 2019 11:30
 entering extended mode
 **./tfgtfmthesisuam.tex
 (tfgtfmthesisuam.tex
@@ -949,15 +949,15 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2019530618.tex)...disabled (restricted).
+runsystem(touch w18-test-2019612690.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2019530618.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2019612690.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
 runsystem(mkdir -p "gnuplottex")...disabled (restricted).
 
-runsystem(touch "gnuplottex/w18-test-2019530618.tex")...disabled (restricted).
+runsystem(touch "gnuplottex/w18-test-2019612690.tex")...disabled (restricted).
 
 
 
@@ -6451,10 +6451,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 57734 strings out of 492895
- 1268797 string characters out of 3123735
+ 57737 strings out of 492895
+ 1270132 string characters out of 3123735
  1946302 words of memory out of 3000000
- 60056 multiletter control sequences out of 15000+200000
+ 60059 multiletter control sequences out of 15000+200000
  683367 words of font info for 224 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,21n,108p,1987b,2454s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -6495,7 +6495,7 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/danie
 s/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><
 C:/Users/danie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb>
-Output written on tfgtfmthesisuam.pdf (86 pages, 3662153 bytes).
+Output written on tfgtfmthesisuam.pdf (86 pages, 3662656 bytes).
 PDF statistics:
  1304 PDF objects out of 1440 (max. 8388607)
  295 named destinations out of 1000 (max. 500000)

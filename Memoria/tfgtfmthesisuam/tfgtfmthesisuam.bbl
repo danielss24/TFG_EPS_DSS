@@ -1,10 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{Graves1999}
-T.~O. J.~T. Graves, D.~R. Wilkins, and M.~Corr, ``{COPY OF A LETTER FROM SIR
-  WILLIAM R . HAMILTON On Quaternions ; or on a new System of Imaginaries in
-  Algebra . By Sir},'' {\em Philosophical Magazine}, vol.~25, no.~1844, 1999.
-
 \bibitem{OscarSerrano}
 {Oscar Serrano}, ``{Variador electr{\'{o}}nico (ESC): Qu{\'{e}} es y c{\'{o}}mo
   funciona | FpvMax}.''
@@ -14,5 +9,28 @@ A.~Industries, ``{PCA9685 Adafruit}.''
 
 \bibitem{Eric2017}
 Eric, ``{No Title},'' 2017.
+
+\bibitem{Tropea1995}
+C.~Tropea, ``{Laser doppler anemometry: Recent developments and future
+  challenges},'' {\em Measurement Science and Technology}, vol.~6, no.~6,
+  pp.~605--619, 1995.
+
+\bibitem{Noble2019}
+J.~V. Noble, D.~J. D.~S. Price, J.~V. Noble, D.~J. D. E.~S. Price, J.~Stuart,
+  and N.~Revett, ``{The Water Clock in the Tower of the Winds Linked references
+  are available on JSTOR for this article : The Water Clock in the Tower of the
+  Winds},'' {\em Article}, vol.~72, no.~4, pp.~345--355, 2019.
+
+\bibitem{Mur2012}
+J.~Mur, ``{Master Europeo en Energ{\'{i}}as Renovables y Eficiencia
+  Energ{\'{e}}tica},'' {\em Measurement Science and Technology}, 2012.
+
+\bibitem{Act2012}
+I.~Act, ``{ACT Profile Report: State. Graduating Class 2012. Montana},'' 2012.
+
+\bibitem{Graves1999}
+T.~O. J.~T. Graves, D.~R. Wilkins, and M.~Corr, ``{COPY OF A LETTER FROM SIR
+  WILLIAM R . HAMILTON On Quaternions ; or on a new System of Imaginaries in
+  Algebra . By Sir},'' {\em Philosophical Magazine}, vol.~25, no.~1844, 1999.
 
 \end{thebibliography}
