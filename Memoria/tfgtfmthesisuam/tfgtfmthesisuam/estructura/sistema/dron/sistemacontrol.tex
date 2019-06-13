@@ -72,7 +72,7 @@ La Raspberry recibe el paquete de bytes\ref{EQ:PQTEntrante} y lo transforma medi
 			\boxed{rango = 3296 - (input - 1000) * \frac{(3296-2498)}{1000}}
 	\end{equation}
 	\begin{equation}[EQ:EQFuncion]{Función de adafruit, generación de pwm en PCA9685}
-			\boxed{pwm.set_pwm(canal, rangoMínimo, 4095)}
+			\boxed{pwm.set_pwm(canal, rangoMinimo, 4095)}
 	\end{equation}
 \end{subequations}
 
@@ -84,10 +84,9 @@ Una vez conseguida la señal de salida PWM en función de la entrada del mando, 
 
 \paragraph{Sistema de comunicación}
 
- %https://es.banggood.com/FlySky-FS-i6-2_4G-6CH-AFHDS-RC-Transmitter-With-FS-iA6B-Receiver-p-983537.html?gmcCountry=ES&currency=EUR&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgcs&utm_content=garman&utm_campaign=pla-esg-rctoys-radio-pc&ad_id=338479731096&gclid=CjwKCAjw2cTmBRAVEiwA8YMgzS7EVYrO8PpApLkYJTjOdKBY6DY7hsZJ_vUVyxS805q55G8okvvf6RoCRSQQAvD_BwE&ID=42481&cur_warehouse=CN
 	El sistema de comunicación está compuesto por dos componentes, receptor y transmisor, 3.1 (1) y 3.1 (3), y se pueden elegir diferentes tipos teniendo en cuenta su protocolo de comunicación. 
 	
-	El sistema de comunicación tiene diferentes protocolos para transmitir la información, utiliza un protocolo entre emisor y receptor y otro distinto entre receptor y unidad de procesamiento o controladora de vuelo.\cite{Eric2017}
+	El sistema de comunicación tiene diferentes protocolos para transmitir la información, utiliza un protocolo entre emisor y receptor y otro distinto entre receptor y unidad de procesamiento o controladora de vuelo\cite{Eric2017}.
 	
 %	\begin{figure}[Mando FlySky dron]{FIG:MANDODRON}{Mando FlySky para dron.}
 %	\image{4cm}{}{mandoDron}

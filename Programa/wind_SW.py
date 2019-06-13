@@ -100,18 +100,6 @@ class WindMeasure():
         cabecera = (diaHora.split(" ")[0] + "\t" + diaHora.split(" ")[1])
         return cabecera, segundos
 
-    # def get_gyro(self):
-    #     return self.gyroscopio.readGyro()
-
-    # def get_acel(self):
-    #     return self.gyroscopio.readAccel()
-
-    # def get_magn(self):
-    #     while True:
-    #         magn = self.gyroscopio.readMagnet()
-    #         if magn['x']!=0 and magn['y']!=0 and magn['z']!=0:
-    #             return magn
-
     def get_gyro(self):
         return self.gyroscopio.get_rotationV2()
 
@@ -126,25 +114,6 @@ class WindMeasure():
 
     def get_roll_pitch_yaw(self):
         return self.gyroscopio.readSensoresConCalibracion()
-
-    # def get_pitch(self):
-    #     sensoresAccel = self.get_acel()
-    #     pitch = 180 * math.atan2(sensoresAccel['x'], math.sqrt(sensoresAccel['y']*sensoresAccel['y'] + sensoresAccel['z']*sensoresAccel['z']))/math.pi
-    #     return pitch
-
-    # def get_roll(self):
-    #     sensoresAccel = self.get_acel()
-    #     roll = 180 * math.atan2(sensoresAccel['y'], math.sqrt(sensoresAccel['x']*sensoresAccel['x'] + sensoresAccel['z']*sensoresAccel['z']))/math.pi
-    #     return roll
-
-    # def get_yaw(self):
-    #     sensoresMagn = self.get_magn()
-    #     pitch = self.get_pitch()
-    #     roll = self.get_roll()
-    #     mag_x = sensoresMagn['x'] * math.cos(pitch) + sensoresMagn['y']*math.sin(roll)*math.sin(pitch) + sensoresMagn['z']*math.cos(roll)*math.sin(pitch)
-    #     mag_y = sensoresMagn['y'] * math.cos(roll) - sensoresMagn['z'] * math.sin(roll)
-    #     yaw = 180 * math.atan2(-mag_y,mag_x)/math.pi
-    #     return yaw
 
     def get_NESW_fromDegrees(self, degrees):
 
@@ -271,7 +240,7 @@ class WindMeasure():
                 if direccion == None:
                     direccion = aux
                 aux = direccion
-
+                #Escribir en fichero
                 self.file.write(str(enum) +
                                 "\t" + cabecera +
                                 "\t" + str(gyro[0]) + "\t" + str(gyro[1]) + "\t" + str(gyro[2]) +

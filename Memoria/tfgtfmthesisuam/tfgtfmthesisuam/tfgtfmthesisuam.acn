@@ -9,3 +9,5 @@
 (indexentry :tkey (("L-ion" "\\glossentry{lion}") ) :locref "{}{12}" :attr "pageglsnumberformat" )
 (indexentry :tkey (("LiPo" "\\glossentry{lipo}") ) :locref "{}{12}" :attr "pageglsnumberformat" )
 (indexentry :tkey (("IES" "\\glossentry{ies}") ) :locref "{}{20}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("SI" "\\glossentry{si}") ) :locref "{}{21}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("N" "\\glossentry{n}") ) :locref "{}{21}" :attr "pageglsnumberformat" )

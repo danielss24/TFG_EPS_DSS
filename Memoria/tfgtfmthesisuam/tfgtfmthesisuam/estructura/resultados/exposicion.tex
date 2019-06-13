@@ -1,35 +1,70 @@
 
-Los datos obtenidos mediante esa serie de pruebas son los siguientes.
+ 
+\newacronym{si}{SI}{Sistema Internacional}
 
-\begin{figure}[Aceleraciones en 3 ejes.]{FIG:3axisforces}{Aceleración en fuerza G que sufren los 3 ejes cartesianos. En esta gráfica podemos observar 3 líneas rojas, una por cada plot. Estas línas indican el estado de reposo del acelerómetro. Entorno a ellas podemos ver como varía la fuerza ejercido sobre cada eje, X,Y y Z en las gráficas a,b y c, respectivamente.}
+Cabe señalar que las medidas obtenidas y representadas se encuentran en funcion de la unidad de fuerza G, es decir, la gravedad. Se ha mantenido así por mayor claridad y unificación con los sistemas de aceleración estudiados; no obstante, se indica en la ecuación \ref{EQ:ConversionGaN} la conversión necesaria para poder pasarlo al \ac{si} de unidades.
+
+Las pruebas realizadas se han hecho con el dron volando e iniciando el software de recogida de datos en vuelo; los datos obtenidos mediante la serie de pruebas descritas en el apartado \ref{SEC:TOMAMEDIDAS} son los representados en las siguientes imágenes: \ref{FIG:3axisforces}, \ref{FIG:scatterFit}, \ref{FIG:mapaCalorCZ},\ref{FIG:mapaCalorSZ}, \ref{FIG:z0MapaViento}, \ref{FIG:z1MapaViento} y \ref{FIG:mapa3d}.
+
+\begin{subequations}
+\begin{equation}[EQ:ConversionGaN]{Fórmula de conversión G}
+	\boxed {1\:G=9,807\:m\:{s}^{-2}}
+\end{equation}
+
+\begin{equation}[EQ:ConversionSIaN]{Fórmula de conversión a N}
+	\boxed {1\:N=1\:Kg\:m\:{s}^{-2}}
+\end{equation}
+\end{subequations}
+
+
+\newacronym{n}{N}{Newton}
+
+Para convertir a \ac{n} de fuerza, se debe multiplicar usando la fórmula \ref{EQ:ConversionSIaN} por el peso del dron, indicado en la sección \ref{SEC:DRON}.
+
+
+\begin{figure}[Aceleraciones en 3 ejes.]{FIG:3axisforces}{Aceleración en fuerza G que sufren los 3 ejes cartesianos. Cada gráfica representa un eje: gráfica superior eje X, medio eje Y e inferior eje Z. Las rectas rojas indican el punto de reposo de cada eje.}
 	\image{1\textwidth}{}{3axisforces}
 \end{figure}
+En la figura \ref{FIG:3axisforces} se puede observar 3 gráficas con una serie de puntos negros, la resolución del acelerómetro, y una línea roja describiendo una pseudofunción del comportamiento de la gráfica. Cada una de las gráficas representa un eje distinto de acción, siendo la primera el eje X, la segunda el eje Y y la última el eje Z. En cada una de las gráficas esta dibujada una recta roja, la cual representa el punto de reposo o base del acelerómetro. Tanto en el eje X como en el Y el punto de reposo se encuentra una recta con función y=0, pero en el eje Z una función y=1. Este último eje, siempre ejerce 1 G de fuerza en estado de reposo ya que es la fuerza que contrapone a la tierra para mantenerse en pie.
 
-\begin{figure}[Puntos de medida]{FIG:scatterFit}{Puntos tomados en funcion de su orientación y en fuerza G. La recta roja representa la representación de los datos, hacia que dirección van.}
-	\image{13cm}{}{scatterFit}
+\begin{figure}[Puntos de medida]{FIG:scatterFit}{Puntos tomados en funcion de su orientación y en fuerza G. La recta roja indica la representación aproximada de los datos, dirección.}
+	\image{0.6\textwidth}{}{scatterFit}
+\end{figure}
+En la figura \ref{FIG:scatterFit} se puede observar el conjunto de puntos tomados equivalentes a la figura \ref{FIG:3axisforces} pero representados en funcion de su orientación y de su fuerza, indicando su magnitud en los ejes X e Y. La función aproximada de este conjunto se ve representada por la recta en rojo, con su función indicada en la gráfica.
+
+
+\begin{figure}[Mapa de calor con zoom]{FIG:mapaCalorCZ}{Mapa de calor con representación de concentración de puntos delimitados con isobaras.}
+	\image{0.6\textwidth}{}{mapaCalor2}
+\end{figure}
+En el mapa de calor expuesto en al figura \ref{FIG:mapaCalorCZ} se puede observar la concentración de los datos entorno a +- 0,5 en el eje Y y +-0,5 en el eje X, con una ligera desviación en el margen derecho de la representación. Se puede apreciar que no había apenas viento dado que los datos pueden registrar valores máximos de +- 4 G y aquí solo se aprecia un rango de 0,1 G en ambos ejes.
+
+
+\begin{figure}[Mapa de calor sin zoom]{FIG:mapaCalorSZ}{Mapa de calor con escala máxima de +-4 G. Se puede observar que no hay casi variación y la concentración de los puntos está entorno al origen de la gráfica.}
+	\image{0.6\textwidth}{}{mapaCalorSZ2}
 \end{figure}
 
-\begin{figure}[Mapa de calor con zoom]{FIG:mapaCalorCZ}{Mapa de calor con representación de concentración de puntos delimitado con isobaras. Podemos observar que tenemos una concentración mayor entorno al (0.0,0.0) y una leve variación hasta un máximo de -0.1 y 0.15 en el eje X y -0.6 y + 0.6 en el eje Y. Esta muestra de datos que no había apenas aire.}
-	\image{0.5\textwidth}{}{mapaCalor2}
-\end{figure}
+En gráfica de la figura \ref{FIG:mapaCalorCZ} se han representado la variación de los datos aplicando un zoom para poder apreciar mejor su concentración, no obstante en la figura \ref{FIG:mapaCalorSZ} se representan sin aplicar ningún zoom para apreciar su relación con sus posibles valores máximos y mínimos.
 
-\begin{figure}[Mapa de calor sin zoom]{FIG:mapaCalorSZ}{Mapa de calor con escala máxima de 4 G tanto positivos como negativos. Podemos observar que no hay casi variación y tenemos la concentración de los puntos esta entorno al origen de la gráfica.}
-	\image{0.5\textwidth}{}{mapaCalorSZ2}
-\end{figure}
+Los datos observados en las gráficas \ref{FIG:mapaCalorCZ},\ref{FIG:mapaCalorSZ},\ref{FIG:scatterFit} y \ref{FIG:3axisforces} corresponden al mismo conjunto de datos pero con 4 posibles representaciones.
 
-\begin{figure}[Mapa viento 2D - Z0]{FIG:z0MapaViento}{Podemos observar una serie de vectores obtenidos mediante la toma de datos en forma de matriz en el gimnasio de IES Valle Inclán. Se puede apreciar la magnitud y dirección del aire, aunque no su tercera componente, altura que toma el vector.}
+
+\begin{figure}[Mapa viento 2D - Z0]{FIG:z0MapaViento}{Vectores de dirección de viento, en los puntos 1,2,3,4 con un foco de viento situado en el punto 0.}
 	\image{0.5\textwidth}{}{z0MapaViento}
 \end{figure}
-
+En la figura \ref{FIG:z0MapaViento} se observa un conjunto de datos tomados en 4 veces. Este conjunto de datos se ha tomado en el gimnasio IES Valle Inclán ilustrado en el plano \ref{FIG:planoGimnasio} a una altura de 50 cm. Se puede observar la dirección del viento, proveniente de la pared inferior de 10 m. El foco del viento está situado en el punto 0 representado; aunque en el punto 4 no debería tener esa dirección, la puerta del almacén afectó a la toma de las medidas, creando una circulación de aire desde dicha puerta hasta la puerta principal situada en el centro de la sala.
 
 \begin{figure}[Mapa viento 2D - Z1]{FIG:z1MapaViento}{Observamos ahora el plano superior de la toma de datos en forma de matriz. Se muestra dirección y magnitud.}
 	\image{0.5\textwidth}{}{z1MapaViento}
 \end{figure}
+Al igual que en la figura \ref{FIG:z0MapaViento} del plano z0, hay una toma de datos para el plano z1 \ref{FIG:z1MapaViento} con una altura aproximada de 2,5 m. Se puede observar una dirección similar a la vista en la figura \ref{FIG:z0MapaViento}.
 
-\begin{figure}[Representación toma de puntos en gimnasio]{FIG:gimnasioPtsReales}{Descripcion.}
+
+\begin{figure}[Representación toma de puntos en gimnasio]{FIG:gimnasioPtsReales}{Foto panorámica del gimnasio desde la puerta principal. Puntos de toma de datos representados acorde con las figuras \ref{FIG:PLANOGIMNASIO} y \ref{FIG:mapa3d}.}
 	\image{1\textwidth}{}{gimnasioPanoramicaPtsToma}
 \end{figure}
+En la foto \ref{FIG:gimnasioPtsReales} se indican los puntos de toma de datos con el foco de viento y está representado el eje de coordenadas en la esquina inferior derecha. Estos puntos son los que se han cogido como referencia a la hora de tomar los datos y posteriormente representarlos en las gráficas de esta sección.
 
-\begin{figure}[Mapa de viento 3D]{FIG:mapa3d}{En esta gráfica 3D muestro todos los conjuntos de datos tomados en forma de matriz de 2x2x2, observando la dirección, en 3 ejes y la fuerza que hay en cada uno de los puntos. Como se puede observar, el viento provocado desde el punto 0 influye se ve representado en cada una de las medidas en cuando a dirección y fuerza. Aunque en el punto 4 no afecte el viento generado, dado que creamos una corriente de aire, provoque cierta absorción desde la puerta del almacén, forzando asi a crear una corriente de aire demostrada en la gráfica.}
+\begin{figure}[Mapa de viento 3D]{FIG:mapa3d}{En esta gráfica 3D se representa virtualmente la imagen \ref{FIG:gimnasioPtsReales} concordando los puntos indicados y el foco de viento}
 	\image{0.8\textwidth}{}{mapa3d2}
 \end{figure}
+Como se puede observar, en ambos planos aparecen 4 vectores que están enfocando hacia la misma dirección con diferentes módulos, indicando la fuerza del viento en ese punto. Se puede apreciar también la altura altura que toma el vector, obteniendo asi un módulo de acorde a un modulo de 3 componentes, X, Y y Z.

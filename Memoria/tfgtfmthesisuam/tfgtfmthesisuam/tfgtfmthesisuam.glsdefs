@@ -5,12 +5,12 @@
 name={CW},%
 sort={CW},%
 type={acronym},%
-first={Continuous Wave\glsspace (CW)},%
-firstplural={Continuous Waves\glsspace (CWs)},%
+first={CW\glsspace (CW)},%
+firstplural={CWs\glsspace (CWs)},%
 text={CW},%
 plural={CWs},%
-description={Continuous Wave},%
-descriptionplural={Continuous Wave\acrpluralsuffix },%
+description={CW},%
+descriptionplural={CW\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -19,8 +19,8 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Continuous Wave},%
-longplural={Continuous Waves},%
+long={CW},%
+longplural={CWs},%
 short={CW},%
 shortplural={CWs},%
 counter={page},%
@@ -35,12 +35,12 @@ parent={},%
 name={CCW},%
 sort={CCW},%
 type={acronym},%
-first={Counter Continuous Wave\glsspace (CCW)},%
-firstplural={Counter Continuous Waves\glsspace (CCWs)},%
+first={CCW\glsspace (CCW)},%
+firstplural={CCWs\glsspace (CCWs)},%
 text={CCW},%
 plural={CCWs},%
-description={Counter Continuous Wave},%
-descriptionplural={Counter Continuous Wave\acrpluralsuffix },%
+description={CCW},%
+descriptionplural={CCW\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -49,8 +49,8 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Counter Continuous Wave},%
-longplural={Counter Continuous Waves},%
+long={CCW},%
+longplural={CCWs},%
 short={CCW},%
 shortplural={CCWs},%
 counter={page},%
@@ -353,6 +353,66 @@ long={Instituto de Educaci\IeC {\'o}n Secundaria Obligatoria},%
 longplural={Instituto de Educaci\IeC {\'o}n Secundaria Obligatorias},%
 short={IES},%
 shortplural={IESs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{si}{}%
+{%
+\gls@defglossaryentry{si}%
+{%
+name={SI},%
+sort={SI},%
+type={acronym},%
+first={Sistema Internacional\glsspace (SI)},%
+firstplural={Sistema Internacionals\glsspace (SIs)},%
+text={SI},%
+plural={SIs},%
+description={Sistema Internacional},%
+descriptionplural={Sistema Internacional\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sistema Internacional},%
+longplural={Sistema Internacionals},%
+short={SI},%
+shortplural={SIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{n}{}%
+{%
+\gls@defglossaryentry{n}%
+{%
+name={N},%
+sort={N},%
+type={acronym},%
+first={Newton\glsspace (N)},%
+firstplural={Newtons\glsspace (Ns)},%
+text={N},%
+plural={Ns},%
+description={Newton},%
+descriptionplural={Newton\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Newton},%
+longplural={Newtons},%
+short={N},%
+shortplural={Ns},%
 counter={page},%
 parent={},%
 %

@@ -391,7 +391,6 @@ def mapaViento2D(rutaPlot):
     plt.plot((10, 10), (17, 0), 'k')
     guardarImagen(rutaPlot, fichero, fig,5)
 
-
 def mapaViento3D(rutaPlot):
     fig = plt.figure()
     ax = fig.gca(projection='3d')
@@ -509,7 +508,6 @@ def mapaViento3D(rutaPlot):
 
     # plt.show()
     guardarImagen(rutaPlot, fichero, fig,6)
-
 
 def guardarImagen(rutaPlot,fichero,fig,numPlot):
     nombreFichero = fichero.split("/")
