@@ -457,21 +457,21 @@ def mapaViento3D(rutaPlot):
     v = (1, 1, 1, 1)
 
     ax.quiver(xPos, yPos, zPos, xVector, v, w, color='r')
-    for h in (0.3,2.5):
-        x2 = (6, 12)
-        ax.plot((2.5, 2.5),x2, (h,h), 'k--')
-        x2 = (6, 12)
-        ax.plot((7.5, 7.5),x2, (h,h), 'k--')
-        x2 = (6, 6)
-        ax.plot((2.5, 7.5),x2, (h,h), 'k--')
-        x2 = (12, 12)
-        ax.plot((2.5, 7.5),x2, (h,h), 'k--')
-
-    #Rectas discontinuas
-    ax.plot((2.5,2.5),(6, 6), (0.3, 2.5), 'k--')
-    ax.plot((7.5,7.5),(6, 6), (0.3, 2.5), 'k--')
-    ax.plot((2.5,2.5),(12, 12), (0.3, 2.5), 'k--')
-    ax.plot((7.5,7.5),(12, 12), (0.3, 2.5), 'k--')
+    # for h in (0.3,2.5):
+    #     x2 = (6, 12)
+    #     ax.plot((2.5, 2.5),x2, (h,h), 'k--')
+    #     x2 = (6, 12)
+    #     ax.plot((7.5, 7.5),x2, (h,h), 'k--')
+    #     x2 = (6, 6)
+    #     ax.plot((2.5, 7.5),x2, (h,h), 'k--')
+    #     x2 = (12, 12)
+    #     ax.plot((2.5, 7.5),x2, (h,h), 'k--')
+    #
+    # #Rectas discontinuas
+    # ax.plot((2.5,2.5),(6, 6), (0.3, 2.5), 'k--')
+    # ax.plot((7.5,7.5),(6, 6), (0.3, 2.5), 'k--')
+    # ax.plot((2.5,2.5),(12, 12), (0.3, 2.5), 'k--')
+    # ax.plot((7.5,7.5),(12, 12), (0.3, 2.5), 'k--')
 
     #Rectas margen
     #Plano 0
@@ -484,13 +484,13 @@ def mapaViento3D(rutaPlot):
     ax.plot((0, 0), (0, 0), (0,4.6), 'k')
     ax.plot((10, 10), (17, 17), (0,4.6), 'k')
     ax.plot((0, 0), (17, 17), (0,4.6), 'k')
-    ax.plot((10, 10), (0, 0), (0,4.6), 'k')
+    # ax.plot((10, 10), (0, 0), (0,4.6), 'k')
 
     #Plano 1
     ax.plot((0, 0), (0, 17), (4.6), 'k')
-    ax.plot((0, 10), (0, 0), (4.6), 'k')
+    # ax.plot((0, 10), (0, 0), (4.6), 'k')
     ax.plot((0, 10), (17, 17), (4.6), 'k')
-    ax.plot((10, 10), (17, 0), (4.6), 'k')
+    # ax.plot((10, 10), (17, 0), (4.6), 'k')
 
 
     y = np.arange(6, 13, 1)
@@ -518,17 +518,17 @@ def guardarImagen(rutaPlot,fichero,fig,numPlot):
     fig.savefig(nombreFichero)
 
 if __name__ == '__main__':
-    ruta = "2019/06/09/"
+    ruta = "2019/06/03/"
     rutaFull = "./" + ruta
     fichero = util.cargadorFich(rutaFull)
     rutaPlot = ruta+"Plot/"
     os.makedirs(rutaPlot, exist_ok=True)
-    secondPlot(rutaPlot,fichero)
+    # secondPlot(rutaPlot,fichero)
     # thirdPlot(rutaPlot,fichero)
     # thirdPlot_v2(rutaPlot,fichero)
     # heatmap(rutaPlot,fichero)
     # input("Mapa de 2D y 3D , OJO!")
     # mapaViento2D(rutaPlot)
-    # mapaViento3D(rutaPlot)
+    mapaViento3D(rutaPlot)
 
     plt.show()
