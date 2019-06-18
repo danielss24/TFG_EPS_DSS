@@ -522,11 +522,11 @@ if __name__ == '__main__':
     rutaPlot = ruta+"Plot/"
     os.makedirs(rutaPlot, exist_ok=True)
     # secondPlot(rutaPlot,fichero)
-    # thirdPlot(rutaPlot,fichero)
-    # thirdPlot_v2(rutaPlot,fichero)
+    thirdPlot(rutaPlot,fichero)
+    thirdPlot_v2(rutaPlot,fichero)
     # heatmap(rutaPlot,fichero)
     # input("Mapa de 2D y 3D , OJO!")
     # mapaViento2D(rutaPlot)
-    mapaViento3D(rutaPlot)
+    # mapaViento3D(rutaPlot)
 
     plt.show()

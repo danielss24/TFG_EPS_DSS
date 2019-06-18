@@ -1,0 +1,44 @@
+
+ Actualmente los sensores de viento habituales cuentan con dos elementos básicos: el anemómetro y la veleta, el primero se encarga de medir la velocidad del viento y un tipo de anemómetro, hilo caliente, consiste en un hilo de platino que se calienta eléctricamente; la acción del viento produce la disminución de su temperatura variando así su resistencia y provocando que la corriente que atraviesa dicho hilo se altere y nos indique de forma proporcional la velociad del viento\cite{Tropea1995}, y el segundo elemento básico, la veleta, indica la dirección del viento; esta es una superficie plana colocada en un eje, distribuyendo de forma equitativa su peso y permitiendo que gire libremente, la superficie plana no es igual en la parte delantera y trasera, siendo esta última de mayor tamaño y  provocando que la parte pequeña o delantera indique hacia la dirección del viento\cite{Noble2019}. Estos dos elementos pueden encontrarse montados de forma separada o conjuntamente denominándose veleta potenciométrica\cite{Mur2012}.
+ Este sistema de medición es muy preciso pero tiene un coste elevado. Necesita de una instalación en una localización fija, que además de precisar una altura mínima debe estar libre de obstáculos para poder realizar las medidas correctamente.
+ 
+ %En nuestra vida diaria utilizamos desde dispositivos electrónicos hasta medios de transporte que incluyen sensores que miden su inclinación, aceleración y dirección, se puede ver como ejemplo un teléfono móvil, un coche o incluso un avión.
+ Actualmente existen sensores que se utilizan en la estabilización de un avión, el registro del movimiento de un coche o incluso en aplicaciones móviles.
+ 
+ En esta sección se explicará como utilizar un sensor de aceleración, giroscopio y magnetómetro.
+ 
+ Para realizar este experimento se ha utilizado el sensor MPU9250\footnote{Datasheet: InvenSense, ``{MPU9250 Product Specification Revision 1.1},'' 2016. (Fecha de acceso: 2019-06-12)}, ilustrado en la figura \ref{FIG:IMUAXES}(a),que a su vez tiene integrado otros dos sensores el MPU6050, que se encarga de la aceleración y el giroscopio, y el AK8963 que gestiona el magnetómetro, componiendo de esta forma un microchip que mide la alteración de su posición en función de 3 ejes.
+ 
+ Los datos obtenidos por el sensor MPU6050\footnote{Datasheet: InvenSense, ``{MPU6050 Product Specification Revision 3.3},'' 2012. (Fecha de acceso: 2019-06-12)} son datos sin tratar, que indican la aceleración en el instante de la medición y la inclinación respecto de la anterior medida tomada, mientras que el sensor AK8963\footnote{Datasheet: InvenSense, ``{MPU9250-AK8963 Product Specification Revision 1.1},'' 2016. (Fecha de acceso: 2019-06-12)} indica la orientación.
+
+\begin{figure}[IMU con ejes de medición]{FIG:IMUAXES}{Sensor MPU9250 con ejes de funcionamiento. Figura \ref{FIG:IMUAXES} (a) muestra el sensor físico mientras que la figura \ref{FIG:IMUAXES} (b) muestra la diferencia entre los ejes de medición conjuntamente del giroscopio y acelerómetro y del magnetómetro, figura (c), muestra unos ejes distintos.}
+	\image{1\textwidth}{}{IMUAXES}
+\end{figure}
+ 
+ Para poder saber claramente en que posición se encuentra el microchip con respecto a una superficie plana y no a su inclinación en relación a la anterior medida, se ha implementado el algoritmo de madgwick\cite{Act2012} que utiliza cuaterniones para indicar la inclinación absoluta en función de los ejes de la tierra. 
+ 
+ Los cuaterniones son un conjunto de cuatro componentes complejos que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos; en este caso se utilizarán para las rotaciones en el espacio. Los cuaterniones\cite{Graves1999} se pueden expresar de la siguiente forma.
+ 
+\begin{equation}[EQ:CuaternionFormula]{Expresión de cuaterniones}
+	{\mathbb{H}= \{ {a+bi+cj+dk:a,b,c,d\:\epsilon\:\mathbb{R}} \} \subset  \mathbb{C}^{2}}
+	\end{equation}
+	
+	Fórmula de cuaternion \ref{EQ:CuaternionFormula} de 4 dimensiones. a, b, c, d son las componentes reales del cuaternion. i, j, k  son los componentes que multiplican cada una de las componentes reales.
+
+   Mediante el algoritmo de madgwick, se convierten los datos obtenidos desde el giroscopio, acelerómetro y magnetómetro en un componente de 3 elementos, yaw, pitch y roll, proceso ilustrado en la figura \ref{FIG:YAWPITCHROLLPLANE}.
+   Cada uno de estos elementos nos indica su rotación respecto a un eje del aeromodelo. 
+ 
+
+\begin{figure}[Ejes yaw, pitch y roll]{FIG:YAWPITCHROLLPLANE}{Se recogen los datos del sensor MPU9250, magnetómetro, giroscopio y acelerómetro y los tratamos mediante el algoritmo de madgwick. Convierte las medidas y los convierte en los ejes de giro, yaw, pitch y roll.}
+	\image{\textwidth}{}{yawpitchrollplane}
+\end{figure}
+ 
+ Mediante la utilización de estas rotaciones en función de sus ejes se puede determinar como hay que actuar en los motores para que se mantenga volando de forma estable y horizontal.
+  
+
+
+ En este punto se cuenta con la inclinación del sensor en base a los ejes de la tierra, su aceleración y su dirección en grados; con este conjunto de datos podemos calcular la variación de su posición en función de un punto inicial.
+   
+  Para calcular el viento se ha planteado un sistema que toma como eje el centro de la tierra; de esta forma si el sensor está orientado al norte y se inclina hacia delante se obtiene una dirección de viento de sur a norte, y en caso de inclinarse hacia delante y a izquierda, se obtiene un viento de sur-este. La fuerza del viento viene indicado directamente por los datos obtenidos del acelerómetro en función de los tres ejes.
+  
+  

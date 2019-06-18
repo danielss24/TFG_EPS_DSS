@@ -1,9 +1,0 @@
-De nuevo, como en el caso de $\varepsilon$-Greedy (\ref{SSS:EPSCM100KOP}) los resultados se representan en un mapa de color en la figura \ref{FIG:UcbOpCm100k}
-
-\begin{figure}[Mapa de color de UCB]{FIG:UcbOpCm100k}{Resultados de la exploración optimista/pesimista}
-        \image{7cm}{}{cm100k/MapaUCB}
-\end{figure}
-
-A diferencia de los resultados de $\varepsilon$-Greedy (figura \ref{FIG:EpsOpCm100k}), para UCB se observan dos regiones claramente diferenciadas cuya frontera está aproximadamente en la línea $\alpha = \beta$. El máximo se alcanza para valores $\alpha=1, \ \beta=10$, mientras que el mínimo en $\alpha=10, \ \beta = 1$. De nuevo se obtienen algunos mínimos locales fuera de las regiones descritas, como por ejemplo en $\alpha=6, \ \beta = 5$ se aprecia un máximo local y en $\alpha=1, \ \beta=2$ un mínimo.
-
-Se concluye que para el conjunto de datos de CrowdFlower y el algoritmo de UCB las estrategias pesimistas obtienen un mejor resultado que las optimistas, como ya ocurría para $\varepsilon$-Greedy.

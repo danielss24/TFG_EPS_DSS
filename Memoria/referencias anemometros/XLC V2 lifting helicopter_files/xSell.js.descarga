@@ -1,0 +1,122 @@
+$(".sxtarget").ready(function () {
+    /* uncheckRadioValues('sxtarget'); */
+});
+
+$(".sxtarget").change(function () {
+    retrieveXsell();
+});
+
+function retrieveXsell() {
+    var langId = getLanguageId(document.documentElement.lang);
+    if (document.getElementsByClassName("sxtarget").length < 1) {
+        return;
+    }
+    var cItm = getCheckedRadioValue('sxtarget');
+    if (cItm == null) {
+        cItm = getOrdNoByTag();
+    }
+    var osp = 'osp_' + cItm;
+    var price = $('#' + osp).text();
+    $('#sxStdPrice').html(price);
+    var osm = 'osm_' + cItm;
+    var model = $('#' + osm).text();
+    var path = window.location.pathname;
+    var href = window.location.href;
+    var host = window.location.host;
+    var hostname = window.location.hostname;
+    if (model.indexOf('.') > 0) {
+        var ordno = model.substr(0, model.indexOf('.'));
+    } else {
+        var ordno = model;
+    }
+    ordno = ordno.replace("/", "-");
+    path = path.replace("product_info.php", '');
+    var mPath = '/d/manual/' + ordno + '.pdf';
+    var dPath = '/d/dimensions/' + ordno + '.pdf';
+    var cPath = '/d/construction/' + ordno + '.pdf';
+    $('#mLink').attr("href", mPath);
+    $('#dLink').attr("href", dPath);
+    $('#cLink').attr("href", cPath);
+    $("#xSell").empty();
+    request = $.ajax({
+        url: "/uk/templates/vario/sx/xSell.php",
+        type: "POST",
+        data: {model: model, langId: langId},
+        dataType: "json",
+        success: function (response, textStatus, jqXHR) {
+            var i = 0;
+            $.each(response, function (index, value) {
+                $("#xSell").append("<h2>" + index + "</h2>");
+                var id = i++;
+                $("#xSell").append('<div id="xSellBox' + id + '" class="bxcarousel_box_bestseller">');
+                $("#xSellBox" + id).append('<ul class="bxcarousel_bestseller" id="xSellList' + id + '">');
+                value.forEach(function (s, i, o) {
+                    $("#xSellList" + id).append(s);
+                });
+                $("#xSellList" + id).bxSlider({
+                    minSlides: 2,
+                    maxSlides: 8,
+                    pager: ($(this).children('li').length > 1),
+                    slideWidth: 124,
+                    slideMargin: 18
+                });
+                $("#xSell").append('<br class="clearfix" />');
+            });
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("mist: " + textStatus, errorThrown);
+        }
+    });
+}
+
+function getCheckedRadioValue(cssClass) {
+    var elements = document.getElementsByClassName(cssClass);
+    var osp;
+    for (var i = 0, len = elements.length; i < len; ++i) {
+        if (elements[i].checked) {
+            osp = elements[i].id.substr(elements[i].id.indexOf('_') + 1);
+            return osp;
+        }
+    }
+}
+
+function uncheckRadioValues(cssClass) {
+    /* call on ready to set all elements unchecked */
+    var elements = document.getElementsByClassName(cssClass);
+    for (var i = 0, len = elements.length; i < len; ++i) {
+        elements[i].checked = false;
+    }
+}
+
+function getLanguageId(langCode) {
+    switch (langCode) {
+        case 'en':
+            return 1;
+        case 'de':
+            return 2;
+        default:
+            return 2;
+    }
+}
+
+/* click auf einen Tab, nur beim Tab mit ID xsTab passiert was */
+$(".resp-tabs-list").click(function () {
+    var xS = document.getElementById('xsTab').className;
+    if ( xS.indexOf("activ") >= 0) {
+        retrieveXsell();
+    }
+});
+
+function getOrdNoByTag() { 
+   var metas = document.getElementsByTagName('meta'); 
+
+   for (var i=0; i<metas.length; i++) { 
+      if (metas[i].getAttribute("itemprop") === "model") { 
+         return metas[i].getAttribute("content"); 
+      } 
+   } 
+
+    return "";
+} 
+
+/* <meta itemprop="model" content="1002/21"> */

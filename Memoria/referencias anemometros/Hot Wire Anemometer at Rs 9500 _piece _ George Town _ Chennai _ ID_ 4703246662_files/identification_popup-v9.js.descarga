@@ -1,0 +1,1714 @@
+webAddressLocation = location.hostname; 
+var isIdentifiedPopupOpen = 1;
+var webAddress = location.hostname;
+var country_code;
+var country_ip = '';
+var ip_country = '';
+var UrlPri2 = webAddress.match(/^dev/)?"stg1-":(webAddress.match(/^stg/))?"stg1-":"";
+var UrlPri = webAddress.match(/^dev/)?"dev-":(webAddress.match(/^stg/))?"stg-":"";
+var country_ip_iden = '';
+var country_iso_iden = '';
+var country_nm_iden = '';
+
+$(document).ready(function(){
+    setTimeout(function(){callIdentificationPopup()},3000);
+    $(function(){
+            $(document).unbind('keypress').bind('keypress', function (e) {
+           if (e.keyCode == 13 && ((document.getElementById('logintoidentify')) || (document.getElementById('check_verify1')))){
+                    if($('#countryIso').val() == 'IN')
+                    {
+                      $("#logintoidentify").click();
+                    }
+                    else
+                    {
+                    if(document.getElementById("myCheckbox")){
+                      if(document.getElementById("myCheckbox").checked) 
+                        {
+                          $("#logintoidentify").click();
+                        }
+                      else
+                        {
+                            var mob_box = document.getElementById('mbl_idn');
+                            var err_div = document.getElementById('err-msg-mbl-ctl');
+                            invalidmsg_ctl(mob_box,"Please accept the terms and privacy policy.",err_div);
+                        }
+                    }
+                    }
+        $("#check_verify1").click(); 
+                return false;
+       }
+    });    
+});
+});
+
+function callIdentificationPopup(){
+    if(typeof(rspv) !== 'undefined'){
+    if(rspv == 2 || rspv == 4 || rspv == 6){
+        var c_imesh = (typeof(readCookie("ImeshVisitor")) !== "undefined")?readCookie("ImeshVisitor"):'';
+        if(c_imesh == '' || c_imesh==null){
+           getIdentifiedPopUpHTMLForm1();
+           setTimeout(function(){identify_Banner()},1000);
+           $('#IdentifiedPopUpHTML').on("click","#countrySuggesterIdenPop",function(){changePopUpInput(identifiedPopName,1);});is_form_open=0; 
+       }
+    }
+}
+}
+function invalidmsg_ctl(mob_num, err_msg, err)
+{   
+    mob_num.style.borderColor="red";
+    err.innerHTML=err_msg;
+    err.style.display="block";
+}
+
+function invalidmsg_ctl1(mob_num, err_msg, err)
+{   
+    mob_num.style.borderColor="red";
+    err.innerHTML=err_msg;
+    err.style.display="block";
+    err.style.width='354px';
+    err.style.marginLeft='0';
+    err.style.textAlign='center';
+}
+
+function validmsg_ctl(mob_num, err, flag)
+{
+    if(1==flag)
+    {
+        mob_num.style.borderColor='#999';
+        err.innerHTML='';
+        err.style.display="none";
+    }
+}
+function checkSuggester(){
+    var utilsUrl = webAddressLocation.match(/^dev/) ? "//dev-utils.imimg.com/" : (webAddressLocation.match(/^stg/)) ? "//stg-utils.imimg.com/" : "//utils.imimg.com/";
+   if (typeof (Suggester) == 'undefined') {
+   jselement_mcatname = document.createElement("script");
+   if (typeof sugg_ver != 'undefined' && sugg_ver != null && sugg_ver != '') {
+       jselement_mcatname.src = utilsUrl + "suggest/js/" + sugg_ver;
+   }
+   else {
+       jselement_mcatname.src = utilsUrl + "suggest/js/jq-ac-ui.js";
+   }
+   jselement_mcatname.setAttribute("crossorigin", "anonymous");
+   document.getElementsByTagName('head')[0].appendChild(jselement_mcatname);
+   }
+    else
+        countryFlagSuggesterIdentifiedPopup();
+}
+function createCookieforidenty(name,value,days)
+{
+    if (days)
+    {
+            var date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; domain=.indiamart.com;path=/"; 
+}
+function get_DomainURL()
+{
+    var mapi_domain = 'mapi.indiamart.com';
+    if(window.location.hostname.match(/dev-|dev\./ig))
+    {
+        mapi_domain = 'stg-mapi.indiamart.com';
+    }
+    else if(window.location.hostname.match(/stg-|stg\./ig))
+    {
+        mapi_domain = 'stg-mapi.indiamart.com';
+    }
+    return mapi_domain;
+}
+
+function userDetailsAutoFetchforidenty(user_name)
+{
+    var cn_iso=$('#countryIso').val();
+    var mapi_domain=get_DomainURL();
+    var modid = 'IMHOME';
+    if (typeof(glmodid) != 'undefined') { modid=glmodid;}
+    var params_request = {  
+                'username':user_name,
+                'iso':cn_iso,
+                'modid':modid,
+                'format':'JSON',
+                'create_user':1,
+                'originalreferer':window.location.href,
+                'GEOIP_COUNTRY_ISO':cn_iso,
+                'ip':country_ip_iden,
+                'screen_name':'Identified Pop-Up'
+            };
+    if(country_ip_iden == '' || country_ip_iden == 'undefined'){
+        callIdentifyAfterGettingIP(user_name,params_request);
+    }
+    else{
+        callIdentify(user_name,params_request);
+    }
+}
+function callIdentifyAfterGettingIP(user_name,params_request){
+    //Get IP here and then call Identify
+    var iplocread = readCookie('iploc');
+        country_code = (iplocread != '') ? getparamValIden(iplocread,"gcniso"):'';
+        country_ip = (iplocread != '') ? getparamValIden(iplocread,"gip"):'';
+        ip_country = (iplocread != '') ? getparamValIden(iplocread,"gcnnm"):'';
+
+        if(country_ip=='')
+        {
+            var ULTAparams={
+                'modid':modid,
+                'token':'imobile@15061981'
+            };
+
+            $.ajax({
+                type: "POST",
+                dataType: "json",
+                data: ULTAparams,
+                url: "https://geoip.imimg.com/api/location.php",
+                crossDomain: true,
+                success: function(data){
+                    iso_by_ip = data.Response.Data.geoip_countryiso;
+                    country_ip = data.Response.Data.geoip_ipaddress;
+                    ip_country = data.Response.Data.geoip_countryname;
+                    if(iso_by_ip == 'UK'){iso_by_ip = 'GB';}
+                    country_code = iso_by_ip;
+                    if(country_ip != '' && country_ip != 'undefined'){
+                        params_request['ip'] = country_ip;
+                        callIdentify(user_name,params_request);
+                    }
+                }
+                });
+        }
+}
+function callIdentify(user_name,params_request){
+    var cn_iso=$('#countryIso').val();
+    document.getElementById("logintoidentify").disabled = true;
+    $.ajax({
+url: "//"+UrlPri2+"login.indiamart.com/user/identify/",
+data: params_request,
+type: 'POST',
+jsonpCallback:'create_callback',
+success: function(jsonResult)
+{   var jsonResult = $.parseJSON(jsonResult);
+    var attributeId = 121;
+    if(jsonResult != undefined && jsonResult["code"] == '200')
+    {
+        var access=jsonResult.access; 
+        if(access != undefined && access == '2'){
+        document.cookie = "ImeshVisitor=; domain=.indiamart.com; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        window.location.reload();
+        return;
+        }
+        var resultSet = jsonResult.DataCookie;
+        var v4iilFlag = 0;
+        var imeshVisrFlag = 0;
+            if((resultSet != undefined) && (resultSet !=''))
+                {
+                            imeshVisrFlag = 1;
+                            var imesh_obj = {}; 
+                            imesh_obj = new userDataCookie();
+                            imesh_obj.set(resultSet);
+                            getLoginStringv1();
+                            if(typeof isBLFormOpen != 'undefined'){
+                            callToIdentifiedQ();}
+                            var imesh = new userDataCookie().get();
+                            var v4iil = readCookie('v4iilex');
+                            var glUserId = imesh.glid;
+                            var name = imesh.fn;
+                            var email = imesh.em;
+                            var city = imesh.ct;
+                            var ph_country = imesh.phcc;
+                            var screen = 'IDEN';
+                            if (document.getElementById("myCheckbox").checked) {
+                var params = {
+                    'r':'Newreqform/TermNCondition',
+                    's_glusrid':glUserId,
+                    's_user_agent':navigator.userAgent,
+                    'modid':modid,
+                    's_ip':country_ip,
+                    's_ip_country':country_nm,
+                    's_ip_country_iso':iso_by_ip,
+                    'curr_page_url':window.location.href,
+                    'reference_text':'Identified Popup'
+                };
+                $.ajax({
+            url: "//"+UrlPri+"apps.imimg.com/index.php?",
+            type:"POST",
+            data:params,
+            crossDomain: true,
+            success: function (jsonResult1){
+            }
+                });
+                }
+                            if(name != '' && email != '' && city != ''){var flag = 4;}else{var flag = 3};
+                            if(!(v4iil == "" || v4iil == null))
+                            {
+                                if(imesh.phcc == '91')
+                                {
+                                    $("#overlay_s").css("display","block");
+                                    send_otp(glUserId,modid,user_name,ph_country,attributeId,cn_iso,'2',1,screen);
+                                }
+                                else{
+                                    /*identfy_verify(1);*/$("html").css("overflow","auto"); callToIdentifiedQ(); $("#idfpclose, #identifiedForm,  #indicatorLoader, #welComp").hide(); $('#maskctl').hide(); $('#identyfy_usr_ctl').hide(); $("#overlay_s").css("display","none");
+                                    $("html").css("overflow","auto");
+                                    $('#IdentifiedPopUpHTML').html('');
+                                }
+                            }
+                            else if(imesh.phcc == '91' && imesh.uv != 'V')
+                            {     
+                                $("#overlay_s").css("display","block");
+                                $('#idn').css({"width":"100%","height":"100%"});
+                                send_otp(glUserId,modid,user_name,ph_country,attributeId,cn_iso,'2',flag,screen);
+                            }
+                            else
+                            {
+                                //identfy_verify(1);
+                                $("html").css("overflow","auto"); callToIdentifiedQ(); $("#idfpclose, #identifiedForm,  #indicatorLoader, #welComp").hide(); $('#maskctl').hide(); $('#identyfy_usr_ctl').hide(); $("#overlay_s").css("display","none");
+                                $("html").css("overflow","auto");
+                                $('#IdentifiedPopUpHTML').html('');
+                                if(modid=='IMHOME'){
+                                    window.location.reload();
+                                    return;
+                                }
+                            }
+                            var pv_count=getparamValIden(readCookie("xnHist"), "pv");
+                            var spv1 = getparamValIden(readCookie("sessid"), "spv");
+                            if (typeof(glmodid) != 'undefined') { modid=glmodid;}
+                            if(spv1 == 2)
+                                 {_gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_submit_2nd',modid, 0, false]);  
+                            }
+                            if(spv1 == 4)
+                                 {_gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_submit_4th',modid, 0, false]);  
+                            }
+                            if(spv1 == 6)
+                                 {_gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_submit_6th',modid, 0, false]);
+                            }
+                            if(spv1 == 7)
+                                 {_gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_submit_7th',modid, 0, false]);
+                            }
+                        
+                }
+    }
+    if(jsonResult["code"] == '204')
+    {   
+        if(jsonResult["message"] == 'ISO MisMatch'){
+        var mob_box = document.getElementById('mbl_idn');
+        var err_div = document.getElementById('err-msg-mbl-ctl');
+        invalidmsg_ctl(mob_box,"You seem to be from India. Select India as Country.",err_div);
+        $('#logintoidentify').removeClass("load_s bgnn");
+        $("#logintoidentify").show();
+        document.getElementById("logintoidentify").disabled = false;
+        return false;
+        }
+        else{
+        var mob_box = document.getElementById('mbl_idn');
+        var err_div = document.getElementById('err-msg-mbl-ctl');
+        if(jsonResult["message"].match("observed suspicious activity in your")){
+            $('#logintoidentify').css("margin","55px auto 0px");
+        }
+        invalidmsg_ctl(mob_box,jsonResult["message"],err_div);
+        err_div.style.width='354px';
+        err_div.style.marginLeft='0';
+        err_div.style.textAlign='center';
+        $('#logintoidentify').removeClass("load_s bgnn");
+        $('#spn').css("display","none");
+        $("#logintoidentify").show();
+        $(".loader").css('display','none');
+        document.getElementById("logintoidentify").disabled = false;
+        return false;
+        }    
+    }
+},
+error: function(message)
+{       
+        var mob_box = document.getElementById('mbl_idn');
+        var err_div = document.getElementById('err-msg-mbl-ctl');
+        invalidmsg_ctl(mob_box,"Some error occurred. Please try after some time.",err_div);
+}
+});
+}
+
+function googThanks(ver_val)
+{      
+        $("html").css("overflow","auto");
+        callToIdentifiedQ();
+        var PopUpHTML = '<div class="overlay_s" id="overlay_s"></div><div id="popupContact_s"><div id="maskctl"></div> <div id="identyfy_usr_ctl" style="display:no ne"  class="iden_bg wd_box1 ht-box" ><div class="ht50 pb10" style="height:80px;background:#2e3192;"><div class="pr-id pt10"> <p class="font_17" id="welcomeMsg" style="color:#dfe0fb!important;"><br><span class="font_34" id = "msg-id">Kaam Yahin Banta Hai </span></p> </div> </div> <div class="m_pop"> <div id="thankuMsg" class="tnkmsg wel-txt" style="display:no ne;margin:81px 0 -30px 0px;font-size:40px;text-align: center;"> Thank You !</div> <form id="identifiedForm" onsubmit="validateForm_userName(document.getElementById(\'mbl_idn\'),\'err-msg-mbl-ctl\');return false;"><div class="porl pr-id mt20"> <dl id="countrySuggesterIdenPop1" class="dropdown cntry_drpdwn2 tli" style="left: 91px;top:-1px" autocomplete="off"></dl> <input type="hidden" value="+91" id="MobCCode" name="MobCCode"> <input type="text" id="mbl_idn" class="input_pop flot_n" placeholder="Enter Your mobile number" style="margin-right:0px;"> <input type="hidden" value="" id="countryIso" name="countryIso"> <div id="err-msg-mbl-ctl" style="left:0px"></div> <div class="pr-id"> <div class="numbr" id ="spn" style="left:0; top:15px;position:absolute"><span class="check_icon"></span> Your Mobile Number is safe with us</div> <input type="submit" id="logintoidentify" class="submit_pop1 flot_n cp fll" value="CONTINUE" style="position:absolute; right:88px;"> </div> <div style="display:no ne" class="loader-container arc-rotate2 mloder2" id="indicatorLoader"> <div class="loader"> <div class="arc"></div> </div> </div> </div></div> </form> <div class="ic-btm"><div class="logoN" style="right:10px;"></div><a class="skptxt idfpclose" id="idfpclose" onclick="impTrack()">Skip</a></div></div></div>';
+            
+        $("#IdentifiedPopUpHTML").html(PopUpHTML);
+        $('#err-msg-mbl-ctl').hide();
+        $("#thankuMsg").show();
+        $('#logintoidentify').css({"visibility":"hidden"});
+            
+            if(ver_val == 0){
+                $("#idfpclose, #identifiedForm,  #indicatorLoader, #welComp, #msg-id ").hide();
+                setTimeout(function(){
+                    $('#maskctl').hide();
+                    $('#identyfy_usr_ctl').hide();
+                    $("#overlay_s").css("display","none");
+                }, 2000);
+            }   
+            else{
+                $("#idfpclose, #identifiedForm,  #indicatorLoader, #welComp").hide();
+                setTimeout(function(){
+                    $('#maskctl').hide();
+                    $('#identyfy_usr_ctl').hide();
+                    $("#overlay_s").css("display","none");
+                }, 2000);
+            }
+}
+
+var useremail = '';
+var username = '';
+var GLogo = '//'+UrlPri+'utils.imimg.com/globalhf/Glogo.png';
+var googuser = 0;
+var link1 = "//"+UrlPri+"my.indiamart.com/userprofile/contactprofile";
+
+function showgoogleverify()
+{
+    $("html").css("overflow","auto");
+    $('#IdentifiedPopUpHTML').html('');return true;
+}
+function setEmailCookie(email,marked,fn)
+{
+    var imeshval = readCookie("ImeshVisitor");
+    var b = "";
+    var offset;
+    var offset1;
+    var end = email.indexOf("@");
+    var len = end-2;
+    var str = "";
+    for (var i = 0; i <= end; i++)
+    {
+        str+="*";
+    }
+    var ends = email.substring(end);
+    email = email.charAt(0)+str+ends;
+    if (imeshval.length > 0)
+        if (offset = imeshval.indexOf("em"), -1 != offset)
+        {
+            b = strToObj(imeshval);
+            b.em = email;
+            imesh_obj.set(b);
+        }
+    if (marked == 1)
+    {
+        if (offset1 = imeshval.indexOf("ev"))
+        {
+            b = strToObj(imeshval);
+            b.ev = "V";
+            imesh_obj.set(b);
+        }  
+        if (offset1 = imeshval.indexOf("fn"), -1 != offset)
+        {
+            b = strToObj(imeshval);
+            b.fn = fn;
+            imesh_obj.set(b);
+        }
+    }
+}
+
+function emailProper(useremail1)
+{
+                if((useremail1 == '') || (useremail1.length == 0))
+                {
+                    $('#starMandatory').css("display","block");
+                    $('#starMandatory').html("Please enter your Email ID.");
+                    return false;      
+                }
+                else if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(useremail1))) {
+                    $('#starMandatory').css("display","block");
+                    $('#starMandatory').html("Invalid Email ID. Please enter the correct Email ID.");
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+}
+
+function anchorClick()
+{
+    _gaq.push(['_trackEvent','Identification_login_popup','Click_to_verify_IM_details_NoGoogle', modid, 0, false]);
+    myWindow = window.open(link1,'_self');
+}
+
+function attachSignin(element) 
+{
+    auth2.attachClickHandler(element, {},
+        
+        function(googleUser) {
+            _gaq.push(['_trackEvent','Identification_login_popup','Click_On_Connect_With_Google_Button', modid, 0, false]);
+            googuser = 1;
+            username = googleUser.getBasicProfile().getName();
+            useremail = googleUser.getBasicProfile().getEmail();
+            $('#namename').css("display","block");
+            $('#gSignInWrapper').css("display","none");
+            $('#lineline').css("display","none");
+            $('#oror').css("display","none");
+
+            var val_imesh = readCookie("ImeshVisitor");
+            var fn = (val_imesh !='') ? getparamValIden(val_imesh, "fn") : '';
+            if(fn == '')
+            {
+                document.getElementById('nametext').value = username;
+            }
+            else
+            {
+                document.getElementById('nametext').value = fn;
+            }
+            document.getElementById('emailtext').value = useremail;
+            $('#mm_pop').css("margin-top","35px");
+            $('#starMandatory').css("display","none");            
+        },
+
+        function(error) 
+        {
+          _gaq.push(['_trackEvent','Identification_login_popup','Google_login_closed', modid, 0, false]);
+        });
+}
+
+function closePop()
+{
+    if (googuser == 1)
+    {
+        _gaq.push(['_trackEvent','Identification_login_popup','Google_IM_Email_Duplicate_Close', modid, 0, false]);
+    }
+    else
+    {
+        _gaq.push(['_trackEvent','Identification_login_popup','Continue_With_Google_Close', modid, 0, false]);
+    }
+    
+    $("html").css("overflow","auto");
+    callToIdentifiedQ();
+    $('#maskctl').hide();
+    $('#identyfy_usr_ctl').hide();
+    $("#overlay_s").css("display","none");
+}
+
+function validateForm_userName(mob_box,errdiv) 
+{
+    var LWG_call = $("#LWG").val();
+    var mobVal = mob_box.value;
+        var err_div=document.getElementById(errdiv);
+         $('#logintoidentify').addClass("load_s bgnn");
+        if($('#countryIso').val()=="IN")
+        {
+            if((mobVal == '') || (mobVal.length == 0))
+            {
+                    invalidmsg_ctl(mob_box,"Please enter mobile number.",err_div);
+                    $('#logintoidentify').removeClass("load_s bgnn");
+                    return false;
+            }
+            else if((/^[0-9-()\[\]\s]{0,30}$/).test(mobVal))
+            {
+                    var rmSpeChar= mobVal.replace(/\-|\s|\[|\]|\(|\)/ig,'');
+                    var mobValFilter = /^(?:(?:\+|0{0,2})(91|910)(\s*[\-]\s*)?|[0]?)?[16789]\d{9}$/;//for checking mobile no. starting with 6,7,8,9
+                    var validMob=mobValFilter.test(mobVal);
+                    var cnt = rmSpeChar.length;
+                    if(cnt>10){rmSpeChar = mobVal.replace(/^((91){0,1}0{0,})/g,'');}
+    
+                    if(($("#MobCCode").val() == '+91' || $("#MobCCode").val() == '91' || $("#countryIso").val() == 'IN') && (rmSpeChar.length != 10))
+                    {
+                            invalidmsg_ctl(mob_box,"Please enter 10 digit mobile number.",err_div);
+                            $('#logintoidentify').removeClass("load_s bgnn");
+                            return false;   
+                    }
+                    else if(($("#MobCCode").val() == '+91' || $("#MobCCode").val() == '91' || $("#countryIso").val() == 'IN') && (validMob == false))
+                    {
+                            invalidmsg_ctl(mob_box,"Mobile Number should start with 1,6,7,8 or 9",err_div);
+                            $('#logintoidentify').removeClass("load_s bgnn");
+                            return false;   
+                    }
+                    else if(rmSpeChar.length > 20)
+                    {
+                            invalidmsg_ctl(mob_box,"Please enter correct mobile number.",err_div);
+                            $('#logintoidentify').removeClass("load_s bgnn");
+                            return false;   
+                    } 
+                    else 
+                    {
+                            validmsg_ctl(mob_box,err_div,1);
+                            if(typeof LWG_call != undefined && LWG_call == 1){
+                                          var multiple_mob_numbers = $("#multi_mob_numbers_lwg").val();
+                                          if(typeof multiple_mob_numbers != undefined && multiple_mob_numbers != ''){
+                                            var multi_mobs = multiple_mob_numbers.split(",");
+                                              if(jQuery.inArray(mobVal,multi_mobs) == -1){
+                                                identifyViaLoginWithGoogleIden(mobVal,0);
+                                                //invalidMsgLogin("Mobile number is not associated with registered Email ID");
+                                                //return false;
+                                              }
+                                              else{
+                                              identifyViaLoginWithGoogleIden(mobVal,1);}
+                                          }
+                                          else{
+                                          identifyViaLoginWithGoogleIden(mobVal);}
+                                        }
+                            else{
+                                userDetailsAutoFetchforidenty(document.getElementById('mbl_idn').value);
+                            }
+                            
+                            $("#"+errdiv).html("");
+                            $('#logintoidentify').css({"visibility":"show"});
+                            $('#indicatorLoader').show();
+                            return true;
+                    }
+            } 
+            else {
+                    invalidmsg_ctl(mob_box,"Please enter correct mobile number.",err_div);
+                    $('#logintoidentify').removeClass("load_s bgnn");
+                    return false;
+            }
+        }
+        else
+        {
+            if(typeof LWG_call != undefined && LWG_call == 1){
+                mobVal = $("#gemail").text();
+              }
+
+            if((mobVal == '') || (mobVal.length == 0))
+            {
+                invalidmsg_ctl(mob_box,"Please enter your Email ID",err_div);
+                $('#logintoidentify').removeClass("load_s bgnn");
+                return false;      
+            }
+            else if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(mobVal))) {
+                invalidmsg_ctl(mob_box,"Invalid Email ID. Please enter the correct Email ID.",err_div);
+                $('#logintoidentify').removeClass("load_s bgnn");
+                return false;
+            }
+            else
+            {
+                validmsg_ctl(mob_box,err_div,1);
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                            identifyViaLoginWithGoogleIden(mobVal);
+                          }
+                else{
+                    userDetailsAutoFetchforidenty(document.getElementById('mbl_idn').value);
+                }
+            }
+        }
+}
+
+function identifyViaLoginWithGoogleIden(username,multi_flag){
+      //call check existing user or new user via login with google / new login wrapper
+        var mob_box = document.getElementById('mbl_idn');
+        var err_div = document.getElementById('err-msg-mbl-ctl');
+      //var err_div=document.getElementById(errdiv);
+      _gaq.push(['_trackEvent', 'Login_With_Google_identification','Step2',modid, 0, 0]);
+      var iso_by_ip = $('#countryIso').val();
+        var iplocread = readCookie('iploc');
+        if(typeof iso_by_ip == undefined || iso_by_ip =='')
+        iso_by_ip = (iplocread != '') ? getparamValIden(iplocread,"gcniso"):'';
+        country_ip = (iplocread != '') ? getparamValIden(iplocread,"gip"):'';
+        country_nm = (iplocread != '') ? getparamValIden(iplocread,"gcnnm"):'';
+       // var iso = $('#iso').val();
+        var ph_country = $('#MobCCode').val();
+        var updated = $('#updatedusing').val();
+        ph_country = ph_country.replace('+','');
+        //if(!$('#iso').val()){$('#iso').val(iso_by_ip);}
+            //$("#logintoidentify").css("display","none");
+        $("#loading_s").css("display","block");
+        var url = "//"+UrlPri2+"login.indiamart.com/user/loginwithgoogle/";
+        var params_request = {  
+            'username':username,
+            'iso':iso_by_ip,
+            'modid':modid,
+            'format':'JSON',
+            'create_user':1,
+            'originalreferer':window.location.href,
+            'GEOIP_COUNTRY_ISO':iso_by_ip,
+            'ip':country_ip,
+            'ph_country':ph_country,
+            'screen_name':"Identified Pop-Up",
+            'gusername':gusrname,
+            'gemail':gusremail
+        };
+        var mobVal = $('#mobile').val();
+        if(typeof mobVal != undefined && mobVal != ''){
+          if(($('#iso').val()=="IN" && $('#step').val() == "1") || ($('#iso').val() != "IN" && $('#step').val() == "2")){
+            params_request['username'] = mobVal;
+            //params_request['email'] = $("#gemail").text();
+          }
+          else if($('#iso').val()!="IN"){
+            params_request['username'] = username;//mobVal;
+           // params_request['email'] = $("#gemail").text();
+            params_request['mobile'] = mobVal;
+          }
+        }
+        $.ajax({
+            url: url,
+            type:"POST",
+            data:params_request,
+            jsonpCallback:'create_callback',
+            crossDomain: true,
+            success: function ( jsonResult ){
+              var jsonResult = $.parseJSON(jsonResult);
+              if(jsonResult['code']==200){
+                var msg = jsonResult["msg"];
+                
+                var resultSet=jsonResult.DataCookie; 
+                var access=jsonResult.access; 
+                var glid = jsonResult.DataCookie.glid;
+                 if(access != undefined && access == '2'){
+                    document.cookie = "ImeshVisitor=; domain=.indiamart.com; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                    window.location.reload();
+                    return;
+                }
+                if((resultSet != undefined) && (resultSet !='')){
+                   document.cookie = "ImeshVisitor" + "=;expires=;domain=.indiamart.com;path=/;";
+                   imesh_obj.set(resultSet,"ImeshVisitor");
+                   getLoginStringv1();
+                   if(typeof isBLFormOpen != 'undefined'){
+                   callToIdentifiedQ();}
+                   var imesh = new userDataCookie().get();
+                    var glUserId = imesh.glid;
+                    var name = imesh.fn;
+                    var email = imesh.em;
+                    var city = imesh.ct;
+                    iso = imesh.iso;
+                    ph_country = imesh.phcc;
+
+                  if(multi_flag==1){
+                    // already existing number associated with multiple email case is getting identified, then verify email
+                    verifyEmailViaLWGIden(gusremail,glid);
+                    // if new number is logged with already associated multi email then do not verify email, just give identified login
+                    //now ask for OTP
+                    if(name != '' && email != ''){var flag = 4;}else{var flag = 3;}
+                    if(ph_country == '91'&& imesh.uv !='V' && iso == 'IN'){
+                    if(typeof isBLFormOpen != 'undefined'){      
+                           callToIdentifiedQ();}
+                    if ( document.URL == "https://"+UrlPri+"seller.indiamart.com/sbl" ){
+                        fullLoginForm('','','','B');
+                    }
+                    else
+                    {
+                        //truecaller_Ver(glUserId,modid,username,ph_country,'121',iso,'2',flag);
+                        //showmobverifyform(glUserId,modid,username,ph_country,'121',iso,flag,'IDEN','');
+                        send_otp(glUserId,modid,username,ph_country,'121',iso,'2',1,'IDEN');
+                        $("#loading_s").hide();
+                        getLoginStringv1();
+                        $("#overlay_s").show();
+                        return true;
+                    }
+                    }
+                    else if(modid=='IMHOME'){
+                        window.location.reload();
+                    }
+                  }
+                  else if(msg == "New User created via User creation service"){
+                    verifyEmailViaLWGIden(gusremail,glid);
+                      // if new user is indian, so verify mobile no. hence show verification popup here
+                      if(name != '' && email != ''){var flag = 4;}else{var flag = 3;}
+                      if(ph_country == '91'&& imesh.uv !='V' && iso == 'IN'){
+                      if(typeof isBLFormOpen != 'undefined'){      
+                             callToIdentifiedQ();}
+                      if ( document.URL == "https://"+UrlPri+"seller.indiamart.com/sbl" ){
+                          fullLoginForm('','','','B');
+                      }
+                      else
+                      {
+                          //truecaller_Ver(glUserId,modid,username,ph_country,'121',iso,'2',flag);
+                          //showmobverifyform(glUserId,modid,username,ph_country,'121',iso,flag,'IDEN','');
+                          send_otp(glUserId,modid,username,ph_country,'121',iso,'2',1,'IDEN');
+                          $("#loadinglwg").hide();
+                          getLoginStringv1();
+                          $("#overlay_s").show();
+                          return true;
+                      }
+                      }
+                      else if(modid=='IMHOME'){
+                        window.location.reload();
+                      }
+                  }
+                  else if(msg == "Mobile Number found in Primary Mobile"){
+                    verifyEmailViaLWGIden(gusremail,glid);
+                      // if indian user already existing with unverified no. , show verification popup
+                      if(name != '' && email != ''){var flag = 4;}else{var flag = 3;}
+                      if(ph_country == '91'&& imesh.uv !='V' && iso == 'IN'){
+                      if(typeof isBLFormOpen != 'undefined'){      
+                             callToIdentifiedQ();}
+                      if ( document.URL == "https://"+UrlPri+"seller.indiamart.com/sbl" ){
+                          fullLoginForm('','','','B');
+                      }
+                      else
+                      {
+                          //truecaller_Ver(glUserId,modid,username,ph_country,'121',iso,'2',flag);
+                          //(glUserId,modid,username,ph_country,'121',iso,flag,'IDEN','');
+                          send_otp(glUserId,modid,username,ph_country,'121',iso,'2',1,'IDEN');
+                          $("#loadinglwg").hide();
+                          getLoginStringv1();
+                          $("#overlay_s").show();
+                          return true;
+                      }
+                      }
+                      else if(modid=='IMHOME'){
+                        window.location.reload();
+                      }
+                  }
+
+
+                        $("#loadinglwg").hide();
+                        //$('#sign_in').html('');
+                        $("#IdentifiedPopUpHTML").html("");
+                        getLoginStringv1();
+                        $("html").css("overflow","auto");
+                        
+                        return true;
+                }
+              }
+              else{
+                if(jsonResult["code"] == '204'){
+                                if(jsonResult["message"] == 'ISO MisMatch'){
+                                    //invalidMsgLogin("You seem to be from India. Select India as Country.");
+                                    invalidmsg_ctl(mob_box,"You seem to be from India. Select India as Country.",err_div);
+                                    //$("#country-dropdown").css('pointer-events','auto'); 
+                                    $("#countrySuggesterIdenPop").css('pointer-events','auto'); 
+                                    $("#trm1").css('margin-left','-55px');
+                                    $("#logintoidentify").removeClass('load_s bgnn') ;
+                                }else if(jsonResult["message"].match(/suspicious/g)){
+                                  var msg = jsonResult["message"];
+                                    //invalidMsgLogin(msg);  
+                                    invalidmsg_ctl(mob_box,msg,err_div);
+                                    $("#logintoidentify").removeClass('load_s bgnn') ;
+                                    $("#spn").css('display','none');
+                                    $("#err-msg-mbl-ctl").css({'text-align':'center','margin-left':'0px','width':'auto'});
+                                }
+                                else{ 
+                                    invalidmsg_ctl(mob_box,"Something went wrong. Please try again in sometime!",err_div);
+                                    $("#logintoidentify").removeClass('load_s bgnn') ;
+                                    //invalidMsgLogin("Something went wrong. Please try again in sometime!");
+                                    //_gaq.push(['_trackEvent','SignIn_204',username,modid, 0, true]);
+                                }
+                        }
+                $("#logintoidentify").css("display","inline-block");
+                $("#loading_s").css("display","none");
+                //$("#loadingmessage").hide();
+              }
+              
+            }
+          });
+}
+
+
+var identifiedPopName="";
+
+function getIdentifiedPopUpHTMLForm1()
+{
+    var meta = document.createElement('link');
+    meta.href = "https://fonts.googleapis.com/css?family=Roboto";
+    meta.rel = "stylesheet";
+    meta.type = "text/css";
+    document.getElementsByTagName('head')[0].appendChild(meta);
+    var meta2 = document.createElement('script');
+    meta2.src ="https://apis.google.com/js/platform.js";
+    document.getElementsByTagName('head')[0].appendChild(meta2);
+
+    var modid = 'IMHOME';
+    if (typeof(glmodid) != 'undefined') { modid=glmodid;}
+    if(country_ip=='' || country_ip=='undefined'){
+
+    var iplocread = readCookie('iploc');
+    iso_by_ip = (iplocread != '') ? getparamValIden(iplocread,"gcniso"):'';
+    country_ip = (iplocread != '') ? getparamValIden(iplocread,"gip"):'';
+    country_nm = (iplocread != '') ? getparamValIden(iplocread,"gcnnm"):'';
+
+    if(country_ip=='')
+    {
+        var ULTAparams={
+            'modid':modid,
+            'token':'imobile@15061981'
+        };
+
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            data: ULTAparams,
+            url: "https://geoip.imimg.com/api/location.php",
+            crossDomain: true,
+            success: function(data){
+                iso_by_ip = data.Response.Data.geoip_countryiso;
+                country_ip = data.Response.Data.geoip_ipaddress;
+                country_nm = data.Response.Data.geoip_countryname;
+                if(iso_by_ip == 'UK'){iso_by_ip = 'GB';}
+            }
+            });
+    }
+
+    if(iso_by_ip == 'UK'){iso_by_ip = 'GB';}
+
+    if(typeof(iso_by_ip) == 'undefined' || iso_by_ip == '')
+        iso_by_ip = 'IN';
+    country_ip_iden =  country_ip;
+    country_iso_iden = country_code;
+    country_nm_iden = ip_country;
+}   
+    if(glmodid != 'MDC'){
+   setTimeout(function(){
+     if(($('#enquiry').length) && (($('#enquiry').css('display')) == 'block') || ((typeof(isBLFormOpen)!='undefined') && (isBLFormOpen==true)) || (($('#im-pop_s').length) && (($('#im-pop_s').css('display')) == 'block'))){
+     $("#IdentifiedPopUpHTML").html("");
+            identifiedPopName = "";
+            is_form_open=0;}}, 2000);
+    }
+        var p_type = window.prod_serv;
+        var webAddress=window.location.pathname; 
+        
+        if(glmodid == 'MY' || glmodid == 'SELLERMY'  || glmodid == 'TDR'  || glmodid == 'BIGBUYER' || glmodid == 'CTL' || webAddress == '/seller/' || iso_by_ip != 'IN') 
+            {  
+            $("#IdentifiedPopUpHTML").html("");
+            identifiedPopName = "";
+            is_form_open=0;
+            return;
+            }
+        else if(glmodid == 'DIR')
+        {   var w_msg = '<span class="lookingfor">Looking for <br></span>'; 
+            var spv1 = getparamValIden(readCookie("sessid"), "spv");
+            if(location.href.match(/search.mp/)){
+            var p_nm = window.cat_name;
+//          p_nm = p_nm.charAt(0).toUpperCase() + p_nm.slice(1);
+            var p_cnt = window.ims.r;
+            var p_city = window.ims.cq_all;
+            }
+            else if(location.href.match(/impcat/))
+            {
+            if(typeof(window.cat_name) != 'undefined'){ 
+            var p_nm = window.cat_name;}
+            else{ p_nm = window.page.mcatName;}
+            
+            if(typeof(window.ims.unq_list_count) != 'undefined')
+            {var p_cnt = window.ims.unq_list_count;}
+            else {p_cnt = window.imd.unq_list_count;}
+            var p_city = window.ims.cq_all;
+            }
+            else
+            {
+            if(typeof(window.cat_name) != 'undefined'){ 
+            var p_nm = window.cat_name;}
+            else{ p_nm = window.page.mcatName;}
+            var p_city = window.city_nm;
+            if(typeof(p_city) != 'undefined')
+            {p_city = p_city.charAt(0).toUpperCase() + p_city.slice(1);}
+            }
+            if(typeof(p_city) == 'undefined')
+            {
+            p_city = '';
+            p_cnt = '';
+            var p_nm = 'New Suppliers';
+            w_msg = '<span class="lookingfor">Looking for <br></span>';
+            }else if(p_city == '')
+            {
+            if(p_type == 'P'){
+            if(spv1 == 4){
+            var p_new_msg = 'View supplier mobile no. for '+p_cnt+' products'; }
+            else {p_new_msg = 'Login to connect with '+p_cnt+' verified suppliers';} 
+            }
+            else{
+            if(spv1 == 4){
+            var p_new_msg = 'View supplier mobile no. for '+p_cnt+' services'; }
+            else {p_new_msg = 'Login to connect with '+p_cnt+' verified suppliers';} 
+            }
+            }
+            else{
+            p_nm = ''+p_nm+' in '+p_city+'';
+            p_new_msg = 'Choose from over 42 lakh suppliers ';
+            }
+            if(p_nm == '' || p_nm == 'undefined')
+            {  
+            var p_nm = 'New Suppliers';
+            p_new_msg = 'Login to connect with verified suppliers ';
+            w_msg = '<span class="lookingfor">Looking for <br></span>';
+            }
+            if(p_cnt == 0)
+            {
+            p_new_msg = 'Login to connect with  verified suppliers ';    
+            }
+            var lwg_html_btn = '<div id="lwg_wrpr" style="margin-top:25px;"><p style="margin-top:-10px;font-size:14px;font-weight:600;">OR</p><div id="gSignInWrapper" style="margin: 10px 0px 15px 0px;text-align:center;"> <div id="signinBtn" class="customGPlusSignIn"> <span class="Gicon" style="height:39px;"> </span> <span class="buttonText"> Continue with Google </span><input type="hidden" value="0" style="display:none;" id="LWG"> </div></div></div>';
+            var PopUpHTML = '<style>#countrySuggesterIdenPop dt span.value{display:none}</style><div class="overlay_s" id="overlay_s" style="display: none;"></div><div id ="idn" style="top: 100px;left: 0;position: fixed;z-index: 1001;width: 100%;background: transparent;"><div id="popupContact_s"><div id="maskctl"></div> <div id="identyfy_usr_ctl" style="display:none;"  class="iden_bg wd_box1 ht-box" ><div class="pb10" style="background:#2e3192;padding-bottom:5px"><div class="pr-id pt10"> <p class="font_26" id="welcomeMsg" style="color:#fff!important;padding:0 5px;">'+w_msg+' <b class="pt5 diblk" id="ghead">'+p_nm+'?</b> <br> <span class="font_17" id="gemail"><i>'+p_new_msg+'</i></span> </p> </div></div><div><div class="frm-1"><span class="f1_s" id="ghead1" style="padding-left:30px;font-size:16px;font-weight:600;margin-top:10px;margin-bottom:5px;display:none;"></span><span id="gemail1" style="padding-left:8px;font-size: 16px;font-weight: 600;display:none;"></span><div class="m_pop"><div id="thankuMsg" class="tnkmsg wel-txt" style="display:none;font-size:40px;text-align: center;"> Thank You !</div> <form id="identifiedForm" onsubmit="validateForm_userName(document.getElementById(\'mbl_idn\'),\'err-msg-mbl-ctl\');return false;"><label for="mbl_idn" id="lbl1" class="mt20 mobile_label" style="display: block;font-size: 15px;padding-bottom: 7px;font-weight: bold;color: #333;text-align: left;padding-left: 71px;">Enter your mobile number</label><div class="porl pr-id" style="height:229px;"> <dl id="countrySuggesterIdenPop" class="dropdown cntry_drpdwn2 tli" style="left: 91px;top:-3px" autocomplete="off"></dl> <input type="hidden" value="+91" id="MobCCode" name="MobCCode"> <input type="text" id="mbl_idn" class="input_pop flot_n" onkeypress="return isNumberValid1(event)" style="margin-right:0px;"> <input type="hidden" value="" id="countryIso" name="countryIso"> <div id="err-msg-mbl-ctl" style="left:0px"></div> <div class="pr-id"> <div class="numbr" id ="spn" style="left:0; top:5px;position:inherit;margin-left: -150px;display: inline-block;margin-top:10px;"><span class="check_icon" style="display:inline-block;float:none;"></span> Your mobile number is safe with us</div><div id="trm1" style="line-height: 21px;font-size: 14px;position: absolute;top: 30px; margin-left: -175px;"><label><input type="checkbox" id="myCheckbox" style="vertical-align:-2px;" onchange="activateButton1(this)">I agree to the </label><a href="https://www.indiamart.com/terms-of-use.html" target="_blank">terms </a> and <a href="https://www.indiamart.com/privacy-policy.html" target="_blank"">privacy policy</a></div><input type="submit" id="logintoidentify" class="submit_pop2 flot_n cp fll" value="CONTINUE" style="right:54px !important;text-align:center;padding-left:0px;background-position:173px 11px;width:245px;margin:0 auto;margin-top:33px;"> </div><input type="hidden" value="" id="multi_mob_numbers_lwg">'+lwg_html_btn+'<div class="loaderlwg" style="display:none;margin:0 auto;margin-top:20px;"> <img style="vertical-align:bottom; text-align:left;" src="//utils.imimg.com/header/gifs/indicator.gif" alt="loading" height="32" width="32"></div><div style="display:none;" class="loader-container arc-rotate2 mloder2" id="indicatorLoader"> <div class="loader"><div class="arc"></div> </div> </div> </div></div> </form><div class="ic-btm1"><div class="c3"></div><div class="logoN" style="right:10px;"></div><a class="skptxt idfpclose" id="idfpclose" onclick="impTrack()">Skip</a> </div> </div></div></div>';
+            $("#IdentifiedPopUpHTML").html(PopUpHTML);
+            identifiedPopName = "-Form1";
+            is_form_open=0;   
+            var spv1 = getparamValIden(readCookie("sessid"), "spv");
+            if(spv1 == 4 || spv1 == 6 || spv1 == 7)
+            {
+            $("#idfpclose").hide();    
+            }
+            if(p_nm.length > 32  && p_nm.length < 52)
+            {
+             $('#identyfy_usr_ctl').css({"width":"720px"});
+             $('#identyfy_usr_ctl').css({"height":"400px"});
+             $('#lbl1').css({"padding-left":"182px"});
+            }
+            else if(p_nm.length > 52)
+            {
+            $('#identyfy_usr_ctl').css({"width":"720px"});
+             $('#identyfy_usr_ctl').css({"height":"400px"});
+             $('#lbl1').css({"padding-left":"182px"});
+            }
+            else
+            {
+            $('#identyfy_usr_ctl').css({"height":"400px"});   
+            }
+        }
+        else if((glmodid == 'ETO' && location.href.match(/buyersearch.mp/)))
+            {
+            if(document.getElementById("blSearchHeader") != null){
+            var div = document.getElementById('blSearchHeader').innerText;
+            }
+            if (!(document.getElementById("titlesearch") === null ))
+            var mcat = document.getElementById('titlesearch').value;
+            var p_msg = 'Buy Leads to choose from !';
+            if(typeof mcat != 'undefined'){
+            var mcat_nm = 'Buyers of '+mcat+'';
+            if(typeof div != undefined && div != '')
+            var mcat_cnt = div.match(/\d+/g);
+            p_msgng = ''+mcat_cnt+' '+p_msg+''; 
+            }
+            else{
+            mcat_nm = 'New Buyers';
+            p_msgng = 'Various '+p_msg+'';  
+            }
+            var lwg_html_btn = '<div id="lwg_wrpr" style="margin-top:25px;"><p style="margin-top:-10px;font-size:14px;font-weight:600;">OR</p><div id="gSignInWrapper" style="margin: 10px 0px 15px 0px;text-align:center;"> <div id="signinBtn" class="customGPlusSignIn"> <span class="Gicon" style="height:39px;"> </span> <span class="buttonText"> Continue with Google </span><input type="hidden" value="0" style="display:none;" id="LWG"> </div></div></div>';
+            var PopUpHTML = '<style>#countrySuggesterIdenPop dt span.value{display:none}</style><div class="overlay_s" id="overlay_s" style="display: none;"></div><div id ="idn" style="top: 100px;left: 0;position: fixed;z-index: 1001;width: 100%;background: transparent;"><div id="popupContact_s"><div id="maskctl"></div> <div id="identyfy_usr_ctl" style="display:none"  class="iden_bg wd_box1 ht-box" ><div class="pb10" style="background:#2e3192;padding-bottom:5px"><div class="pr-id pt10"> <p class="font_26 lookingfor" id="welcomeMsg" style="color:#fff!important;">Looking For <br> <b class="pt5 diblk" id="ghead"> '+mcat_nm+'?</b> <br> <span class="font_10"><i id="gemail">'+p_msgng+'</i></span> </p> </div> </div> <div class="m_pop"> <div id="thankuMsg" class="tnkmsg wel-txt" style="display:none;font-size:40px;text-align: center;"> Thank You !</div> <form id="identifiedForm" onsubmit="validateForm_userName(document.getElementById(\'mbl_idn\'),\'err-msg-mbl-ctl\');return false;"><div class="porl pr-id mt20"> <dl id="countrySuggesterIdenPop" class="dropdown cntry_drpdwn2 tli" style="left: 91px;top:0px" autocomplete="off"></dl> <input type="hidden" value="+91" id="MobCCode" name="MobCCode"> <input type="text" id="mbl_idn" class="input_pop flot_n" onkeypress="return isNumberValid1(event)" placeholder="Enter Your mobile number" style="margin-right:0px;"> <input type="hidden" value="" id="countryIso" name="countryIso"> <div id="err-msg-mbl-ctl" style="left:0px"></div> <div class="pr-id"> <div class="numbr" id ="spn" style="left:0; top:5px;position:inherit;display:inline-block;margin-left:-150px;margin-top:10px;"><span class="check_icon"></span> Your mobile number is safe with us</div> <div id="trm1" style="line-height: 21px;font-size: 14px;position: absolute;top: 30px; margin-left: -175px;"><label><input type="checkbox" id="myCheckbox" style="vertical-align:-2px;" onchange="activateButton1(this)">I agree to the </label><a href="https://www.indiamart.com/terms-of-use.html" target="_blank">terms </a> and <a href="https://www.indiamart.com/privacy-policy.html" target="_blank"">privacy policy</a></div><input type="submit" id="logintoidentify" class="submit_pop2 flot_n cp fll" value="CONTINUE" style="right:54px !important;background-position:173px 11px;width:245px;margin:33px auto 0px;text-align:center;padding-left:0px;"> </div><input type="hidden" value="" id="multi_mob_numbers_lwg">'+lwg_html_btn+'<div class="loaderlwg" style="display:none;margin:0 auto;margin-top:20px;"> <img style="vertical-align:bottom; text-align:left;" src="//utils.imimg.com/header/gifs/indicator.gif" alt="loading" height="32" width="32"></div> <div style="display:none" class="loader-container arc-rotate2 mloder2" id="indicatorLoader"> <div class="loader"> <div class="arc"></div> </div> </div> </div></div> </form> <div class="ic-btm1"><div class="c3"></div><div class="logoN" style="right:10px;"></div><a class="skptxt idfpclose" id="idfpclose" onclick="impTrack()">Skip</a> </div> </div></div></div>';
+            $("#IdentifiedPopUpHTML").html(PopUpHTML);
+            identifiedPopName = "-Form1";
+            is_form_open=0;  
+            var spv1 = getparamValIden(readCookie("sessid"), "spv");
+            if(spv1 == 4 || spv1 == 6 || spv1 == 7)
+            {
+            $("#idfpclose").hide();    
+            }
+            if(mcat_nm.length > 32 && mcat_nm.length <= 52)
+            {
+             $('#identyfy_usr_ctl').css({"width":"720px"});
+             $('#identyfy_usr_ctl').css({"height":"400px"});
+            }
+            else if(mcat_nm.length > 52)
+            {
+             $('#identyfy_usr_ctl').css({"height":"400px"});
+            }
+            else
+            {
+            $('#identyfy_usr_ctl').css({"height":"400px"});   
+            }
+            }
+            else
+            {
+            var spv1 = getparamValIden(readCookie("sessid"), "spv");
+            if(glmodid == 'ETO')
+            {
+            var gen_msg1 = 'Looking for new buyers?';
+            var gen_msg2 = 'Expand your network with a click !';
+            var logo_im = '<div class="logoN" style="right:10px;"></div>';
+            }
+            else if(glmodid == 'MDC')
+            {
+            var gen_msg1 = 'Help us know you better';
+            var gen_msg2 = '';   
+            var logo_im = '';
+            }
+            else if(glmodid == 'FCP')
+            {
+            var gen_msg1 = 'Looking for best deals?';
+            var gen_msg2 = '';   
+            var logo_im = '';
+            }
+            else if(glmodid == 'PRODDTL')
+            {
+            var tmp = readCookie("sessid");
+            var spv1 = tmp.substr ( tmp.indexOf ( '=' ) + 1 );    
+            if(spv1 == 3 || spv1 == 2){
+            var gen_msg1 = 'Unlock the best of IndiaMART';
+            var gen_msg2 = 'Connect to top suppliers instantly'; 
+            }
+            else{
+            var gen_msg1 = 'Help us serve you better';
+            var gen_msg2 = 'Get product & seller details instantly';   
+            }
+            var logo_im = '<div class="logoN" style="right:10px;"></div>';
+            }
+            else
+            { 
+            if(spv1 == 3 || spv1 == 2)
+            {
+            var gen_msg1 = 'Find Buyers & Suppliers Online';    
+            var gen_msg2 = 'Save Time,Money and Effort';
+            }
+            else{
+            var gen_msg1 = 'You\'re Missing Out !!';    
+            var gen_msg2 = 'Connect with Buyers and Sellers Anytime';
+            }
+            var logo_im = '<div class="logoN" style="right:10px;"></div>';
+            }
+            var lwg_html_btn = '<div id="lwg_wrpr" style="margin-top:25px;"><p style="margin-top:-10px;font-size:14px;font-weight:600;">OR</p><div id="gSignInWrapper" style="margin: 10px 0px 15px 0px;text-align:center;"> <div id="signinBtn" class="customGPlusSignIn"> <span class="Gicon" style="height:39px;"> </span> <span class="buttonText"> Continue with Google </span><input type="hidden" value="0" style="display:none;" id="LWG"> </div></div></div>';
+            var PopUpHTML = '<style>#countrySuggesterIdenPop dt span.value{display:none}</style><div class="overlay_s" id="overlay_s" style="display: none;"></div><div id ="idn" style="top: 100px;left: 0;position: fixed;z-index: 1001;width: 100%;background: transparent;"><div id="popupContact_s"><div id="maskctl"></div> <div id="identyfy_usr_ctl" style="display:none;height:400px;"  class="iden_bg wd_box1 ht-box" ><div class="ht50 pb10" style="height:80px;background:#2e3192;"><div class="pr-id pt10"> <div class="font_17" id="welcomeMsg" style="color:#dfe0fb!important;"><span class="font_34" id ="ghead">'+gen_msg1+' </span><br><i id="gemail"> '+gen_msg2+' </i></div> </div> </div><span class="f1_s" id="ghead1" style="padding-left:30px;font-size:16px;font-weight:600;margin-top:10px;margin-bottom:5px;display:none;"></span><span id="gemail1" style="padding-left:8px;font-size: 16px;font-weight: 600;display:none;"></span> <div class="m_pop"> <div id="thankuMsg" class="tnkmsg wel-txt" style="display:none;margin:78px 0 -30px 0px;font-size:40px;text-align: center;"> Thank You !</div> <form id="identifiedForm" onsubmit="validateForm_userName(document.getElementById(\'mbl_idn\'),\'err-msg-mbl-ctl\');return false;"><div class="porl pr-id mt20"> <dl id="countrySuggesterIdenPop" class="dropdown cntry_drpdwn2 tli" style="left: 91px;top:-1px" autocomplete="off"></dl> <input type="hidden" value="+91" id="MobCCode" name="MobCCode"> <input type="text" id="mbl_idn" class="input_pop flot_n" onkeypress="return isNumberValid1(event)" placeholder="Enter your mobile number" style="margin-right: 0px; width: 253px; padding-left: 100px;"> <input type="hidden" value="" id="countryIso" name="countryIso"> <div id="err-msg-mbl-ctl" style="left:0px"></div> <div class="pr-id"> <div class="numbr" id ="spn" style="left:0; top:5px;position:inherit;display:inline-block;margin-left:-150px;margin-top:10px;"><span class="check_icon"></span> Your mobile number is safe with us</div><div id="trm1" style="line-height: 21px;font-size: 14px;position: absolute;top: 30px; margin-left: -175px;"><label><input type="checkbox" id="myCheckbox" style="vertical-align:-2px;" onchange="activateButton1(this)">I agree to the </label><a href="https://www.indiamart.com/terms-of-use.html" target="_blank">terms </a> and <a href="https://www.indiamart.com/privacy-policy.html" target="_blank"">privacy policy</a></div> <input type="submit" id="logintoidentify" class="submit_pop2 flot_n cp fll" value="CONTINUE" style="right:54px !important;background-position:173px 11px;width:245px;margin:33px auto 0px;text-align:center;padding-left:0px;"> </div><input type="hidden" value="" id="multi_mob_numbers_lwg">'+lwg_html_btn+'<div class="loaderlwg" style="display:none;margin:0 auto;margin-top:20px;"> <img style="vertical-align:bottom; text-align:left;" src="//utils.imimg.com/header/gifs/indicator.gif" alt="loading" height="32" width="32"></div> <div style="display:none" class="loader-container arc-rotate2 mloder2" id="indicatorLoader"> <div class="loader"> <div class="arc"></div> </div> </div> </div></div> </form> <div class="ic-btm1"><div class="c3"></div>'+logo_im+'<a class="skptxt idfpclose" id="idfpclose" onclick="impTrack()">Skip</a></div></div></div></div>';
+            if(glmodid == 'PRODDTL'){
+            var Prod_var = window.enq_dsbl;
+            if(typeof(Prod_var) != 'undefined' && Prod_var == 1) 
+            {
+            $("#IdentifiedPopUpHTML").html(PopUpHTML);
+            identifiedPopName = "-Form1";
+            $('#f34').css({"font-size":"31px"});
+            is_form_open=0;   
+            }
+            else{
+            $("#IdentifiedPopUpHTML").html("");
+            identifiedPopName = "";
+            is_form_open=0;
+            return;
+            }
+            }
+            else{
+            $("#IdentifiedPopUpHTML").html(PopUpHTML);
+            identifiedPopName = "-Form1";
+            is_form_open=0;
+            }
+            if(glmodid == 'IMHOME' && spv1 == 2)
+            {
+               $('#identyfy_usr_ctl').css({"width":"540px"}); 
+            }
+            if(spv1 == 4 || spv1 == 6 || spv1 == 7)
+            {
+            $("#idfpclose").hide();    
+            }
+            if(glmodid == 'MDC' || glmodid == 'FCP'){
+            $('#welcomeMsg').css({"line-height":"56px"});}
+            }
+            $("html").css("overflow","hidden");
+            var clientID = '';
+          if (UrlPri == 'dev-' || UrlPri == 'stg-')
+          {
+              clientID = '335658149809-o25hpstdu2tdo43j8ppg8l6n6i0dtfl0.apps.googleusercontent.com';
+          }
+          else
+          {
+              clientID = '432055510365-4for8jpqviklkgt2lssm41sfhhfo0ovs.apps.googleusercontent.com';
+           }
+            meta2.onload = function() 
+          {
+            gapi.load('auth2', function(){
+              // Retrieve the singleton for the GoogleAuth library and set up the client.
+              auth2 = gapi.auth2.init({
+                client_id: clientID,
+                //cookiepolicy: 'single_host_origin',
+                // Request scopes in addition to 'profile' and 'email'
+                //scope: 'additional_scope'
+              });
+              googleSigninIden(document.getElementById('signinBtn'));
+            });
+          };
+        }
+
+function googleSigninIden(element) {
+    //var cn_iso=$('#countryIso').val();
+    auth2.attachClickHandler(element, {},
+
+        function(googleUser) {
+          var id_token = googleUser.getAuthResponse().id_token;
+              gusrname = googleUser.getBasicProfile().getName();
+              gusremail = googleUser.getBasicProfile().getEmail();
+              if(gusremail!=''){
+                  checkEmailExistOrNotIden(gusremail,id_token);
+
+              }
+              if(gusrname!=''){
+                //$('#ghead').html("Welcome, "+gusrname);
+                //$('#g_sub_head').show();
+              }
+              if(gusremail!=''){
+                _gaq.push(['_trackEvent', 'Login_With_Google_identification','Step1',modid, 0, 0]);
+                $(".mobile_label").html('Mobile Number <span style="color:red;">*</span>');
+                //$("#gemail").html(gusremail);
+                $("#gemail").css('display','inline-block');
+                //$("#gemal_icn").css({'display':'inline-block','background-position': '-72px -9px'});
+                if(($('#countryIso').val()!="IN")){
+                  $("#mbl_idn").attr('placeholder','Enter your Mobile Number');
+                  $(".mobile_label").html('Mobile Number <span style="color:blue;font-size:11px;">(Optional)</span>');
+                }
+
+                $("#lwg_wrpr").hide();
+                //$("#signinBtn").hide();
+                //$("#logintoidentify").css('margin','15px 0 0px');
+                $("#LWG").val(1);
+                //$(".cont_drpdown").hide();
+                //$("#mobile").css('visibility','hidden');
+              }
+
+        }, 
+        function(error) {
+        });
+  }
+
+function checkEmailExistOrNotIden(gusremail,id_token){
+        var iso = $('#iso').val();
+        var ph_country = $('#MobCCode').val();
+        var updated = $('#updatedusing').val();
+        if(!$('#iso').val()){$('#iso').val(iso_by_ip);}
+        var mob_box = document.getElementById('mbl_idn');
+        var err_div = document.getElementById('err-msg-mbl-ctl');
+        //$("#logintoidentify").css("display","none");
+        $(".loaderlwg").css("display","block");
+        var url = "//"+UrlPri2+"login.indiamart.com/user/loginwithgoogle_first/";
+        var params_request = {  
+            'username':gusremail,
+            'iso':iso,
+            'modid':modid,
+            'format':'JSON',
+            'create_user':1,
+            'originalreferer':window.location.href,
+            'GEOIP_COUNTRY_ISO':iso,
+            'ip':country_ip,
+            'screen_name':"Identified Pop-Up",
+            'id_token':id_token,
+            'gusername':gusrname,
+            'guseremail':gusremail,
+            'ph_country':ph_country
+        };
+        $.ajax({
+            url: url,
+            type:"POST",
+            data:params_request,
+            jsonpCallback:'create_callback',
+            crossDomain: true,
+            success: function ( jsonResult ){
+              var jsonResult = $.parseJSON(jsonResult);
+              if(jsonResult['code']==200){
+                var access=jsonResult["access"]; 
+                 if(access != undefined && access == '2'){
+                    document.cookie = "ImeshVisitor=; domain=.indiamart.com; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                    window.location.reload();
+                    return;
+                }
+                var msg = jsonResult["msg"];
+                var fndb = jsonResult["fn"];
+                if(msg == 'Unique Email found in Primary Email'){
+                    var glid = jsonResult["GLID"];
+                    $("#gemail").html(gusremail);
+                    $("#gemal_icn").css({'display':'inline-block','background-position': '-72px -9px'});
+                    $('#sign_in').html('');
+                    $("#loadingmessage").hide();
+                    var data1=jsonResult.DataCookie;
+                    //set Imesh visitor and v4iilx cookies here to give full login
+                    //var resultSet=jsonResult.LOGIN_DATA.DataCookie;
+                    verifyEmailViaLWGIden(gusremail,glid);
+                    //update fname via google login if it is blank in DB
+                    var loginSet = jsonResult.LoginCookie; 
+                    var tokenSet=jsonResult.im_iss;
+                    imesh_obj.set(data1,"ImeshVisitor");
+                    v4iilex_obj.set(loginSet,"v4iilex");
+                    im_iss_obj.set(tokenSet,"im_iss");
+                    getLoginStringv1();
+                    if(typeof isBLFormOpen != 'undefined'){
+                    callToIdentifiedQ();}
+                    $("#IdentifiedPopUpHTML").html("");
+                    $("html").css('overflow','auto');
+                    if(modid=='IMHOME'){
+                        window.location.reload();
+                        return;
+                    }
+                    return;
+                }
+              }
+              else{
+                if(jsonResult["code"] == '204'){
+                                if(jsonResult["message"] == 'ISO MisMatch'){
+                                    //invalidMsgLogin("You seem to be from India. Select India as Country.");
+                                    invalidmsg_ctl(mob_box,"You seem to be from India. Select India as Country.",err_div);
+                                    $("#countrySuggesterIdenPop").css('pointer-events','auto');   
+                                    $("#trm1").css('margin-left','-55px');
+                                }else if(jsonResult["message"].match(/suspicious/g)){
+                                  var msg = jsonResult["message"];
+                                    //invalidMsgLogin(msg);  
+                                    $("#logintoidentify").removeClass('load_s bgnn') ;
+                                    $("#spn").css('display','none');
+                                    $("#err-msg-mbl-ctl").css({'text-align':'center','margin-left':'0px','width':'auto'});
+                                    $(".loaderlwg").css("display","none");
+                                    invalidmsg_ctl(mob_box,msg,err_div);
+                                }
+                                else if(jsonResult['message'] == 'We have multiple account linked with this Email ID'){
+                                    $('#ghead').html("Sign in to continue as "+gusrname);
+                                    $("#ghead").css('font-size','22px');
+                                    //$('#g_sub_head').show();
+                                    $("#gemail").html(gusremail);
+                                    $(".lookingfor").hide();
+                                    $(".loaderlwg").css("display","none");
+                                    $("#countrySuggesterIdenPop").css('pointer-events','none');
+                                  var msg = jsonResult["message"];
+                                  //$("#gemail").html(gusremail);
+                                  //$("#gemal_icn").hide();
+                                  //$("#gemail").hide();
+                                  //$("#ghead").html("Hi "+gusremail);
+                                  $("#ghead1").text("We have found multiple accounts linked with this Email ID.");
+                                  //$("#g_sub_head").show();
+                                  $("#gemail1").text("Please enter your registered mobile number to continue");
+                                  $("#gemail1").css('display','inline-block');
+                                  $("#ghead1").show();
+                                  //$("#g_sub1_head").css('display','inline-block');
+                                  var mobile_numbers = jsonResult['data_num'];
+                                  $("#multi_mob_numbers_lwg").val(mobile_numbers);
+                                  //$("#countrySuggesterIdenPop").css('pointer-events','none');
+                                }
+                                else if(jsonResult['message'] == 'No Email found in Primary Email'){
+                                    $('#ghead').html("Sign in to continue as "+gusrname);
+                                    $("#ghead").css('font-size','22px');
+                                    //$('#g_sub_head').show();
+                                    $("#gemail").html(gusremail);
+                                    $("#gemal_icn").css({'display':'inline-block','background-position': '-72px -9px'});
+                                    $(".lookingfor").hide();
+                                    $(".loaderlwg").css("display","none");
+                                    //disable country selection in this case
+                                    $("#countrySuggesterIdenPop").css('pointer-events','none');
+                                }
+                                else if(jsonResult['message'] == 'Invalid Token ID'){
+                                  //invalidMsgLogin("Invalid token request");
+                                  invalidmsg_ctl(mob_box,"Invalid token request",err_div);
+                                }
+                                else{ //invalidMsgLogin("Something went wrong. Please try again in sometime!");
+                                invalidmsg_ctl(mob_box,"Something went wrong. Please try again in sometime!",err_div);
+                                    //_gaq.push(['_trackEvent','SignIn_204',username,modid, 0, true]);
+                                }
+                        }
+                $("#logintoidentify").css("display","block");
+                $("#loading_s").css("display","none");
+                //$("#loadingmessage").hide();
+              }
+              
+            }
+          });
+}
+
+function verifyEmailViaLWGIden(email,glid){
+    var iso = $('#iso').val();
+    var ph_country = $('#MobCCode').val();
+    var mid = glmodid;
+    if(typeof mid == undefined || mid == '')
+      mid='DIR';
+  var screen_name = 'Email Verification via login with google - desktop';
+    var verparams = {
+                'token':"imobile@15061981",
+                'format':'JSON',
+                'glusr_id'  : glid,
+                'em'        : email,
+                'mid'       : mid,
+                'countIP'   : country_ip,
+                'IPcount'   : ph_country,
+                'lwg_screen': screen_name
+            };
+            $.ajax({
+                    url : "//"+UrlPri2+"login.indiamart.com/user/emailVerification/",
+                    data: verparams,
+                    type: "POST",
+                    crossDomain: true,
+                    success: function(resultJson){
+                            //_gaq.push(['_trackEvent','Identification_login_popup','Google_IM_Email_Updated_Verified', modid, 0, true]);
+                            //set cookie for verified email
+                            setEmailCookieLoginIden(email,1);
+                           // getLoginStringv1();
+                           // callToIdentifiedQ();
+                    }
+            });
+  }
+
+function setEmailCookieLoginIden(email,marked)
+{
+    var imeshval = readCookie("ImeshVisitor");
+    var b = "";
+    var offset;
+    var offset1;
+    var end = email.indexOf("@");
+    var len = end-2;
+    var str = "";
+    for (var i = 0; i <= end; i++)
+    {
+        str+="*";
+    }
+    var ends = email.substring(end);
+    email = email.charAt(0)+str+ends;
+    if (imeshval.length > 0)
+        if (offset = imeshval.indexOf("em"), -1 != offset)
+        {
+            b = strToObj(imeshval);
+            b.em = email;
+            imesh_obj.set(b);
+            imeshval = readCookie("ImeshVisitor");
+        }
+    if (marked == 1)
+    {
+        if (offset1 = imeshval.indexOf("ev"))
+        {
+            b = strToObj(imeshval);
+            b.ev = "V";
+            imesh_obj.set(b);
+        }  
+        /*if (offset1 = imeshval.indexOf("fn"), -1 != offset)
+        {
+            b = strToObj(imeshval);
+            b.fn = fn;
+            imesh_obj.set(b);
+        }*/
+    }
+}
+
+        
+var fieldFlag = 1;
+function isNumberValid1(evt){
+    if(fieldFlag == 1){
+        var charCode = (evt.which);
+        if(charCode == 118 && evt.ctrlKey === true){
+            return true;
+        }
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
+    }
+    return true;
+}      
+function impTrack()
+{      
+        $("html").css("overflow","auto");
+        var modid = 'IMHOME';
+        var xnh = readCookie('xnHist');
+        var pv_count=getparamValIden(readCookie("xnHist"), "pv");
+        var spv1 = getparamValIden(readCookie("sessid"), "spv");
+        if (typeof(glmodid) != 'undefined') { modid=glmodid;}
+        
+        if(spv1 == 2){
+        _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_close_2nd',modid, 0, 0]); 
+        }
+        if(spv1 == 4){
+        _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_close_4th',modid, 0, true]); 
+        }
+        if(spv1 == 6){
+        _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_close_6th',modid, 0, true]); 
+        }
+        if(spv1 == 7){
+        _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_close_7th',modid, 0, true]);
+        }        
+}
+
+var isTermsAndConditionChecked = false;
+function activateButton(element)
+{
+    if(element.checked) {
+        
+        isTermsAndConditionChecked = true;
+        $('#err-msg-mbl-ctl').hide();
+       }
+       else  {
+        isTermsAndConditionChecked = false;
+      }
+}
+
+var arr = [ 'AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE','IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB' ];
+function changePopUpInput(identifiedPopName,flag) 
+{
+    var LWG_call = $("#LWG").val();
+    var alrdy_pop_len_sinin = $("#im-pop_s").length;
+    if(alrdy_pop_len_sinin != 1){
+    var mob_box = document.getElementById('mbl_idn');
+    var err_div = document.getElementById('err-msg-mbl-ctl');
+     $("#trm1").css("display","none");
+     if(glmodid == 'FCP' || glmodid == 'MDC'){
+        var validnE = '<span class="check_icon" style="display:inline-block;float:none;"></span>Your Email is safe with us';
+        var validnM = '<span class="check_icon" style="display:inline-block;float:none;margin-left:30px;"></span>A 4-digit OTP will be sent on this number';
+        $("#spn").css('display','block');
+     }
+     else{
+         var validnM = '<span class="check_icon" style="display:inline-block;float:none;"></span>Your mobile number is safe with us';
+         var validnE = '<span class="check_icon" style="display:inline-block;float:none;"></span>Your Email is safe with us';
+         $("#spn").css('display','block');
+     }
+    /*if(identifiedPopName=="")
+    {
+        if($('#countryIso').val()!="IN")
+        {
+            $("#mbl_idn").attr("maxlength","100");
+           fieldFlag = 2;
+            var iso = $('#countryIso').val();
+            if(iso == '')
+                iso = country_code;
+        var isEuroCountry = false;
+        for ( var i = 0 ; i < 28 ; i++ ){
+        if ( iso == arr[i] ){
+            isEuroCountry = true ;
+            break;
+        }
+    }
+            if ( isEuroCountry )
+                {
+                $("#trm1").css("display","inline-block");
+                document.getElementById("logintoidentify").disabled = true;
+                $("#logintoidentify").css("background-color","#b2b2b2");
+                $('#myCheckbox').attr('checked', false);
+                if(glmodid == 'DIR')
+                $('#identyfy_usr_ctl').css({"height":"400px"});
+                }
+                else
+                {
+                document.getElementById("logintoidentify").disabled = false;
+                $("#logintoidentify").css("background-color","#00a699");
+                }
+            $('#countrySuggesterIdenPop dt span.value').css("display", "none");
+            validmsg_ctl(mob_box,err_div,flag);
+            $('#identifiedForm #mbl_idn').css({"width":"306px"});
+             if(glmodid=='DIR')
+                $('#identifiedForm #mbl_idn').css({"padding-left":"47px"});
+            else
+            $('#identifiedForm #mbl_idn').css({"padding":"13px 17px 13px 46px"});
+            if(glmodid == 'DIR'){
+                $('#identifiedForm #lbl1').text("Enter your Email ID");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#identifiedForm #lbl1').html('Mobile Number <span style="color:blue;font-size:11px;">(Optional)</span>');
+                }
+            }
+            else
+            {
+                $('#identifiedForm #mbl_idn').attr("placeholder", "Enter your Email ID");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#mbl_idn').html('Enter your Mobile Number');
+                }
+            }
+            $('#identifiedForm #spn').html(validnE);
+            $('#identifiedForm #mbl_idn').val("");
+        }
+        else
+        { 
+            $("#mbl_idn").attr("maxlength","10");
+            fieldFlag = 1;
+            validmsg_ctl(mob_box,err_div,flag);
+            $("#trm1").css("display","none");
+            document.getElementById("logintoidentify").disabled = false;
+            $("#logintoidentify").css("background-color","#00a699");
+            $('#countrySuggesterIdenPop dt span.value').css({"display":"inline-block","height":"30px","padding":"9px 4px 4px 3px"});
+            //$('#countrySuggesterIdenPop dt span.value').css("height", "30px");
+            //$('#countrySuggesterIdenPop dt span.value').css("padding-top", "8px!important");
+            if(glmodid == 'PRODDTL')
+                $('#countrySuggesterIdenPop dt span.value').css("height", "28px");
+            $('#identifiedForm #mbl_idn').css({"width":"253px"});
+            if(glmodid=='DIR')
+                $('#identifiedForm #mbl_idn').css({"padding-left":"100px"});
+            else
+            $('#identifiedForm #mbl_idn').css({"padding":"13px 17px 13px 106px"});
+
+            if(glmodid == 'DIR'){
+                $('#identifiedForm #lbl1').text("Enter your mobile number");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#identifiedForm #lbl1').html('Mobile Number <span style="color:red;">*</span>');
+                }
+            }
+            else
+            {
+                $('#identifiedForm #mbl_idn').attr("placeholder", "Enter your mobile number");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#mbl_idn').attr("placeholder", "Enter your Mobile Number");
+                }
+            }
+            $('#identifiedForm #spn').html(validnM);
+        }
+    }*/
+    /*else
+    {*/
+        if($('#countryIso').val()!="IN")
+        { 
+            $("#mbl_idn").attr("maxlength","100");
+            fieldFlag = 2;
+            var iso = $('#countryIso').val();
+            if(iso == '' || typeof(iso) =='undefined')
+                iso = country_code;
+        var isEuroCountry = false;
+        if($('#countryIso').val()!="IN")
+            isEuroCountry = true ;
+        /*for ( var i = 0 ; i < 28 ; i++ ){
+        if ( iso == arr[i] ){
+            isEuroCountry = true ;
+            break;
+        }
+    }*/
+            if ( isEuroCountry && $("#IdentifiedPopUpHTML").html()!='' )
+                {
+                $("#trm1").css("display","inline-block");
+                document.getElementById("logintoidentify").disabled = true;
+                $("#logintoidentify").css("background-color","#b2b2b2");
+                $('#myCheckbox').attr('checked', false);
+                if(glmodid == 'DIR')
+                $('#identyfy_usr_ctl').css({"height":"400px"});
+                }
+                else if($("#IdentifiedPopUpHTML").html()!='')
+                {
+                document.getElementById("logintoidentify").disabled = false;
+                $("#logintoidentify").css("background-color","#00a699");
+                }
+            $('#countrySuggesterIdenPop dt span.value').css("display", "none");
+            validmsg_ctl(mob_box,err_div,flag);
+            $('#identifiedForm #mbl_idn').css({"width":"306px"});
+            $('#identifiedForm #mbl_idn').css({"padding-left":"47px"});
+            if(glmodid == 'DIR'){
+                $('#identifiedForm #lbl1').text("Enter your Email ID");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#identifiedForm #lbl1').html('Mobile Number <span style="color:blue;font-size:11px;">(Optional)</span>');
+                }
+            }
+            else
+            {
+                $('#identifiedForm #mbl_idn').attr("placeholder", "Enter your Email ID");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#mbl_idn').attr("placeholder", "Enter your Mobile Number");
+                }
+            }
+            $('#identifiedForm #spn').html(validnE);
+            $('#identifiedForm #mbl_idn').val("");
+
+        }
+        else
+        {
+            $("#mbl_idn").attr("maxlength","10");
+           fieldFlag = 1;
+            document.getElementById("logintoidentify").disabled = false;
+            $("#logintoidentify").css("background-color","#00a699");
+            validmsg_ctl(mob_box,err_div,flag);
+            $('#countrySuggesterIdenPop dt span.value').css({"display":"inline-block","height":"32px","padding":"7px 4px 4px 3px"});
+            //$('#countrySuggesterIdenPop dt span.value').css("height", "30px");
+            //$('#countrySuggesterIdenPop dt span.value').css("padding-top", "8px!important");
+            if(glmodid == 'PRODDTL')
+                $('#countrySuggesterIdenPop dt span.value').css("height", "28px");
+            $('#identifiedForm #mbl_idn').css({"width":"253px"});
+            $('#identifiedForm #mbl_idn').css({"padding-left":"100px"});
+            if(glmodid == 'DIR'){
+                $('#identifiedForm #lbl1').text("Enter your mobile number");
+                if(typeof LWG_call != undefined && LWG_call == 1){
+                    $('#identifiedForm #lbl1').html('Mobile Number <span style="color:red;">*</span>');
+                }
+            }
+            else
+            {
+                $('#identifiedForm #mbl_idn').attr("placeholder", "Enter your mobile number");
+            }
+            $('#identifiedForm #spn').html(validnM);
+        }
+    //}
+}
+    else{
+            $("#IdentifiedPopUpHTML").html("");
+    }
+}
+function selectCountry1Pop(event, ob)
+{
+    $("#countrySuggesterIdenPop dt a span").attr('style','background-position:0px -'+ob.data.icon_order*11+'px');
+    $("#countrySuggesterIdenPop dt span.value").html('+'+ob.value);
+    $('#usrCountry').val(ob.data.cname);
+    $('#countryIso').val(ob.data.iso);
+    $('#MobCCode').val('+' + ob.value);   
+    var LWG_call = $("#LWG").val();
+    if($('#countryIso').val()!="IN")
+    {
+        if(typeof LWG_call != undefined && LWG_call == 1){
+            $("#mbl_idn").attr('placeholder','Enter your Mobile Number');
+            $("#lbl1").html('Mobile Number <span style="color:blue;font-size:11px;">(Optional)</span>');
+        }
+    }
+    else{
+        if(typeof LWG_call != undefined && LWG_call == 1){
+              $("#lbl1").html('Mobile Number <span style="color:red;">*</span>');
+        }
+    }
+}
+
+function countryFlagSuggesterIdentifiedPopup()
+{
+    var iplocread = readCookie('iploc');
+    country_code = (iplocread != '') ? getparamValIden(iplocread,"gcniso"):'';
+    country_ip = (iplocread != '') ? getparamValIden(iplocread,"gip"):'';
+    ip_country = (iplocread != '') ? getparamValIden(iplocread,"gcnnm"):'';
+    if (typeof(glmodid) != 'undefined') { modid=glmodid;}
+    if(country_ip=='')
+    {
+        var ULTAparams={
+            'modid':modid,
+            'token':'imobile@15061981'
+        };
+
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            data: ULTAparams,
+            url: "https://geoip.imimg.com/api/location.php",
+            crossDomain: true,
+            success: function(data){
+                iso_by_ip = data.Response.Data.geoip_countryiso;
+                country_ip = data.Response.Data.geoip_ipaddress;
+                ip_country = data.Response.Data.geoip_countryname;
+                if(iso_by_ip == 'UK'){iso_by_ip = 'GB';}
+                country_code = iso_by_ip;
+            }
+            });
+    }
+
+    if(country_code == 'UK'){country_code = 'GB';}
+
+    if(typeof(country_code) == 'undefined' || country_code == '')
+        country_code = 'IN';
+    country_ip_iden =  country_ip;
+    country_iso_iden = country_code;
+    country_nm_iden = ip_country;
+        
+    var country_sugg = new Suggester({"type":"isd","element":"countrySuggesterIdenPop","onSelect":selectCountry1Pop, fields: "cname,iso,icon_order",autocompleteClass:"isd_class",displayFields:"cname,value",displaySeparator:'  +','defaultValue':country_code});
+}
+function identify_Banner()
+{
+            if(($('#enquiry').length) && (($('#enquiry').css('display')) == 'block') || ((typeof(isBLFormOpen)!='undefined') && (isBLFormOpen==true)) || (($('#im-pop_s').length) && (($('#im-pop_s').css('display')) == 'block'))){
+             $("#IdentifiedPopUpHTML").html("");
+                    identifiedPopName = "";
+                    is_form_open=0; return;}
+
+            var alrdy_pop_len_sinin = $("#im-pop_s").length;
+            if(alrdy_pop_len_sinin != 1){
+            $("#identyfy_usr_ctl").fadeIn();
+             checkSuggester();
+             var modid = 'IMHOME';
+             var webAddress=window.location.pathname; 
+             var pv_count=getparamValIden(readCookie("xnHist"), "pv");
+             var spv1 = getparamValIden(readCookie("sessid"), "spv");
+            if (typeof(glmodid) != 'undefined') { modid=glmodid;}
+            if(modid == 'PRODDTL'){ var Prod_var = window.enq_dsbl;}
+            if(!(modid == 'MY' || modid == 'SELLERMY'  || modid == 'TDR'  || modid == 'BIGBUYER' || modid == 'CTL' || webAddress == '/seller/' || iso_by_ip != 'IN') && !(modid == 'PRODDTL' && typeof(Prod_var) == 'undefined' && Prod_var != 1)) 
+            { 
+                if(spv1 == 2){
+                _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_displayed_2nd',modid, 0, true]);
+                }
+                if(spv1 == 4){
+                _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_displayed_4th',modid, 0, true]);
+                }
+                if(spv1 == 6){
+                     _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_displayed_6th',modid, 0, true]);
+                }
+                if(spv1 == 7){
+                     _gaq.push(['_trackEvent', 'Identification_login_popup','Identification_login_popup_displayed_7th',modid, 0, true]);
+                }
+            }
+            
+            $('.idfpclose').click(function () {$("#IdentifiedPopUpHTML").html("");//$('#maskctl').hide();$('#identyfy_usr_ctl').hide();$('#idn').hide();             
+                is_form_open=0;
+            });
+            if ($('#identyfy_usr_ctl').css('display') == 'block')
+            {
+                    $("#maskctl").css("display","block");
+            }
+            else
+            {
+                    $("#maskctl").css("display","none");
+            }
+            changePopUpInput(identifiedPopName,0);
+            $("#mbl_idn").focus();
+            is_form_open=1;
+            }
+            else{
+                $("#IdentifiedPopUpHTML").html("");
+            }
+}
+if($("#maskctl").length >0)
+{
+    if($("#maskctl").css("display") == "block")
+    {       
+        $('#maskctl').hide();$('#identyfy_usr_ctl').hide();
+    }
+}
+ function getparamValIden(cookieStr, key) { if (cookieStr > "") { var val = "|" + cookieStr + "|"; var pattern = new RegExp(".*?\\\|" + key + "=([^|]*).*|.*");return val.replace(pattern, '\$1');} else { return "";}}
+                    
+        
+ $('<style> .bgnn{background:none!important;text-align:center!important;padding:0px!important;}.submit_pop2 {height: 40px;line-height: 36px;border: 1px solid #00a699;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAAbFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8+T+BWAAAAI3RSTlMApPnqfEvdy5ozJxsNvI4tD+HGwrOgnoBuYVlGFQYD2JBbB/cmzKkAAABxSURBVBjThZBHDoAgEAABwQLYe8HG///omogRODjHyWRhF2VdciKHVpNmWmwXayCkueuAALPidVgbIsof15eBkRDP6+2k4GykGU6rKCSa1ENiZqhCCH6k0JKNQZdDt3866c3z3vX+J709/vaFuyhkcwEy7A21sG9XYAAAAABJRU5ErkJggg==) no-repeat scroll 135px 11px;background-color:#00a699;color: #fff;float:left;display:block;width:180px;text-align:left;padding-left:25px;margin:50px 0px;font-size:15px!important;letter-spacing:2px;font-weight:bold;right:88px!important}.identi-wrap,.identi-wrap1{border-top:3px solid #e8eaeb;position:absolute;top:15px;width:97%;height:1px;z-index:-2;left:0px;right:0px;margin:0px auto;}.tipbdr{border:1px solid #00a699!important;}.identi-wrap1{border-top:3px solid #00a699;}.wrpicons{background: url(//dev-utils.imimg.com/globalhf/icon-iden.png) no-repeat;width:40px;height:40px;}.lgic{background-position:0 0; float:left;}.lgic1{background-position:0px -81px; float:left;margin-left:6px;}.lgic2{background-position:0px -161px; float:left;}.icbx{width:40px;float:left;}.icbx2{width:44px;float:left;}.icbx1{width:100px;float:left;margin-top:-3px;}.icbxdr{border:1px solid #dfe1e2; padding:0px 12px;background:#fff;position:absolute;top:4px;z-index:-1;font-size:14px;height:24px;line-height:25px;}.iclfps{left:32px;}.iclrps{right:4px;}.bxpsi{position:relative;margin:25px 70px 5px 70px;color:#909090;font-family:arial;font-size:14px;}.bxpsi1{position:relative;margin:18px 70px 0px 70px;color:#909090;font-family:arial;font-size:14px;}.icsl{color:#00a699;font-weight:700;}.mobi-txt-ctl {border:1px solid #999;border-radius:4px;font-size:13px;margin:0 auto 0 8px;padding: 13px 17px 13px 106px;width:194px; }.btn-pop-ctl {color: #fff;border:medium none;border-radius: 5px;cursor: pointer;font-size: 17px;font-weight: 700;margin-left: 2px;padding: 0 15px;height: 44px;background-Color: #00f}#maskctl {background: #000;position:fixed;opacity: .7;filter: alpha(opacity=50); -ms-filter: alpha(Opacity=50); top: 0; bottom: 0; left: 0; right: 0; z-index: 8; display: none;} .iden-pop {z-index: 999;height: 400px; width: 800px; position: fixed; left: 50%; margin-left: -400px; top: 50%; margin-top: -200px; background: #fff; background-repeat: no-repeat; background-position: 485px 0 } #err-msg-mbl-ctl { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border-radius: 4px; color: red; font-size: 13px; left: 24px; margin-top: 1px; position: absolute; text-align: right; width: 304px; } .cntry_drpdwn2 { clear: both; float: left; height: 31px; margin: 4px -92px 0; position: absolute; } .cntry_drpdwn2 dt a { display: inline-block; height: 22px!important; padding: 9px 3px 6px 6px; width: 35px; background: none!important; } .cntry_drpdwn2 .value { border-left: 1px solid #bdc7d8 !important; bottom: 13px!important; height: 28px; } .mloder { margin: -65px 0 0 320px } .mloder1 { margin: -28px 0 0 287px } .mloder2 { margin: 15px 0 0 160px } .mloder3 { margin: -25px 0 0 320px } .tnkmsg { margin: 80px 69px; color: #000; }.font_26 { font-size: 26px; color:#fff!important;} .wel-txt { font-size: 28px; line-height: 35px } .wel-msg { font-size: 20px; line-height: 30px; margin: -9px 9px 24px 9px; color: #000; } .wel-comny { width: 520px; font-size: 24px; color: #000; margin: 15px 0 0 75px; }.cltop{cursor: pointer;font-size: 20px;position: absolute;right: 8px;top: 1px;line-height: 20px;z-index: 1;color: #9396f4;}.cltop:hover{color:#fff;} .wel-logo { background-position: -7px -400px; height: 75px; width: 300px; margin: -30px 0 10px 62px; }@-moz-document url-prefix() { .cntry_drpdwn2 .value { border-bottom: 1px solid #f1f1f1 } }.fll { float: left } .wbx-50{width:250px; height:80px;  float:left} .iden_bg { background: #fff; position: fixed; margin: 0 auto; left: 0; right: 0; text-align: center; top: 200px; z-index: 8 } .mb55{margin-bottom:55px} .clos-1 { color: #fff; cursor: pointer; font-size: 12px; padding: 4px; position: absolute; right: 0; top: 0px; } .font_20 { font-size: 20px; } .font_20, .font_30{ color: #fff; text-align: center;}.font_26 { font-size: 26px;color:#fff!important;}.font_34 { font-size: 32px; color:#fff!important;font-weight: bold; } .font_30 { font-size: 24px; line-height:40px } .pt30{padding-top:20px;} .input_pop {border:1px solid #b0b0b0; float: left; height: 41px; line-height: 42px; margin: 0 5px 0 0; padding-left: 100px; width: 200px; } .input_pop:focus{box-shadow:rgb(204, 204, 204) 0px 0px 2px 2px}.submit_pop { width: 110px; height: 40px; line-height: 40px; border: 1px solid #000099; background: #000099; font-size: 20px; color: #fff; float: left; }.mt20{margin-top:20px} .submit_pop1 {height: 40px;line-height: 36px;border: 1px solid #00a699;background:#00a699;color: #fff;float:left;display:block;width:247px;margin:50px 0px;font-size:15px;letter-spacing:2px;font-weight:bold;} .pop_image_bg { background-image: url(//utils.imimg.com/globalhf/run-bg.png); background-repeat: no-repeat; background-position:30px 0 } .pop_image_bg { width: 165px; height: 90px; float: left; }.image_arr { width: 60px; height: 60px; background-position: -15px 0; top: -42px; left: -65px } .porl { display: inline-block } .poab { position: absolute } .dropdown dd ul {width: 300px !important;z-index: 99;text-align:left} .dropdown dt {height: 27px !important}.wd_sum { display: block; margin: 40px 0; font-size:15px; width:180px } .flot_n { float: inherit } .bg_bl{background:#2e3192} .wd_box1 { width: 500px; }.m_pop { margin-top: 10px } .ht50 { height: 120px;} #em_field { position: relative } .emicon { background-position: -273px -177px !important; width: 25px; height: 25px; display: block; position: absolute; top: 5px; left: 100px; }.im_logo_cn{background:url(//utils.imimg.com/globalhf/im-logo-icon.png) ; background-repeat:no-repeat} .im_logo_cn { width: 100px; height: 30px; margin: 0 auto; background-size: contain; position: absolute; bottom: 0; left: 0; right: 0; }.logoN{background:url(//utils.imimg.com/globalhf/im-logo-icon.png) ; background-repeat:no-repeat;width: 100px; height: 30px; margin: 0 auto; background-size: contain; position: absolute;bottom:0px;}.ic-btm{position:absolute;bottom:0px;width:100%;height:75px;}.ic-btm1{position:absolute;bottom:0px;width:100%;}.check_icon{width:16px; height:16px; background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAAAAppkAppkAppkAppkAppkAppkAppkAppmA08z///9gyL9AvLOVx4i8AAAACHRSTlMA8seNjEYgowheDX8AAABlSURBVAjXY2BgCFYUMmUAghSJjo5GNwYGtooOIGhPYGDpAAMHhkAIQ5TBAkR1nmhm0AAxZu1oYpAACazsaAQyZnbMmgFkaHTMmrmyo6MJqLhz1YyOjmaQ9pkg7XAD4VbALYU7AwB/pzO39MCMDAAAAABJRU5ErkJggg==); display:block; float:left;margin-right: 4px;}.numbr{ left: 47px; position: absolute; font-style:italic;top:235px;color:#999}.ht-box{height: 300px;font-family: arial;font-sizE: 12px;}.font_35 { font-size: 35px; color:#000099!important;line-height:45px;margin-right:-9px;text-transform:uppercase; font-weight: bold; }.font_15 {font-size: 15px; font-weight: bold;}.font_17 {font-size: 17px!important;line-height:31px; color: white; }.font_10{font-size: 17px!important;line-height:34px;} .bl-arrow{ width: 130px; height: 80px; background: #2e3192; position:absolute; right:-10px; -webkit-transform: skew(-30deg); -moz-transform: skew(-30deg); -o-transform: skew(-30deg); transform: skew(-30deg); } .bl-arrow::after{    border-color: #fff; border-style: solid; border-width: 30px; content: ""; height: 40px; position: absolute; right: -59px; width: 0;}.lnh44 { line-height: 44px;height:44px; }.f30 { font-size: 30px }.pr-id{position:relative}#countrySuggester .value,#countrySuggesterIdenPop .value{background:#f1f1f1;display:inline-block;width:45px;text-align:center;left:0px;bottom:13px;line-height:24px}.pt10{padding-top:10px}.pt5{padding-top:5px;}.diblk{display:inline-block}input,input::-webkit-input-placeholder{font-size:inherit}input,input::-moz-placeholder{font-size:inherit}input,input:-moz-placeholder{font-size:inherit}input,input:-ms-input-placeholder{font-size:inherit}#mbl_idn{box-sizing:content-box; font-size:17px;}#err-msg-mbl-ctl{border:none;padding:0;margin-left: 55px;}.skptxt{color:#999;cursor: pointer;font-size: 14px; line-height:28px;margin-left: 10px;float: left;}.load_s{box-shadow:0 0 3px 3px orange!important;background-color:#ffd29a!important;background-image:-webkit-linear-gradient(-45deg,rgba(255,154,26,1) 25%,transparent 25%,transparent 50%,rgba(255,154,26,1) 50%,rgba(255,154,26,1) 75%,transparent 75%,transparent)!important;background-image:-moz-linear-gradient(-45deg,rgba(255,154,26,1) 25%,transparent 25%,transparent 50%,rgba(255,154,26,1) 50%,rgba(255,154,26,1) 75%,transparent 75%,transparent)!important;background-image:-ms-linear-gradient(-45deg,rgba(255,154,26,1) 25%,transparent 25%,transparent 50%,rgba(255,154,26,1) 50%,rgba(255,154,26,1) 75%,transparent 75%,transparent)!important;background-image:linear-gradient(-45deg,rgba(255,154,26,1) 25%,transparent 25%,transparent 50%,rgba(255,154,26,1) 50%,rgba(255,154,26,1) 75%,transparent 75%,transparent)!important;-webkit-background-size:50px 50px!important;-moz-background-size:50px 50px!important;-ms-background-size:50px 50px!important;background-size:50px 50px!important;-webkit-animation:move 2s linear infinite!important;-moz-animation:move 2s linear infinite!important;-ms-animation:move 2s linear infinite!important;animation:move 2s linear infinite!important;overflow:hidden;-webkit-box-shadow:inset 0 10px 0 rgba(255,255,255,.2)!important;-moz-box-shadow:inset 0 10px 0 rgba(255,255,255,.2)!important;-ms-box-shadow:inset 0 10px 0 rgba(255,255,255,.2)!important;box-shadow:0 0 3px 3px orange!important;opacity:.7;filter:alpha(opacity=70)}@-webkit-keyframes move {0%{background-position:0 0} 100%{background-position:50px 50px} } @-moz-keyframes move {0%{background-position:0 0} 100%{background-position:50px 50px} } @-ms-keyframes move {0%{background-position:0 0} 100%{background-position:50px 50px} } @keyframes move {0%{background-position:0 0} 100%{background-position:50px 50px} }}</style>').appendTo('head');
