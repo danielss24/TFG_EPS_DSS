@@ -17,13 +17,13 @@
  
  Para poder saber claramente en que posición se encuentra el microchip con respecto a una superficie plana y no a su inclinación en relación a la anterior medida, se ha implementado el algoritmo de madgwick\cite{Act2012} que utiliza cuaterniones para indicar la inclinación absoluta en función de los ejes de la tierra. 
  
- Los cuaterniones son un conjunto de cuatro componentes complejos que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos; en este caso se utilizarán para las rotaciones en el espacio. Los cuaterniones\cite{Graves1999} se pueden expresar de la siguiente forma.
+ Los cuaterniones\cite{Graves1999} son un conjunto de cuatro componentes complejos que sirven para la teoría de números, rotaciones en el espacio y para diseño de gráficos; en este caso se utilizarán para las rotaciones en el espacio. Los cuaterniones se pueden expresar como en la ecuación \ref{EQ:CuaternionFormula}.
  
 \begin{equation}[EQ:CuaternionFormula]{Expresión de cuaterniones}
 	{\mathbb{H}= \{ {a+bi+cj+dk:a,b,c,d\:\epsilon\:\mathbb{R}} \} \subset  \mathbb{C}^{2}}
 	\end{equation}
 	
-	Fórmula de cuaternion \ref{EQ:CuaternionFormula} de 4 dimensiones. a, b, c, d son las componentes reales del cuaternion. i, j, k  son los componentes que multiplican cada una de las componentes reales.
+	Fórmula de cuaternion \ref{EQ:CuaternionFormula} de 4 dimensiones. a, b, c, d son las componentes reales del cuaternion; i, j, k  son los componentes que multiplican cada una de las componentes reales.
 
    Mediante el algoritmo de madgwick, se convierten los datos obtenidos desde el giroscopio, acelerómetro y magnetómetro en un componente de 3 elementos, yaw, pitch y roll, proceso ilustrado en la figura \ref{FIG:YAWPITCHROLLPLANE}.
    Cada uno de estos elementos nos indica su rotación respecto a un eje del aeromodelo. 

@@ -50,7 +50,7 @@ El paquete recibido tiene un tamaño total de 31 bytes, con un byte inicial est�
 Para desglosar el paquete recibido, enviado por el mando, se ha tenido que codificar un algoritmo en python donde se diferencia y se convierte cada uno de los bytes a decimal, obteniendo de esta forma un valor de cada canal entre 1000 y 2000, siendo 1000 el valor mínimo y 2000 el máximo valor posible.
 
 Para poder producir el PWM correcto y enviárselo a los controladores de velocidad, se ha escogido el chip PCA9685 que convierte de digital a PWM y tiene hasta un máximo de 8 canales. Ha sido necesario dicho chip ya que la raspberry no cuenta con el número suficiente de canales para controlar los 4 motores.
-La Raspberry cuenta con 3 sistemas de comunicación: I2C\footnote{\dfnpl{i2c}}, SPI\footnote{\dfnpl{spi}} y puerto \footnote{\dfnpl{pSerie}}, para La configuración del chip PCA9685 se ha realizado mediante comunicación por I2C y su respectiva librería de adafruit obtenida por github\cite{Industries}. 
+La Raspberry cuenta con 3 sistemas de comunicación: I2C\footnote{\dfnpl{i2c}}, SPI\footnote{\dfnpl{spi}} y puerto \footnote{\dfnpl{pSerie}}, para la configuración del chip PCA9685 se ha realizado mediante comunicación por I2C y su respectiva librería de adafruit obtenida por github\cite{Industries}. 
 
 Se ha tenido que indicar desde la raspberry la frecuencia de salida de los PWM, 2000 Hz , y el ciclo de trabajo previamente obtenido por nuestro rango de entrada entre 1000 y 2000.
 \paragraph{Funcionamiento de algoritmo codificado}
@@ -78,7 +78,7 @@ La Raspberry recibe el paquete de bytes y lo transforma mediante el algoritmo di
 
 En la figura \ref{FIG:DIAGRAMAPLACACONTROLADOR} se pueden observar dos imágenes, a y b, en la imágen b se muestra a alto nivel como funciona el sistema de gestión de la placa controladora diseñada, mientras que en la imágen a se muestra a bajo nivel el proceso y conversión de los datos desde el receptor hasta los PWM mandados a los motores.
 
-Una vez conseguida la señal de salida PWM en función de la entrada del mando, se modifica la señal a partir de los datos obtenidos por el sensor MPU9250, el cual nos indica la inclinación y fuerzas que se ejercen sobre el dron; de esta forma se mandama la potencia adecuada a cada motor para conseguir un vuelo estable y horizontal. Posteriormente se realizó la estrucuta del programa para la obtención de la potencia de los motores para poder medir el viento a partir de ellos, convirtiendo de esta forma el dron en un propio sensor de viento, no obstante, debido a las dificultades de probar el sistema de estabilización y su ajuste, se decidió trabajar con la placa comercial.
+Una vez conseguida la señal de salida PWM en función de la entrada del mando, se modifica la señal a partir de los datos obtenidos por el sensor MPU9250, el cual nos indica la inclinación y fuerzas que se ejercen sobre el dron; de esta forma se mandama la potencia adecuada a cada motor para conseguir un vuelo estable y horizontal. Posteriormente se realizó la estructura del programa para la obtención de la potencia de los motores para poder medir el viento a partir de ellos, convirtiendo de esta forma el dron en un propio sensor de viento, no obstante, debido a las dificultades de probar el sistema de estabilización y su ajuste, se decidió trabajar con la placa comercial.
 
 \paragraph{Sistema de comunicación}
 
